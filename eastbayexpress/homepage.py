@@ -39,3 +39,13 @@ def get_links(html):
     home_main_food_drink(links, soup)
     home_main_arts(links, soup)
     return links
+
+if __name__ == "__main__":
+    test = open("test.html").read()
+    result = get_links(test)
+    for a, b in result.items():
+        print a + "\n"
+        print b
+     
+    
+ 
