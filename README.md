@@ -1,4 +1,4 @@
 StatNews
 ========
 
-The code for StatNews research in Berkeley
+The data scraping code for Berkeley StatNews project local news group
