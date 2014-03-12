@@ -1,0 +1,1 @@
+twttr.receiveCount({"count":2,"url":"http:\/\/www.nbcbayarea.com\/news\/local\/San-Jose-Armed-Robbery-Suspects-Behind-Bars-After-Chase-Through-Willow-Glen-Neighborhood-248921871.html\/"});

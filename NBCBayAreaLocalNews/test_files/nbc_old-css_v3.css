@@ -1,0 +1,4752 @@
+/* ****************************************** 
+  TITLE:        NBC_OLD-CSS_v3.CSS
+  LAST UPDATED: 01/30/2013
+  UPDATED BY:   Dan Chianese
+  TICKET #: 17059
+********************************************* */
+
+#header {
+  position: relative;
+  text-align: center;
+}
+
+#header #ad_hdr_2 {
+   float: left;
+   margin-bottom: 10px;
+   margin-right: auto;
+   margin-top: 10px;
+   padding: 3px 0;
+   text-align: center;
+   width: 1008px;
+}
+
+#header #ad_hdr_2 div {
+   margin: 0 auto !important;
+}
+
+
+/* ******** primary ********* */
+
+#primary {
+  float: left;
+  width: 100%;
+}
+
+#home #primary {
+  background: url('http://media.nbcbayarea.com/designimages/dsn_grey_dots_primary.gif') 3px 0 repeat-y;
+}
+
+#wartop #primary {
+  background: #fff url('http://media.nbcbayarea.com/designimages/dsn_grey_dots_196w.gif') 0 0 repeat-y;
+}
+
+.results #primary {
+   background-color:#fff;
+   margin-top:0px !important;
+   }
+
+#home #wartop .solo {
+  padding: 18px 118px 20px;
+  width: 744px;
+  text-align: center;
+  background: #fff;
+}
+
+#section #primary, #subsection #primary, #feature #primary {
+  padding-top: 9px;
+  background-color: #ffffff;
+}
+
+/* ^^^^^^^^^^ wartop ^^^^^^^^^^ */
+
+#wartopTitle {
+  padding: 23px 0;
+  width: 100%;
+  font: 60px/60px Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_grey_dots_h.gif') 0 100% repeat-x;
+}
+
+#home #wartop .solo .bordermask {
+  text-align: left;
+}
+
+#wartopTitle a {
+  color: #000;
+}
+
+/* ======== main ========= */
+  
+#home #main {
+  width: 463px;
+}
+
+#wartop #main {
+  padding: 18px 20px 20px;
+  width: 744px;
+}
+
+#home #wartop .solo {
+  padding: 18px 118px 20px;
+  width: 980px;
+}
+
+#section #main, #subsection #main {
+  padding: 0 6px 0 1px;
+  width: 645px;
+  text-align: left;
+}
+
+* html #section #main, * html #subsection #main {
+  overflow: hidden;
+}
+
+#subsection #main, #informList #main, #searchPage #main {
+  padding: 0 5px 0 9px;
+  width: 640px;
+  text-align: left;
+}
+
+#slideshow #main {
+  padding: 0 5px 0 9px;
+  width: 640px;
+  text-align: left;
+  float:left;
+}
+
+#feature #main {
+  padding: 0 5px 0 9px;
+  width: 620px;
+  text-align: left;
+}
+
+#video #main {
+  margin: 0;
+  padding: 0 5px 0 9px !important;
+  height:auto;
+  text-align: left;
+  background: transparent none repeat scroll 0 0;
+  width:980px;
+}
+
+.enjoy_this #main {
+  margin: 23px 0 0;
+  border-top: 1px dotted #D5D5D5;
+  padding: 55px 5px 0 9px !important;
+  width:640px;
+  text-align: left;
+  background: #fff url(http://media.nbcbayarea.com/designimages/hdr_enjoyThis.gif) 50% 12px no-repeat;
+}
+
+.enjoy_this #secondary #main {
+  margin: 0;
+  padding: 0 0 0 0 !important;
+  width:auto;
+  text-align: left;
+  background: transparent none repeat scroll 0 0;
+}
+
+* html #subsection #main, * html #slideshow #main, * html #informList #main, * html #searchPage #main {
+  width: 640px;
+}
+
+* html #feature #main {
+  width:620px;
+  }
+
+* html #section #main, * html #subsection #main {
+  overflow: hidden !important; /* IE 6 fix */ 
+}
+
+/* ====== left rail ====== */
+
+#leftRail {
+  float: left;
+  padding-right: 1px;
+  width: 195px;
+  height: 100%;
+}
+
+* html #leftRail {
+  width: 186px;
+}
+
+/* ===== right rail ====== */
+
+#rightRail {
+  float: left;
+  padding: 23px 0 0 21px;
+  width: 310px;
+}
+
+#slideshow #rightRail {
+  padding-top: 0;
+}
+
+#feature #rightRail {
+  padding:23px 0 0 30px;  
+} 
+
+* html #feature #rightRail {
+  padding:23px 0 0 15px;  
+} 
+
+#todays_events {
+  margin-bottom: 20px;  
+}
+
+/* section right rail spacing */
+
+#section #todays_events {
+  float:left;
+  }
+  
+#section .newsletterSignup {
+  float:left;
+  margin-bottom:20px;
+}
+
+#section .newsletter_button {
+  margin-bottom:20px;
+  }
+
+#section #theMoment {
+  float:left;
+  margin-bottom:20px;
+}
+
+#section #multimediaModule {
+  margin-bottom:20px;
+}
+
+/* ^^^^^^^ story ^^^^^^^ */
+
+.story {
+  padding: 5px 0 7px;
+}
+
+#wartop #main .story .details {
+  width: 744px;
+  text-align: center;
+}
+
+.story .timestamp, .story .credit {
+  padding-top: 7px;
+  font: 10px/12px sans-serif;
+  color: #999;
+}
+
+#wartop #main .story .credit {
+  float: right;
+  padding: 0;
+}
+
+#wartop #main .story .timestamp {
+  clear: both;
+  padding: 0 5px;
+}
+
+#dontMiss .story .timestamp {
+  padding-top: 0px;
+}
+
+.story .title {
+  padding-top: 5px;
+  font: bold 16px/18px Arial, sans-serif;
+  color: #069;
+}
+
+#wartop #main .story .title {
+  clear: both;
+  padding-top: 0;
+  font: bold 20px/24px Arial, sans-serif;
+}
+
+#home #offleads .story .title {
+  float: left;
+  padding-left: 10px;
+  width: 135px;
+  font: bold 11px/13px Arial, sans-serif;
+}
+
+#wartop #offleads .story .title {
+  padding: 0;
+  width: auto;
+  font: bold 13px/14px Arial, sans-serif;
+}
+
+.story .title a {
+  color: #069;
+}
+
+#moodBoard .story .title a {
+  line-height: 16px;
+}
+
+.story .title a:hover {
+  text-decoration: underline;
+}
+
+.mediaLink {
+  height: 16px;
+}
+
+#home #offleads .mediaLink {
+  clear: left;
+  float: none;
+  display: inline-block;
+  height: 13px;
+}
+
+.title .mediaLink {
+  float: left;
+}
+
+.gallery .mediaLink {
+  width: 44px;
+  background: url('http://media.nbcbayarea.com/designimages/temp_ico_slideshow.gif') 0 0 no-repeat;
+}
+
+.slideshow .mediaLink {
+  width: 44px;
+  background: url('http://media.nbcbayarea.com/designimages/temp_ico_slideshow.gif') 0 0 no-repeat;
+}
+
+.video_release .mediaLink {
+  width: 53px;
+  background: url('http://media.nbcbayarea.com/designimages/temp_ico_video.gif') 0 0 no-repeat;
+}
+
+#home #offleads .gallery .mediaLink, #wartop #additional .gallery .mediaLink {
+  width: 16px;
+  background: url('http://media.nbcbayarea.com/designimages/temp_ico_slideshow_small.gif') 0 0 no-repeat;
+}
+
+#home #offleads .slideshow .mediaLink, #wartop #additional .slideshow .mediaLink {
+  width: 16px;
+  background: url('http://media.nbcbayarea.com/designimages/temp_ico_slideshow_small.gif') 0 0 no-repeat;
+}
+
+#home #offleads .video_release .mediaLink, #wartop #additional .video_release .mediaLink {
+  width: 18px;
+  background: url('http://media.nbcbayarea.com/designimages/temp_ico_video_small.gif') 0 0 no-repeat;
+}
+
+#wartop #additional .gallery .mediaLink, #wartop #additional .slideshow .mediaLink, #wartop #additional .video_release .mediaLink {
+  background-position: 0 2px;
+}
+
+.gallery .title .mediaLink, .video_release .title .mediaLink {
+  width: 22px;
+}
+
+.gallery .title .mediaLink, .video_release .title .mediaLink {
+  width: 22px;
+}
+
+.mediaLink a {
+  display: block;
+  height: 16px;
+}
+
+.mediaLink span {
+  display: none;
+}
+
+.dropshadow .mediaLink_ply_buttn {background:none;display:block;height:45px;left:80px;overflow:hidden;position:relative;top:-106px;width:55px;z-index:100;text-align:center;}
+.dropshadow .mediaLink_ply_buttn a {display:block;margin-top:4px;}
+.dropshadow .mediaLink_ply_buttn .nocss {display: block !important;}
+
+.story .summary {
+  font: normal 12px/14px Arial, sans-serif;
+  color: #666666;
+}
+
+.story .readIt {
+  display: block;
+  width: 39px;
+  height: 13px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_read_it_blue.gif') -1px 2px no-repeat;
+}
+
+.story .readIt span {
+  display: none;
+}
+
+/* +++ breadcrumb +++ */
+
+#breadcrumb {
+  float: left;
+  background: #e3e3e3;
+}
+
+#breadcrumb li {
+  float: left;
+  height: 14px;
+  border-left: 1px solid #000;
+}
+
+#canvas #breadcrumb .first {
+  border: 0;
+}
+
+/* +++ breaking news for home +++ */
+
+#breakingNews {
+  float: left;
+}
+
+#home #breakingNews {
+  margin-top: 3px;
+  padding: 15px 10px 0 0;
+  width: 185px;
+}
+
+#home #breakingNews .design-end {
+  float: left;
+  width: 185px;
+  height: 7px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_185x7_btm.gif') 0 0 no-repeat;
+}
+
+.bordermask a{
+  display: block;
+}
+
+
+#home #breakingNews .dropshadow {
+  padding-left: 10px;
+}
+
+#home #breakingNews .timestamp {
+padding-left:10px;
+}
+
+#home #breakingNews .title {
+padding-left:10px;
+width:140px;
+}
+
+/* +++++ breaking news for section, article, etc... +++++ */
+
+#feature .breakingHeader {
+  display: none;
+}
+
+/* regular breaking news header */
+
+#home #breakingNews .story {
+  padding: 9px 7px 8px 15px;
+  width: 163px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_185x10_mid.gif') 0 0 repeat-y;
+}
+
+.breakingHeader #breakingNews {
+  position: relative;
+  float: left;
+  margin: 0 auto;
+  width: 975px;
+  height: 47px;
+  background: transparent url('http://media.nbcbayarea.com/designimages/dsn_bg_just_in_artSec.gif') 0 0 no-repeat;
+  overflow:hidden;
+}
+
+.breakingHeader #breakingNews .story {
+  float: left;
+  padding: 7px 0 0 90px;
+  width: 580px;
+}
+
+#home #breakingNews .design-begin {
+  margin: 0;
+  padding: 15px 7px 0;
+  width: 171px;
+  height: 43px;
+  text-align: center;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_185x58_top.gif') 0 0 no-repeat;
+}
+
+
+/* olympics breaking news
+
+#home #breakingNews .gallery .mediaLink {
+  margin: 5px 0 0 10px;
+  }
+
+#home #breakingNews .story {
+  padding: 0 5px 8px 15px;
+  width: 163px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_185x10_mid.gif') 0 0 repeat-y;
+}
+
+#home #breakingNews .design-begin {
+  margin: 0;
+  padding: 15px 5px 0;
+  width: 171px;
+  height: 43px;
+  text-align: center;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_185x58_top.gif') 0 0 no-repeat;
+}
+
+.breakingHeader #breakingNews {
+  position: relative;
+  float: left;
+  margin: 0 auto;
+  width: 975px;
+  height: 47px;
+  background: transparent url('http://media.nbcbayarea.com/designimages/dsn_bg_just_in_artSec_olympics.gif') 0 0 no-repeat;
+  overflow:hidden;
+}
+
+.breakingHeader #breakingNews .story {
+  float: left;
+  padding:9px 0 0 135px;
+  width: 580px;
+}
+
+end olympics breaking news 
+
+*/
+
+.breakingHeader #breakingNews .story .title {
+  float: left;
+  height: 24px;
+  line-height: 23px;
+  overflow: hidden;
+}
+
+.breakingHeader #breakingNews .story .title a:hover {
+  text-decoration: underline;
+}
+
+.breakingHeader #breakingNews .story .mediaLink  {
+  float: left;
+  margin-top: 7px;
+  padding-right: 7px;
+}
+
+.breakingHeader #breakingNews .story .timestamp {
+  float:left;
+  font-size:11px;
+  line-height:20px;
+  padding:8px 0 0 5px;
+  text-align:left;
+  width:120px;
+}
+
+.breakingHeader #breakingNews #newsLetterSignUp {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+
+.breakingHeader #breakingNews #newsLetterSignUp a {
+  display: block;
+  width: 307px;
+  height: 32px;
+  background: url('http://media.nbcbayarea.com/designimages/btn_news_signUp.gif') 0 0 no-repeat;
+}
+
+.breakingHeader #breakingNews #newsLetterSignUp a:hover {
+  background-position: 1px -32px;
+}
+
+/* +++++ spotlight ++++++ */
+
+#spotlight {
+  float: left;
+  margin: 22px 0 12px;
+  width: 640px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_642x10_mid.gif') 0 0 repeat-y;
+}
+
+#spotlight .design-begin {
+  float: left;
+  padding-top: 14px;
+  width: 640px;
+  text-align: center;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_642x5_top.gif') 0 0 no-repeat;
+}
+
+#spotlight .design-mid {
+  float: left;
+  padding: 0 13px;
+  width: 614px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_642x10_mid.gif') 0 0 repeat-y;
+}
+
+* html #spotlight .design-mid {
+  width: 652px;
+}
+
+#spotlight .design-end {
+  float: left;
+  width: 640px;
+  height: 5px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_642x5_btm.gif') 0 0 no-repeat;
+}
+
+#spotlight .story {
+  position: relative;
+  float: left;
+  clear: left;
+  border-bottom: 1px solid #e5e5e5;
+  width: 613px;
+}
+
+#spotlight .last {
+  border-bottom: 0;
+  padding-bottom: 12px;
+}
+
+#spotlight .lead .story {
+  padding: 10px 0 8px 0;
+  border-bottom: 0;
+  float: left;
+  clear: none;
+}
+
+#spotlight .dropshadow {
+  float: left;
+}
+
+#spotlight .story .timestamp {
+  position: absolute;
+  top: 9px;
+  right: 0;
+}
+
+* html #spotlight .story .timestamp {
+  right: 30px;
+}
+
+#spotlight .lead .story .timestamp {
+  top: 4px;
+}
+
+* html #spotlight .lead .story .timestamp {
+  right: 0;
+}
+
+#spotlight .lead .story .details {
+  float: left;
+  padding-left: 8px;
+  width: 361px;
+}
+
+.details .summary {
+  color: #666666;
+}
+
+.details a.summary {
+  color: #666666;
+}
+
+.counter_intelligence {
+  padding-top: 75px;
+  background: url('http://media.nbcbayarea.com/designimages/hdr_counterIntelligence.gif') 50% 37px no-repeat;
+}
+
+/* ++++ top stories ++++ */
+
+#topStories {
+  float: left;
+}
+
+#home #topStories, #informList #topStories {
+  width: 100%;
+}
+
+#home #topStories {
+  padding: 18px 0 0;
+}
+
+#section #topStories, #subsection #topStories, #feature #topStories {
+  display: inline-block;
+  padding-left: 14px;
+  padding-right: 19px;
+  width: 944px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_grey_dots_h.gif') 0 100% repeat-x;
+  padding-bottom:15px;
+}
+
+* html #section #topStories, * html #subsection #topStories, * html #feature #topStories {
+  width: 970px;
+}
+
+#section #topStories, #subsection #topStories {
+  margin-left: 4px;
+  background: #fff url('http://media.nbcbayarea.com/designimages/dsn_grey_dots_h.gif') 0 100% repeat-x;
+}
+
+#section #subsection_nav {
+   padding-left:19px !important;
+   }
+
+* html #section #topStories, * html #subsection #topStories {
+  margin-left: 2px;
+}
+
+#informList #topStories {
+  padding: 8px 0 0;
+}
+
+#topStories .story {
+  float: left;
+}
+
+#home #topStories .story {
+  padding-right: 2px;
+  padding-left: 14px;
+  width: 210px;
+  height: 320px;
+}
+
+#home #topStories .advertorial {
+  padding: 0 0 7px 8px;
+  width: 218px;
+}
+
+#home #topStories .advertorial .design-bg {
+  border: 1px solid #000;
+  padding: 4px 5px 0 5px;
+  width: 206px;
+  height: 321px;
+  background: #f3f3f3;
+}
+
+#section #topStories .story, #subsection #topStories .story, #feature #topStories .story, #informList #topStories .story {
+  padding: 0;
+  width: 314px;
+  height: 295px;
+}
+
+#informList #topStories .story {
+  float: right;
+}
+
+#informList #topStories .first {
+  float: left;
+}
+
+#section #topStories .story .details, #subsection #topStories .story .details, #feature #topStories .story .details, #informList #topStories .story .details {
+  text-align: center;
+}
+
+#feature .details_icon {
+  margin:0 0 0 130px; 
+}
+
+#topStories .details {
+  position: relative;
+}
+
+#topStories .credit {
+  float: right;
+  padding: 0;
+  height: 12px;
+  text-align: right;
+}
+
+#home #topStories .credit {
+  float: right;
+}
+
+#topStories .timestamp {
+  padding: 0;
+  float: left;
+}
+
+#home #topStories .title {
+  width: auto;
+}
+
+#topStories .title {
+  clear: both;
+  padding-top: 2px;
+  width: 310px;
+}
+
+#topStories .summary {
+  line-height: 16px;
+}
+
+#home #topStories p {
+  color: #666666;
+  font: 12px/16px Arial,sans-serif;
+}
+
+/* +++++++ lead ++++++++ */
+
+#lead {
+  float: left;
+  padding: 0 14px 7px;
+  width: 434px;
+}
+
+* html #lead {
+  overflow: hidden;
+}
+
+#topStories  #lead .story {
+  padding-left: 0;
+  width: 100%;
+  height: auto;
+}
+
+#lead .title {
+  padding-top: 4px;
+  padding-bottom: 6px;
+  font: normal 30px/32px Arial, sans-serif;
+}
+
+#topStories #lead .summary {
+  font: normal 13px/18px Arial, sans-serif;
+}
+
+#lead .details {
+  padding-left: 1px;
+  text-align: center;
+}
+
+/* +++++ offleads ++++++ */
+
+#offleads, #wartop #additional {
+  float: left;
+  display: inline;
+}
+
+#home #offleads {
+  text-align: center;
+}
+
+#home #offleads, #wartop #additional {
+  margin-top: 3px;
+  padding: 15px 10px 0 0;
+  width: 185px;
+  overflow: hidden;
+}
+
+#home #wartop #offleads {
+  float: left;
+  width: 654px;
+}
+
+#section #offleads, #subsection #offleads, #feature #offleads, #informList #main #offleads, #video #offleads {
+  margin-bottom: 10px;
+  border-top: 1px dotted #d5d5d5;
+  border-bottom: 1px dotted #d5d5d5;
+  padding: 10px 10px 10px 19px;
+  width: 620px;
+  background: #fff;
+}
+
+.weather #canvas #offleads {
+ /* padding-top: 60px !important; 
+  background: #fff url('http://media.nbcbayarea.com/designimages/hdr_weather_stories_3.gif') no-repeat 200px 15px !important; 
+ */
+} 
+
+.enjoy_this #offleads {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 620px;
+  background: #fff;
+}
+
+#rightRail #offleads {
+  width: auto;
+  background: none;
+}
+
+* html #section #offleads, * html #subsection #offleads, * html #feature #offleads, * html #informList #main #offleads, * html .enjoy_this #main #offleads {
+  width: 620px;
+}
+
+#home #wartop #offleads .story {
+  width: 300px;
+}
+
+#informList #main #offleads .story {
+  padding-top: 8px;
+  border-top: 1px solid #dedede;
+}
+
+#informList #main #offleads .first, .enjoy_this #main #offleads .first {
+  border-top: 0;
+}
+
+#home #offleads .design-begin, #wartop #additional .design-begin {
+  float: left;
+  margin: 0;
+  width: 171px;
+  text-align: center;
+}
+
+#home #offleads .design-begin {
+  padding: 15px 7px 0;
+  height: 32px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_185x47_top.gif') 0 0 no-repeat;
+}
+
+#home #wartop #additional .design-begin {
+  padding: 0 7px;
+  height: 15px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_185x15_top.gif') 0 0 no-repeat;
+}
+
+#home #wartop #offleads .design-begin {
+  width: 640px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_654x47_top.gif') 0 0 no-repeat;
+}
+
+#home #offleads .design-mid, #wartop #additional .design-mid {
+  float: left;
+  padding: 0 7px 0 15px;
+  width: 163px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_185x10_mid.gif') 0 0 repeat-y;
+}
+
+#home #wartop #additional .design-mid {
+  padding-bottom: 30px;
+}
+
+* html #home #wartop #additional .design-mid {
+  margin-top: -4px;
+}
+
+#home #wartop #offleads .design-mid {
+  width: 654px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_654x10_mid.gif') 0 0 repeat-y;
+}
+
+#home #wartop #offleads .design-mid .part1, #home #wartop #offleads .design-mid .part2 {
+  width: 310px;
+  float: left;
+}
+
+#offleads .story, #wartop #additional .story {
+  float: left;
+  clear: left;
+  position: relative;
+  padding: 10px 0 10px 0;
+  width: 100%;
+}
+
+#section #offleads .story, #subsection #offleads .story, #feature #offleads .story, #video #offleads .story  {
+  border-bottom: 1px solid #d5d5d5; 
+}
+
+#home #offleads .story, #wartop #additional .story {
+  padding: 9px 0 8px 0;
+  width: 163px;
+}
+
+#home #offleads .story .details {
+  text-align: left;
+}
+
+#nbc_ad_170_30_wrap a {
+  display: none;
+}
+
+#nbc_ad_170_30_wrap .sponsored a {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+#home #offleads .sponsored {
+  position: relative;
+  top: 4px;
+  float: left;
+  left: -8px;
+  padding: 0;
+  width: 163px;
+}
+
+#offleads .dropshadow, #wartop #additional .dropshadow {
+  float: left;
+}
+
+#home #offleads .dropshadow {
+  padding-left: 10px;
+}
+
+#section #offleads .details, #subsection #offleads .details, #feature #offleads .details, #informList #main #offleads .details, .enjoy_this #main #offleads .details, #video #main #offleads .details {
+  float: left;
+  padding-left: 8px;
+  width: 612px;
+}
+
+#section #offleads .full .details, #subsection #offleads .full .details, #feature #offleads .full .details, #informList #main #offleads .full .details, .enjoy_this #main #offleads .full .details, #video #main #offleads .full .details {
+  width: 402px;
+}
+
+* html #section #offleads .full .details,* html  #subsection #offleads .full .details,* html  #feature #offleads .full .details, * html #informList #main #offleads .full .details,* html .enjoy_this #main #offleads .full .details, #video #main #offleads .full .details {
+  float: right;
+  width: 390px;
+}
+
+#offleads .title, #wartop #additional .title {
+  padding: 0 3px 0 0;
+}
+
+#offleads .timestamp, #wartop #additional .timestamp {
+  clear: both;
+  padding-top: 1px;
+  line-height: 12px;
+}
+
+#section #offleads .timestamp, #subsection #offleads .timestamp, #video #offleads .timestamp, #feature #offleads .timestamp, #informList #main #offleads .timestamp, .enjoy_this #main #offleads .timestamp {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#offleads .summary, #wartop #additional .summary {
+  font: normal 15px/20px Arial, sans-serif;
+  color: #666666;
+}
+
+#home #offleads .summary, #wartop #additional .summary {
+  font: normal 10px/12px Arial, sans-serif;
+}
+
+#home #offleads .design-end, #wartop #additional .design-end {
+  float: left;
+  width: 185px;
+  height: 7px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_185x7_btm.gif') 0 0 no-repeat;
+}
+
+#home #wartop #offleads .design-end {
+  width: 640px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_654x7_btm.gif') 0 0 no-repeat;
+}
+
+#rightRail #offleads .design-begin {
+  padding: 15px 7px 0;
+  text-align: center;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_310x47_top.gif') 0 0 no-repeat;
+}
+
+#rightRail #offleads .story {
+  padding-right: 14px;
+  padding-left: 14px;
+  width: 282px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_310x10_mid.gif') 0 0 repeat-y;
+}
+
+#rightRail #offleads .design-end {
+  float: left;
+  width: 310px;
+  height: 7px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_310x7_btm.gif') 0 0 no-repeat;
+}
+
+/* paging links */
+
+#paging_links {
+  float: left;
+  margin: 0 0 0 10px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+#paging_links li{
+  float: left;
+  display:block;
+  float:left;
+  height:21px;
+  padding:0 2px;
+  width:17px;
+}
+
+#paging_links a{
+  float: left;
+  margin-right: 5px;
+  color: #069;
+}
+
+/*  newsletter signup  */
+
+#rightRail .newsletter_button {
+  float: left;
+  position: relative;
+  width: 310px !important;
+  height: 70px !important;
+  background: url('http://media.nbcbayarea.com/designimages/btn_signUpForUpdates.gif') 0 -70px no-repeat;
+}
+
+#rightRail .newsletter_button:hover {
+  background: url('http://media.nbcbayarea.com/designimages/btn_signUpForUpdates.gif') 0 0 no-repeat;
+}
+
+/* ******* secondary ******** */
+
+#secondary {
+  float: left;
+  padding: 10px 0 6px;
+  width: 100%;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_grey_dots_secondary.gif') 6px 0 no-repeat;
+}
+
+#slideshow #secondary {
+  padding-top: 0;
+  background: none;
+}
+
+#secondary .NYnonstop {
+  background: url('http://media.nbcbayarea.com/designimages/hdr_nyNonStop.gif') 50% 15px no-repeat;
+}
+
+#secondary .details .title {
+  font: normal 16px/18px Arial, sans-serif;
+}
+
+#secondary .details .summary {
+  font: normal 11px/14px Arial, sans-serif;
+}
+
+/*  ^^^ franchise ^^^ */
+
+#secondary .franchise {
+  float: left;
+  width: 390px;
+  height: 246px;
+  overflow: hidden;
+}
+
+/* fix for ie6 wrapping */
+
+* html #secondary #franchise4 {
+  width:387px;
+  }
+
+#secondary .franchise .design-begin, #moodBoardContainer .design-begin {
+  margin: 0;
+  padding: 15px 7px 0;
+  width: 376px;
+  height: 31px;
+  text-align: center;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_390x47_top.gif') 0 0 no-repeat;
+}
+
+#secondary .franchise .story, #moodBoardContainer .design-mid {
+  float: left;
+  padding: 0 18px 8px 7px;
+  width: 365px;
+  height: 185px;
+  overflow: hidden;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_390x10_mid.gif') 0 0 repeat-y;
+}
+
+* html #section #franchise .story, * html #subsection #franchise .story, * html #feature #franchise .story {
+  width: 390px;
+}
+
+#secondary .franchise .story {
+  position: relative;
+}
+
+#secondary .franchise .dropshadow {
+  float: left;
+}
+
+#secondary .franchise .details {
+  float: left;
+  clear: none;
+  padding-left: 10px;
+  width: 136px;
+}
+
+#secondary .franchise .design-end, #moodBoardContainer  .design-end {
+  float: left;
+  clear: left;
+  width: 390px;
+  height: 7px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_shadowBox_390x7_btm.gif') 0 0 no-repeat;
+}
+
+/*  ~~ double image ~~ */
+
+#secondary .franchise .doubleImage {
+  padding: 5px 0 0;
+  width: 100%;
+  height: 188px;
+  text-align: center;
+}
+
+#secondary .franchise .doubleImage .group {
+  display: inline-block;
+  width: 356px;
+  text-align: left;
+}
+
+* html #secondary .franchise .doubleImage .group {
+  width: 364px;
+}
+
+#secondary .franchise .doubleImage .dropshadow {
+  margin-left: 12px;
+}
+
+* html #secondary .franchise .doubleImage .dropshadow {
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+#secondary .franchise .doubleImage .group {
+  margin-left: -12px;
+}
+
+* html #secondary .franchise .doubleImage .group {
+  margin-left: -6px;
+}
+
+#secondary .franchise .doubleImage .details {
+  padding-left: 15px;
+  width: 356px;
+}
+
+#secondary .franchise .doubleImage .mediaLink {
+  display: inline-block;
+}
+
+#secondary .franchise .doubleImage .timestamp {
+  padding-top: 4px;
+}
+
+#secondary .franchise .doubleImage .title {
+  padding-top: 0;
+}
+
+/* ^^^^^ promo ^^^^^ */
+
+#secondary .promo, #secondary #advertorial {
+  float: left;
+  padding: 7px;
+  width: 186px;
+  height: 232px;
+  text-align: center;
+  overflow: hidden;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_promo_bg_200x246.gif') 0 0 no-repeat;
+}
+
+#secondary .promo .dropshadow, #secondary #advertorial .dropshadow, #secondary .promo .mediaLink {
+  display: inline-block;
+}
+
+#secondary .promo .title {
+  padding-top: 0;
+}
+
+/* 
+
+#moodBoard {
+  float: left;
+  padding: 20px 2px 5px;
+  width: 381px;
+  height: 218px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.bay .bored .mood {    background: url('http://media.nbcbayarea.com/designimages/hdr_bayIsBoredAbout.gif') 0 0 no-repeat;}
+.bay .laughing .mood { background: url('http://media.nbcbayarea.com/designimages/hdr_bayIsLaughingAbout.gif') 0 0 no-repeat;}
+.bay .pissed .mood {   background: url('http://media.nbcbayarea.com/designimages/hdr_bayIsPissedAbout.gif') 0 0 no-repeat;}
+.bay .thrilled .mood { background: url('http://media.nbcbayarea.com/designimages/hdr_bayIsThrilledAbout.gif') 0 0 no-repeat;}
+.bay .worried .mood {  background: url('http://media.nbcbayarea.com/designimages/hdr_bayIsWorriedAbout.gif') 0 0 no-repeat;}
+
+.chi .bored .mood {    background: url('http://media.nbcbayarea.com/designimages/hdr_chiIsBoredAbout.gif') 0 0 no-repeat;}
+.chi .laughing .mood { background: url('http://media.nbcbayarea.com/designimages/hdr_chiIsLaughingAbout.gif') 0 0 no-repeat;}
+.chi .pissed .mood {   background: url('http://media.nbcbayarea.com/designimages/hdr_chiIsPissedAbout.gif') 0 0 no-repeat;}
+.chi .thrilled .mood { background: url('http://media.nbcbayarea.com/designimages/hdr_chiIsThrilledAbout.gif') 0 0 no-repeat;}
+.chi .worried .mood {  background: url('http://media.nbcbayarea.com/designimages/hdr_chiIsWorriedAbout.gif') 0 0 no-repeat;}
+
+.har .bored .mood {    background: url('http://media.nbcbayarea.com/designimages/hdr_connIsBoredAbout.gif') 0 0 no-repeat;}
+.har .laughing .mood { background: url('http://media.nbcbayarea.com/designimages/hdr_connIsLaughingAbout.gif') 0 0 no-repeat;}
+.har .pissed .mood {   background: url('http://media.nbcbayarea.com/designimages/hdr_connIsPissedAbout.gif') 0 0 no-repeat;}
+.har .thrilled .mood { background: url('http://media.nbcbayarea.com/designimages/hdr_connIsThrilledAbout.gif') 0 0 no-repeat;}
+.har .worried .mood {  background: url('http://media.nbcbayarea.com/designimages/hdr_connIsWorriedAbout.gif') 0 0 no-repeat;}
+
+.dfw .bored .mood {    background: url('http://media.nbcbayarea.com/designimages/hdr_dfwIsBoredAbout.gif') 0 0 no-repeat;}
+.dfw .laughing .mood { background: url('http://media.nbcbayarea.com/designimages/hdr_dfwIsLaughingAbout.gif') 0 0 no-repeat;}
+.dfw .pissed .mood {   background: url('http://media.nbcbayarea.com/designimages/hdr_dfwIsPissedAbout.gif') 0 0 no-repeat;}
+.dfw .thrilled .mood { background: url('http://media.nbcbayarea.com/designimages/hdr_dfwIsThrilledAbout.gif') 0 0 no-repeat;}
+.dfw .worried .mood {  background: url('http://media.nbcbayarea.com/designimages/hdr_dfwIsWorriedAbout.gif') 0 0 no-repeat;}
+
+.la .bored .mood {     background: url('http://media.nbcbayarea.com/designimages/hdr_laIsBoredAbout.gif') 0 0 no-repeat;}
+.la .bummed .mood {    background: url('http://media.nbcbayarea.com/designimages/hdr_laIsBummedAbout.gif') 0 0 no-repeat;}
+.la .laughing .mood {  background: url('http://media.nbcbayarea.com/designimages/hdr_laIsLaughingAbout.gif') 0 0 no-repeat;}
+.la .pissed .mood {    background: url('http://media.nbcbayarea.com/designimages/hdr_laIsPissedAbout.gif') 0 0 no-repeat;}
+.la .thrilled .mood {  background: url('http://media.nbcbayarea.com/designimages/hdr_laIsThrilledAbout.gif') 0 0 no-repeat;}
+.la .worried .mood {   background: url('http://media.nbcbayarea.com/designimages/hdr_laIsWorriedAbout.gif') 0 0 no-repeat;}
+
+.ny .bored .mood {     background: url('http://media.nbcbayarea.com/designimages/hdr_nyIsBoredAbout.gif') 0 0 no-repeat;}
+.ny .bummed .mood {    background: url('http://media.nbcbayarea.com/designimages/hdr_nyIsBummedAbout.gif') 0 0 no-repeat;}
+.ny .laughing .mood {  background: url('http://media.nbcbayarea.com/designimages/hdr_nyIsLaughingAbout.gif') 0 0 no-repeat;}
+.ny .pissed .mood {    background: url('http://media.nbcbayarea.com/designimages/hdr_nyIsPissedAbout.gif') 0 0 no-repeat;}
+.ny .thrilled .mood {  background: url('http://media.nbcbayarea.com/designimages/hdr_nyIsThrilledAbout.gif') 0 0 no-repeat;}
+.ny .worried .mood {   background: url('http://media.nbcbayarea.com/designimages/hdr_nyIsWorriedAbout.gif') 0 0 no-repeat;}
+
+.ami .bored .mood {    background: url('http://media.nbcbayarea.com/designimages/hdr_miaIsBoredAbout.gif') 0 0 no-repeat;}
+.ami .bummed .mood {   background: url('http://media.nbcbayarea.com/designimages/hdr_miaIsBummedAbout.gif') 0 0 no-repeat;}
+.ami .laughing .mood { background: url('http://media.nbcbayarea.com/designimages/hdr_miaIsLaughingAbout.gif') 0 0 no-repeat;}
+.ami .pissed .mood {   background: url('http://media.nbcbayarea.com/designimages/hdr_miaIsPissedAbout.gif') 0 0 no-repeat;}
+.ami .thrilled .mood { background: url('http://media.nbcbayarea.com/designimages/hdr_miaIsThrilledAbout.gif') 0 0 no-repeat;}
+.ami .worried .mood {  background: url('http://media.nbcbayarea.com/designimages/hdr_miaIsWorriedAbout.gif') 0 0 no-repeat;}
+
+.phi .bored .mood {    background: url('http://media.nbcbayarea.com/designimages/hdr_phiIsBoredAbout.gif') 0 0 no-repeat;}
+.phi .bummed .mood {   background: url('http://media.nbcbayarea.com/designimages/hdr_phiIsBummedAbout.gif') 0 0 no-repeat;}
+.phi .laughing .mood { background: url('http://media.nbcbayarea.com/designimages/hdr_phiIsLaughingAbout.gif') 0 0 no-repeat;}
+.phi .pissed .mood {   background: url('http://media.nbcbayarea.com/designimages/hdr_phiIsPissedAbout.gif') 0 0 no-repeat;}
+.phi .thrilled .mood { background: url('http://media.nbcbayarea.com/designimages/hdr_phiIsThrilledAbout.gif') 0 0 no-repeat;}
+.phi .worried .mood {  background: url('http://media.nbcbayarea.com/designimages/hdr_phiIsWorriedAbout.gif') 0 0 no-repeat;}
+
+.dgo .bored .mood {    background: url('http://media.nbcbayarea.com/designimages/hdr_dgoIsBoredAbout.gif') 0 0 no-repeat;}
+.dgo .bummed .mood {   background: url('http://media.nbcbayarea.com/designimages/hdr_dgoIsBummedAbout.gif') 0 0 no-repeat;}
+.dgo .laughing .mood { background: url('http://media.nbcbayarea.com/designimages/hdr_dgoIsLaughingAbout.gif') 0 0 no-repeat;}
+.dgo .pissed .mood {   background: url('http://media.nbcbayarea.com/designimages/hdr_dgoIsPissedAbout.gif') 0 0 no-repeat;}
+.dgo .thrilled .mood { background: url('http://media.nbcbayarea.com/designimages/hdr_dgoIsThrilledAbout.gif') 0 0 no-repeat;}
+.dgo .worried .mood {  background: url('http://media.nbcbayarea.com/designimages/hdr_dgoIsWorriedAbout.gif') 0 0 no-repeat;}
+
+.dc .bored .mood {     background: url('http://media.nbcbayarea.com/designimages/hdr_dcIsBoredAbout.gif') 0 0 no-repeat;}
+.dc .bummed .mood {    background: url('http://media.nbcbayarea.com/designimages/hdr_dcIsBummedAbout.gif') 0 0 no-repeat;}
+.dc .laughing .mood {  background: url('http://media.nbcbayarea.com/designimages/hdr_dcIsLaughingAbout.gif') 0 0 no-repeat;}
+.dc .pissed .mood {    background: url('http://media.nbcbayarea.com/designimages/hdr_dcIsPissedAbout.gif') 0 0 no-repeat;}
+.dc .thrilled .mood {  background: url('http://media.nbcbayarea.com/designimages/hdr_dcIsThrilledAbout.gif') 0 0 no-repeat;}
+.dc .worried .mood {   background: url('http://media.nbcbayarea.com/designimages/hdr_dcIsWorriedAbout.gif') 0 0 no-repeat;}
+
+#moodBoard .story {
+  position: relative;
+  margin: 0 10px;
+  border-top: 1px solid #e0e0e0;
+  padding: 2px 0 0;
+  height: 59px;
+  text-align: left;
+  overflow: hidden;
+}
+
+#moodBoard .first {
+  border-top: 0;
+}
+
+#moodBoard .story .timestamp {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#moodBoard .story .title {
+  float: left;
+  padding-top: 3px;
+  font: normal 13px/13px Arial, sans;
+}
+
+ */
+
+/* ^^^^^ promo ^^^^^ */
+
+.promo {
+  padding: 7px 0 7px;
+}
+
+#offleads .promo {
+  border-top: 1px solid #e0e0e0;
+}
+
+.promo .category {
+  width: 100%;
+  padding: 1px 0;
+  height: 16px;
+  background: url('http://media.nbcbayarea.com/designimages/hdr_promo.gif') 0 0 no-repeat;
+}
+
+.promo .title {
+  font: bold 16px/18px Arial, sans-serif;
+  color: #069;
+}
+
+.promo .title a {
+  color: #069;
+}
+
+/* ^^^^ bottom ad (homepage) ^^^^ */
+
+#ad_bottom {
+float:left;
+width:970px;
+padding-bottom:10px;
+}
+
+#ad_bot_1 {
+text-align:center;
+}
+
+/* ^^^^ partner bar ^^^^ */
+
+#partnerBar {
+  float: left;
+  padding: 10px 0 10px;
+  width: 980px;
+  background: #e1e1e1 url('http://media.nbcbayarea.com/designimages/hdr_ourPartners.gif') 28px 47px no-repeat;
+  position: relative;
+}
+
+#partnerBar .partner {
+  display: inline;
+  float: left;
+  clear: none;
+  padding-right: 15px;
+}
+
+#partnerBar .first {
+  padding-left: 175px;
+}
+
+#partnerBar .partner a {
+  display: block;
+  border: 1px solid #aeaeae;
+}
+
+/* ^^^^^^^^ ads ^^^^^^^^ */
+
+.ad {
+}
+
+.nbc_ad_135_35 {
+  position: absolute;
+  bottom: 12px;
+  right: 22px;
+}
+
+#ad_rr_1 {
+  margin: 0 auto 0;
+  padding-bottom: 9px;
+  width: 299px;
+  background: #ebebeb url('http://media.nbcbayarea.com/designimages/temp_adDisclaimer.gif') 50% 100% no-repeat;
+}
+
+#home #ad_rr_1 {
+  margin: 0 auto 20px;
+}
+
+#section #ad_rr_1 {
+  margin-bottom: 20px;
+  }
+
+#wartop #ad_rr_1 {
+  float: left;
+  margin-top: 23px;
+}
+
+#ad_rr_2 {
+  padding-left:5px;
+  float:left;
+  margin: 10px 0;
+}
+
+/* ^^^^ inform list ^^^^ */
+
+.informTopic {
+  padding-top: 12px;
+}
+
+/* ~~~~ dropshadow / bordermask ~~~~~ */
+
+.dropshadow {
+  position: relative;
+  padding: 0 0 4px;
+}
+
+.bordermask {
+  display: block;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+
+.bordermask img {
+  position: relative;
+  /* left: 50%; */
+}
+
+* html .bordermask img {
+  position: static;
+  left: 0;
+  margin-left: 0 !important !important !important !important !important !important !important !important !important !important !important !important;
+}
+
+* + html .bordermask img {
+  position: static;
+  left: 0;
+  margin-left: 0 !important !important !important !important !important !important !important !important !important !important !important !important;
+}
+
+/* *** 52 x 39 *** */
+
+#home #offleads .dropshadow, #home #breakingNews .dropshadow {
+  text-align: left;
+
+}
+
+#home #offleads .dropshadow, #home #breakingNews .dropshadow {
+  width: 54px;
+  height: 41px;
+}
+
+#home #offleads .dropshadow .bordermask, #home #breakingNews .dropshadow .bordermask {
+  width: 52px;
+  height: 39px;
+}
+
+
+/* *** 132 x 99 *** */
+
+#home #offleads .dropshadow, #home #breakingNews .dropshadow {
+  text-align: left;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_dropShadow_134w.gif') 10px 100% no-repeat;
+}
+
+#home #offleads .dropshadow, #home #breakingNews .dropshadow {
+  width: 134px;
+  height: 101px;
+}
+
+#home #offleads .dropshadow .bordermask, #home #breakingNews .dropshadow .bordermask {
+  width: 132px;
+  height: 99px;
+}
+
+
+/* *** 152 x 114 *** */
+
+#home #wartop #additional .dropshadow {
+  background: url('http://media.nbcbayarea.com/designimages/dsn_dropShadow_154w.gif') 0 100% no-repeat;
+}
+
+#home #wartop #additional .dropshadow .bordermask {
+  width: 152px;
+  height: 114px;
+}
+
+/* *** 160 x 120 *** */
+
+#secondary .franchise .doubleImage .dropshadow, #secondary .promo .dropshadow {
+  background: url('http://media.nbcbayarea.com/designimages/dsn_dropShadow_162w.gif') 0 100% no-repeat;
+}
+
+#secondary .franchise .doubleImage .dropshadow, #secondary .promo .dropshadow {
+  width: 162px;
+  height: 122px;
+}
+
+#secondary .franchise .doubleImage .dropshadow .bordermask, #secondary .promo .dropshadow .bordermask {
+  float: left; /* WRONG? */
+  width: 160px;
+  height: 120px;
+}
+
+/* *** 204 x 153 *** */
+  
+#home #topStories .dropshadow, #section #offleads .dropshadow, #subsection #offleads .dropshadow, #video #offleads .dropshadow, #feature #offleads .dropshadow, #informList #offleads .dropshadow, .enjoy_this #offleads .dropshadow, #mood_aggregate #offleads .dropshadow, #most .dropshadow, #mobile #primary .dropshadow {
+  background: url('http://media.nbcbayarea.com/designimages/dsn_dropShadow_206w.gif') 0 100% no-repeat;
+}
+
+#home #topStories .advertorial .dropshadow {
+  background: none;
+}
+
+#home #topStories .dropshadow, #section #offleads .dropshadow, #subsection #offleads .dropshadow, #video #offleads .dropshadow, #feature #offleads .dropshadow, #informList #offleads .dropshadow, .enjoy_this #offleads .dropshadow, #mood_aggregate #offleads .dropshadow, #most .dropshadow, #mobile #primary .dropshadow {
+  width: 206px;
+  height: 155px;
+}
+
+#home #topStories .dropshadow .bordermask, #section #offleads .dropshadow .bordermask, #subsection #offleads .dropshadow .bordermask, #video #offleads .dropshadow .bordermask, #feature #offleads .dropshadow .bordermask, #informList #offleads .dropshadow .bordermask, .enjoy_this #offleads .dropshadow .bordermask, #mood_aggregate #offleads .dropshadow .bordermask, #most .dropshadow .bordermask, #mobile .dropshadow .bordermask {
+  width: 204px;
+  height: 153px;
+}
+
+/* *** 212 x 159 *** */
+
+#secondary .franchise .dropshadow {
+  background: url('http://media.nbcbayarea.com/designimages/dsn_dropShadow_214w.gif') 0 100% no-repeat;
+}
+
+#secondary .franchise .dropshadow {
+  width: 214px;
+  height: 161px;
+}
+
+#secondary .franchise .dropshadow .bordermask {
+  width: 212px;
+  height: 159px;
+}
+
+/* *** 238 x 177 *** */
+  
+#section #spotlight .dropshadow, #subsection #spotlight .dropshadow, #video #spotlight .dropshadow, #feature #spotlight .dropshadow {
+  background: url('http://media.nbcbayarea.com/designimages/dsn_dropShadow_240w.gif') 0 100% no-repeat;
+}
+
+#section #spotlight .dropshadow, #subsection #spotlight .dropshadow, #video #spotlight .dropshadow, #feature #spotlight .dropshadow {
+  width: 240px;
+  height: 179px;
+}
+
+#section #spotlight .dropshadow .bordermask, #subsection #spotlight .dropshadow .bordermask, #video #spotlight .dropshadow .bordermask, #feature #spotlight .dropshadow .bordermask {
+  width: 238px;
+  height: 177px;
+}
+
+/* *** 275 x 206 *** */
+  
+#watchNowModule .dropshadow, #multimediaModule .dropshadow {
+  background: url('http://media.nbcbayarea.com/designimages/dsn_dropShadow_275w.gif') 0 100% no-repeat;
+}
+
+#watchNowModule .dropshadow, #multimediaModule .dropshadow {
+  width: 277px;
+  height: 208px;
+}
+
+#watchNowModule .dropshadow .bordermask, #multimediaModule .dropshadow .bordermask {
+  width: 275px;
+  height: 206px;
+}
+
+/* *** 308 x 231 *** */
+
+#section #topStories .dropshadow, #subsection #topStories .dropshadow, #video #topStories .dropshadow, #feature #topStories .dropshadow, #informList #topStories .dropshadow, .enjoy_this #topStories .dropshadow {
+  background: url('http://media.nbcbayarea.com/designimages/dsn_dropShadow_312w.gif') 0 100% no-repeat;
+}
+
+#section #topStories .dropshadow, #subsection #topStories .dropshadow, #video #topStories .dropshadow, #feature #topStories .dropshadow, #informList #topStories .dropshadow, .enjoy_this #topStories .dropshadow {
+  width: 312px;
+  height: 235px;
+}
+
+#section #topStories .dropshadow .bordermask, #subsection #topStories .dropshadow .bordermask, #video #topStories .dropshadow .bordermask, #feature #topStories .dropshadow .bordermask, #informList #topStories .dropshadow .bordermask, .enjoy_this #topStories .dropshadow .bordermask {
+  border: 2px solid #000;
+  width: 308px;
+  height: 231px;
+}
+
+/* *** 428 x 321 *** */
+
+#home #topStories #lead .dropshadow {
+  background: url('http://media.nbcbayarea.com/designimages/dsn_dropShadow_432w.gif') 0 100% no-repeat;
+}
+
+#home #topStories #lead .dropshadow {
+  width: 432px;
+  height: 325px;
+}
+
+#home #topStories #lead .dropshadow .bordermask {
+  border: 2px solid #000;
+  width: 428px;
+  height: 321px;
+}
+
+/* *** 740 x 555 *** */
+
+#home #wartop #main .dropshadow {
+  background: url('http://media.nbcbayarea.com/designimages/dsn_dropShadow_744w.gif') 0 100% no-repeat;
+}
+
+#home #wartop #main .dropshadow {
+  width: 744px;
+  height: 559px;
+}
+
+#home #wartop #main .dropshadow .bordermask {
+  border: 2px solid #000;
+  width: 740px;
+  height: 555px;
+}
+
+#lead .dropshadow, #multimediaModule .dropshadow {
+  margin-bottom: 3px;
+}
+
+#secondary .dropshadow {
+  margin-bottom: 2px;
+}
+
+/* @@@@@@ most module @@@@@@ */
+
+#most {
+  float: left;
+  clear: left;
+  position: relative;
+  border-top: 1px dotted #D9D9D9;    
+  padding-top:10px;
+  padding-left: 5px;
+  width: 630px;
+  height: 345px;
+  background: #fff;
+}
+
+#most .navigator {
+  display: block;
+  float: left;
+  margin-top: 10px;
+  width: 630px;
+}
+
+#slideshow #most {
+  border: 0;
+}
+
+#most .heading {
+  width: 620px;
+  height: 23px;
+  background: url('http://media.nbcbayarea.com/designimages/hdr_get_more.gif') 50% 0 no-repeat;
+}
+  
+#most .heading span {
+  display: none;  
+}
+  
+#most #topics {
+  float: left;
+  padding-right: 5px;
+  width: 425px;
+}
+
+#most #mostSelector {
+  float: right;
+  position: relative;
+  padding-right: 10px;
+  width: 190px;
+  height: 27px;
+}
+
+#slideshow #most #mostSelector {
+  float: right;
+  width: 190px;
+}
+
+#most #mostSelector .title {
+  display: block;
+  float: left;
+  width: 64px;
+  height: 25px;
+  background: url('http://media.nbcbayarea.com/designimages/txt_article_the_most.jpg') -1px 6px no-repeat;
+}
+
+#most #mostSelector .title span {
+  display: none;
+}
+
+#most #mostSelector #mostDropDownItems {
+  display: none;
+  float: left;
+  width: 118px;
+  height: 25px;
+}
+
+#most .dropshadow {
+  float: left;
+}
+
+#most .details {
+  float: left;
+  width: 200px;
+}
+
+#most .details .title {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+#most .story .category a {
+  display: inline-block;
+  height: 15px;
+}
+
+/* $$$ MOST DROP DOWN $$$ */
+
+#mostSelector #mostDropDown { 
+  float: right;
+  cursor: pointer;
+}
+    
+#mostSelector .mostDrop {
+  display: block;
+  float: left;
+  width: 120px;
+  height: 27px;
+}
+
+#mostDropDown .mostDropClass {
+  display: block;
+  position: relative;
+  float: left;
+  border: 1px solid #d7d7d7;
+  width: 120px;
+  height: 27px;
+  background-color: #fff;
+}
+
+#mostDropDown #mostDropDownArrow {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 27px;
+  cursor: pointer;
+}
+
+#mostDropDown .mostDropClass .dropDown {
+  width: 120px;
+}
+
+#dropDown ul {
+  height: 25px;
+  }
+
+#mostDropDown .mostDropClass .dropDownArrow, #mostDropDown .mostDropClass .dropUpArrow {
+  display: block;
+  border-left: 1px solid #d7d7d7;
+  height: 20px;
+  width: 21px;
+  background: transparent url('http://media.nbcbayarea.com/designimages/dsn_most_drop_arrow.gif') no-repeat; 
+}
+
+#mostDropDown .mostDropClass .dropDownArrow {
+  background-position: 3px 2px;
+}
+
+#mostDropDown .mostDropClass .dropUpArrow {
+  background-position: 3px -16px;
+}
+
+#mostdropDownList {
+  display: none;
+  position: absolute;
+  border-top: 1px solid #d7d7d7;
+  border-right: 1px solid #d7d7d7;
+  border-left: 1px solid #d7d7d7;
+  width: 120px;
+  font-size: 16px;
+  background-color: #fff;
+  z-index:99;
+}
+
+.mostDropClass #currFilter {
+  height: 27px;
+  overflow: hidden;  
+}
+
+#the_most .mostDropClass #currFilter {
+  display: block;
+}
+
+.mostDropClass #currFilter2 {
+  display: block;
+  padding: 5px 3px;  
+}
+
+#mostdropDownList .dropDownItem {
+  border-bottom: 1px solid #d7d7d7;
+  padding: 8px 0 0 5px;
+  height: 18px;
+  font-family: Arial, sans-serif;
+}
+
+#the_most #mostdropDownList .dropDownItem {
+  display: block;
+}
+
+/* position for article page */
+#most .mostDDPosition {
+  top: 71px;
+  right: 8px;
+}
+
+/* position for section, etc */
+#the_most .mostDDPosition {
+  top: 26px;
+  left: 68px;
+}
+
+#currFilter .dd-recent {
+  display: block;
+  width: 75px;
+  height: 19px;
+  background: url('http://media.nbcbayarea.com/designimages/dd-recent.gif') 5px 8px no-repeat;
+}
+  
+#currFilter .dd-interesting {
+  display: block;
+  width: 75px;
+  height: 19px;
+  background: url('http://media.nbcbayarea.com/designimages/dd-interesting.gif') 5px 8px no-repeat;
+}
+  
+#currFilter .dd-related {
+  display: block;
+  width: 75px;
+  height: 19px;
+  background: url('http://media.nbcbayarea.com/designimages/dd-related.gif') 5px 8px no-repeat;
+}
+
+.dd-recent {
+  display: block;
+  width: 100%;
+  height: 11px;
+  overflow: hidden;
+  background: url('http://media.nbcbayarea.com/designimages/dd-recent.gif') 0 0 no-repeat;
+}
+
+.dd-related {
+  display: block;
+  width: 100%;
+  height: 11px;
+  overflow: hidden;
+  background: url('http://media.nbcbayarea.com/designimages/dd-related.gif') 0 0 no-repeat;
+}
+
+.dd-interesting {
+  display: block;
+  width: 100%;
+  height: 11px;
+  overflow: hidden;
+  background: url('http://media.nbcbayarea.com/designimages/dd-interesting.gif') 0 0 no-repeat;
+}
+
+a.dd-recent:hover {      background-position: 0 -11px; }
+a.dd-related:hover {     background-position: 0 -11px; }
+a.dd-interesting:hover { background-position: 0 -11px; }
+
+/* most recent never displays first*/
+
+#most #interesting, #most #related, #most #recent {
+  display: none;
+  float: left;
+  clear: both;
+  position: absolute;
+  top: 75px;
+  left: 6px;
+  padding-top: 20px;
+  width: 100%;
+  height: 250px;
+}
+
+#most #interesting .story, #most #related .story, #most #recent .story {
+  float: left;
+  padding: 0;
+  width: 207px;
+}
+
+#most #topics .related h4 {
+  float: left;
+  width: 44px;
+  height: 13px;
+  background: url('http://media.nbcbayarea.com/designimages/hd_topics.gif') 0 -2px no-repeat;
+}
+  
+#most #topics .related h4 span {
+  display: none;
+}
+
+#most #topics .related {
+  font-size: 12px;
+  color: #666666;
+}
+
+#most #topics .related a {
+  padding-left: 3px;
+  font-size: 13px;
+  color: #666666;
+}
+
+#most #topics .related a:hover {
+  text-decoration: underline;
+}
+
+#most .timestamp {
+  float: right;
+  padding: 5px 5px 0 0;
+}
+
+#most .category {
+  float: left;
+}
+
+#most .title {
+  clear: left;
+  float: left;
+  width: 100%;
+}
+
+#most .mediaType {
+  display: block;
+  float: left;
+  clear: left;
+  height: 16px;
+}
+
+/* @@@@@@ user interaction @@@@@@ */
+
+/* STORY SHARE BOX */
+
+#share_box {
+  display: none;
+  position: absolute;
+  border: 1px solid;
+  width: 235px;
+  font-family: helvetica, arial, sans;
+  text-transform: uppercase;
+  z-index: 500;
+}
+
+#share_box .share_header h3 {
+  display: block;
+  width: 52px;
+  height: 18px;
+  background: url('http://media.nbcbayarea.com/designimages/hd_moment_share.gif') 0 0 no-repeat;
+}
+
+#share_box .share_header {
+  float: left;
+  padding: 5px 0 0 1px;
+  width: 234px;
+  height: 25px;
+  background-image: url('http://media.nbcbayarea.com/designimages/bg_moment_post.jpg') 0 0 no-repeat;
+}
+
+#share_box .share_close {
+  position: absolute;
+  top: 4px;
+  right: 3px;
+  cursor: pointer;
+}
+
+#share_box a.share_close {
+  margin: 0;
+  width: 34px;
+  height: 12px;
+  background: url('http://media.nbcbayarea.com/designimages/btn_close_dark_grey_new.gif') 0 0 no-repeat;
+  overflow: hidden;
+}
+
+.buzz a, .yahoobuzz a {
+  color:#262626 !important;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size: 12px !important;
+}
+
+.yahoobuzz a .yahooBuzzBadge span {
+  font-size: 12px !important;
+  color:#262626 !important;
+}
+
+#share_box a.share_close:hover {
+  background-position: 0 -12px;  
+}
+
+#share_box a.decornone {
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #262626;
+}
+
+#share_box a.decornone:hover {
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.share_header {
+  float: left;
+  padding: 5px 0 0 1px;
+  width: 234px;
+  height: 25px;
+  background: url('http://media.nbcbayarea.com/designimages/bg_moment_post.jpg') 0 0 no-repeat;
+}
+
+.share_header h3 {
+  display: block;
+  width: 52px;
+  height: 18px;
+  background: url('http://media.nbcbayarea.com/designimages/hd_moment_share.gif') 0 0 no-repeat;
+}
+
+.share_close {
+  position: absolute;
+  top: 4px;
+  right: 3px;
+  cursor: pointer;
+}
+
+#share_video_embed {
+  display: none;
+  position: absolute;
+  border: 1px solid #171717;
+  padding: 5px;
+  width: 235px;
+  height: 126px;
+  vertical-align: top;
+  background: #171717;
+  z-index: 999;
+}
+
+#share_video_embed h3 {
+  float: left;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 12px;
+  color: #999;
+}
+
+.share_header {
+  float: left;
+  width: 100%;
+  background-color: #272727;
+}
+
+.share_close {
+  float: right;
+  cursor: pointer;
+}
+
+a.share_close {
+  margin: 3px;
+  width: 25px;
+  height: 23px;
+  background: url('http://media.nbcbayarea.com/designimages/btn_close_dark_grey.gif') 0 0 no-repeat;
+}
+
+a.share_close:hover {
+  background-position: 0 -23px;
+}
+
+.share_wrap {
+  clear: both;
+  padding: 5px 0 0 10px;
+  width: 225px;
+  height: 88px;
+  background-color: #fff;
+}
+
+.share_left {
+  float: left;
+  width: 102px;
+}
+
+.share_right {
+  float: right;
+  width: 102px;
+}
+
+.sharelist {
+  clear: both;
+  margin-left: 0;
+  padding: 5px 0;
+  list-style: none;
+  font-size: 10px;
+  text-align: left;
+}
+
+.buzz a {
+  text-decoration: none;
+  color: #262626;
+}
+
+.buzz a:hover {
+  text-decoration: underline;
+  color: #262626;
+}
+
+.share_user_print {
+  display: block; 
+  float: left;
+  padding-right: 5px;
+  width: 41px;
+  height: 18px;
+  background: url('http://media.nbcbayarea.com/designimages/nbc_u_print.jpg') 0 0 no-repeat; 
+}
+
+a.share_user_print:hover {
+  background-position: 0 -19px;
+}
+
+.share_user_email {
+  display: block;
+  float: left;
+  padding-right: 5px;
+  width: 41px;
+  height: 18px;
+  background: url('http://media.nbcbayarea.com/designimages/nbc_u_email.jpg') 0 0 no-repeat;
+}
+
+a.share_user_email:hover {
+  background-position: 0 -18px;
+}
+
+.share_user_share {
+  display: block;
+  float: left;
+  width: 46px;
+  height: 18px;
+  background: url('http://media.nbcbayarea.com/designimages/nbc_u_share.jpg') 0 0 no-repeat;
+}
+
+a.share_user_share:hover {
+  background-position: 0 -18px;
+}
+
+.share_user_embed {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  padding-left: 17px;
+  padding-top: 3px;
+  height: 19px;
+  font-size: 9px;
+  font-weight: bold;
+  font-variant: small-caps;
+  background: url('http://media.nbcbayarea.com/designimages/ico_embed_sprite.gif') 0 2px no-repeat;
+}
+
+.sharelist .external {
+  margin: 0;
+  padding: 0 0 5px;
+}
+
+.user_interaction .sharelist a.external  {
+  color: #262626;
+}
+
+.imwarelist {
+  float: left;
+}
+
+#debate .imwarelist {
+  float: right;
+}
+
+#feature .imwarelist {
+  float: right;
+  font-family: arial;
+  margin-right: 3px;  
+} 
+
+a.imwarelist {
+  text-decoration: none;
+  color: #000;
+}
+
+#share_top, #share_bottom {
+  display: none;
+  position: absolute;
+  border: 1px solid #171717;
+  padding: 5px;
+  width: 235px;
+  height: 121px;
+  vertical-align: top;
+  background: #171717;
+  z-index: 999;
+}
+
+#share_video_embed {
+  display: none;
+  position: absolute;
+  border: 1px solid #171717;
+  padding: 5px;
+  width: 235px;
+  height: 126px;
+  vertical-align: top;
+  background: #171717;
+  z-index: 999;
+}
+
+#share_video_embed h3 {
+  float: left;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 12px;
+  color: #999;
+}
+
+#share_top h3 {
+  float: left;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 12px;
+  color: #999;
+}
+
+#share_bottom h3 {
+  float: left;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 12px;
+  color: #999;
+}
+
+.share_header {
+  float: left;
+  width: 100%;
+  background-color: #272727;
+}
+
+.share_close {
+  float: right;
+  cursor: pointer;
+}
+
+a.share_close {
+  margin: 3px;
+  width: 25px;
+  height: 23px;
+  background: url('http://media.nbcbayarea.com/designimages/btn_close_dark_grey.gif') 0 0 no-repeat;
+}
+
+a.share_close:hover {
+  background-position: 0 -23px;
+}
+
+.share_wrap {
+  clear: both;
+  padding: 5px 0 0 10px;
+  width: 225px;
+  height: 88px;
+  background-color: #fff;
+}
+
+.share_left {
+  float: left;
+  width: 102px;
+}
+
+.share_right {
+  float: right;
+  width: 102px;
+}
+
+.sharelist {
+  clear: both;
+  margin-left: 0;
+  padding: 5px 0;
+  font-size: 10px;
+  text-align: left;
+  list-style: none;
+}
+
+.buzz a {
+  text-decoration: none;
+  color: #262626;
+}
+
+.buzz a:hover {
+  text-decoration: underline;
+  color: #262626;
+}
+
+#photogallery .sharelist {
+  height: 17px;
+}
+
+#share_video_embed .share_wrap {
+  float: left;
+  clear: left;
+  height: 93px;
+}
+
+.yahoo_buzz {
+  display: block;
+  float: left;
+  padding: 2px 0 0 8px;
+  font: bold 10px/10px arial;
+  text-transform: capitalize;
+  color: #3b3b3b;
+}
+
+.yahoo_buzz a {
+  color:#555555;
+  cursor:pointer;
+  font-family:arial;
+  font-size:9px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+.yahoo_buzz a:hover {
+  text-decoration: underline;
+}
+
+.yahoo_buzz .yahooBuzzBadge-text span {
+  padding-top: 3px;
+  line-height: 17px;
+  text-transform: uppercase;
+} 
+
+.yahoo_buzz .yahooBuzzBadge-text span span {
+  background-position: 0 2px;
+}
+
+.postToFBArticlePage span {
+  display:block;
+  margin:3px 0 0 16px;
+  padding-top:0;    
+}
+
+#videoPlayerWrapper .yahoo_buzz {
+  font-size: 9px;
+}
+
+/* new share bar */
+
+.share_module, .topsy_widget_data {
+  float: left;
+}
+
+* html .topsy_widget_data {
+  width: 55px;
+  padding-left:3px;
+  overflow:hidden;
+}
+
+.topsy-sm-badge {
+  display: none !important;
+}
+
+.yahoo_buzz_short {
+  width: 66px;
+  height: 17px;
+  overflow: hidden;
+}
+
+.yahooBuzzBadge {
+  height: 17px;
+  overflow: hidden;
+}
+
+.db-wrapper.db-compact {
+  float: left;
+  padding: 1px 0 0 3px;
+  vertical-align: top;
+}
+
+/* 300 width boxes back shadows */
+
+.design-begin-300 {
+  display: block;
+  float: left;
+  width: 310px;
+  height: 47px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_top_310_new.gif') 0 0 no-repeat;
+}
+
+.moodoff #storyDetailRight .design-begin-300 {
+  width: 185px;
+  background: transparent url(http://media.nbcbayarea.com/designimages/dsn_shadowBox_185x47_top.gif) no-repeat scroll 0 0
+}
+
+.design-mid-300 {
+  display: block;
+  float: left;
+  width: 310px;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_mid_310.gif') 0 0 repeat-y;
+}
+
+.moodoff #storyDetailRight .design-mid-300 {
+  width: 185px;
+  background:transparent url(http://media.nbcbayarea.com/designimages/dsn_shadowBox_185x10_mid.gif) repeat-y scroll 0 0;
+}
+
+.design-end-300 {
+  display: block;
+  float: left;
+  width: 310px;
+  height: 15px;
+  background: transparent url('http://media.nbcbayarea.com/designimages/dsn_bottom_310.gif') 0 0 no-repeat;
+}
+
+.moodoff #storyDetailRight .design-end-300 {
+  width: 185px;
+  background: transparent url(http://media.nbcbayarea.com/designimages/dsn_shadowBox_185x7_btm.gif) no-repeat scroll 0 0
+}
+
+/* @@@@@@@@@@@@ RSS @@@@@@@@@@@@@ */
+
+#rss #primary {
+  padding: 20px 5px 0;
+}
+
+#rss #primary #main {
+  padding: 14px 5px 15px 15px;
+  width: 947px !important;
+  font: 12px/16px Arial, sans-serif;
+  color: #666666;
+  background: #fff;
+}
+
+#rss #primary #main div {
+  float: left;
+  clear: none;
+  width: 25%;
+}
+
+#rss #primary h2 {
+  margin: 3px 0;
+  height: 19px;
+  color: #000;
+}
+
+#rss #primary h3 {
+  margin: 12px 0 3px;
+  color: #000;
+}
+
+#rss #primary ul {
+  padding: 6px 0 8px;
+}
+
+#rss #primary ul li {
+  padding: 4px 0 3px;
+  width: 180px;
+  background: #fff url('http://media.nbcbayarea.com/designimages/dsn_lightgrey_dots_h.gif') 0 100% repeat-x;
+}
+
+#rss #primary .rss_steps li {
+  width: auto;
+  background: none;
+}
+
+
+
+/* @@@@@@ newsletter signup @@@@@ */
+
+/* #newsletterSignup #primary {
+  padding: 20px 5px 0;
+} */
+
+#newsletterSignup #primary #main {
+  padding: 0 0 15px;
+  width: 972px !important;
+  background: #fff;
+}
+
+#newsletterSignup #primary {
+  text-align: center;
+  background-color:#fff;
+  margin-top: 0px !important;
+}
+
+#newsletterSignup #primary iframe {
+  width: 972px;
+  height: auto;
+}
+
+/* @@@@@@@ sponsored links @@@@@@ */
+
+#sponsored_links {
+  float: left;
+  clear: both;
+  width: 300px;
+}
+    
+#sponsored_links .headlinebox {
+  float: left;
+  border: medium none; 
+  padding: 0;
+}
+  
+#nbcArticleRgtCol #splinks {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  font-size: 11px;
+  background: #fff;
+}
+
+#sponsoredFrame {
+  margin: -8px 0 0 -8px;
+  width: 320px;
+  height: 339px;
+}
+
+/* DONT MISS */
+
+#dontMiss {
+  margin: 5px 0 20px 0;
+  width: 310px;
+}
+
+.moodoff #storyDetailRight #dontMiss {
+  margin: 5px 0;
+  width: 185px;
+  margin-left:5px;
+}
+
+#dontMiss .story {
+  padding: 10px;
+  width: 290px;
+}
+
+.moodoff #storyDetailRight #dontMiss .story {
+  padding: 10px;
+  width: 165px;
+}
+
+#dontMiss .summary {
+  font: normal 13px/18px Arial, sans-serif;
+}
+
+.moodoff #storyDetailRight #dontMiss .summary {
+  font-family:Arial,sans-serif;
+  font-size:10px;
+  font-weight:normal;
+  line-height:12px;
+}
+
+#dontMiss .summary a {
+  color: #555;
+}
+
+#dontMiss h2 {
+  display: block;
+  height: 45px;
+  text-align: center;
+  background: url('http://media.nbcbayarea.com/designimages/hd_dont_miss.gif') 50% 15px no-repeat;
+}
+
+#dontMiss .design-end-300 {
+  margin-bottom: 20px;  
+} 
+
+#dontMiss h2 span {
+  display: none;
+}
+
+/* &&&&&&& MOMENT RIGHT RAIL &&&&&&& */
+
+#home #theMoment {
+  float:left;
+  margin-bottom:20px;
+}
+
+#article #theMoment {
+  float:left;
+  margin-top:10px;
+}
+
+#home #rightRail #moment_collapsed {
+  float: left;
+  position: relative;
+  margin: 10px auto;
+  width: 310px;
+  height: 470px;
+}
+
+#home #rightRail #moment_collapsed #momentModule {
+  top: 46px;
+  left: 0;
+}
+
+#section #rightRail #moment_collapsed, #subsection #rightRail #moment_collapsed, .enjoy_this #rightRail #moment_collapsed, #mood_aggregate #rightRail #moment_collapsed {
+  float: left;
+  position: relative;
+  width: 310px;
+  height: 530px;
+}
+
+#section #rightRail #moment_collapsed #momentModule, #subsection #rightRail #moment_collapsed #momentModule, .enjoy_this #rightRail #moment_collapsed #momentModule, #mood_aggregate #rightRail #moment_collapsed #momentModule {
+  left: -7px;
+}
+
+#article #rightRail #moment_collapsed {
+  position: relative;
+  float: left;
+  width: 310px;
+  height: 475px;
+  top:0;
+  right:0;
+  margin-bottom:20px;
+}
+
+#rightRail #moment_collapsed #momentHeader {
+  display: block;
+  width: 300px;
+  height: 42px;
+}
+
+.bay #rightRail #moment_collapsed #momentHeader {
+  background: url('http://media.nbcbayarea.com/designimages/sound_off_bay.gif') 22px 0 no-repeat;
+}
+
+.chi #rightRail #moment_collapsed #momentHeader {
+  background: url('http://media.nbcbayarea.com/designimages/sound_off_chi.gif') 22px 0 no-repeat;
+}
+
+.har #rightRail #moment_collapsed #momentHeader {
+  background: url('http://media.nbcbayarea.com/designimages/sound_off_har.gif') 7px 0 no-repeat;
+}
+
+.dfw #rightRail #moment_collapsed #momentHeader {
+  background: url('http://media.nbcbayarea.com/designimages/sound_off_dfw.gif') 22px 0 no-repeat;
+}
+
+.la #rightRail #moment_collapsed #momentHeader {
+  background: url('http://media.nbcbayarea.com/designimages/sound_off_la.gif') 22px 0 no-repeat;
+}
+
+.ami #rightRail #moment_collapsed #momentHeader {
+  background: url('http://media.nbcbayarea.com/designimages/sound_off_ami.gif') 22px 0 no-repeat;
+}
+
+.ny #rightRail #moment_collapsed #momentHeader {
+  background: url('http://media.nbcbayarea.com/designimages/sound_off_ny.gif') 22px 0 no-repeat;
+}
+
+.phi #rightRail #moment_collapsed #momentHeader {
+  background: url('http://media.nbcbayarea.com/designimages/sound_off_phi.gif') 22px 0 no-repeat;
+}
+
+.dgo #rightRail #moment_collapsed #momentHeader {
+  background: url('http://media.nbcbayarea.com/designimages/sound_off_dgo.gif') 22px 0 no-repeat;
+}
+
+.dc #rightRail #moment_collapsed #momentHeader {
+  background: url('http://media.nbcbayarea.com/designimages/sound_off_dc.gif') 7px 0 no-repeat;
+}
+
+.bos #rightRail #moment_collapsed #momentHeader {
+  background: url('http://media.nbcbayarea.com/designimages/sound_off_bos.gif') 25px 0 no-repeat;
+}
+
+.test #rightRail #moment_collapsed #momentHeader {
+  background: url('http://media.nbcbayarea.com/designimages/sound_off_bos.gif') 25px 0 no-repeat;
+}
+
+/* ZVENTS */
+ 
+#todays_events .todaysevents {
+  display: block;
+  width: 300px;
+  height: 50px;
+  background: url('http://media.nbcbayarea.com/designimages/hdr_todaysEvents.gif') 50% 12px no-repeat;
+}
+ 
+#todays_events .todaysevents span {
+  display: none;
+}
+ 
+#todays_events a {
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  color: #069;
+}
+ 
+#todays_events .ZventsEventName, #todays_events .zSubFoot {
+  font-size: 14px;
+}
+ 
+#todays_events .ZventsEventTime, #todays_events .ZventsEventDate {
+  font-size: 10px;
+  font-family: Arial, sans-serif;
+}
+ 
+#todays_events .zNavBar, #todays_events .zEventList, #todays_events .zSubFoot {
+  margin-left: 25px;
+}
+ 
+#todays_events .zSubFoot {
+  margin-top: 5px;
+}
+ 
+.zCatDropdown {
+  margin-top: 10px;
+  width: 150px;
+  font-size: 10px;
+  font-family: Arial;
+  vertical-align:top;
+}
+
+/* inline css from subsection page */
+
+#paging_links {
+  float: left;
+  margin: 0 0 0 10px;
+  padding-bottom: 10px;
+}
+
+#paging_links li{
+  float: left;
+  margin: 0 0 0 5px;
+}
+
+#paging_links a{
+  float: right;
+  /* margin-right: 10px; */
+  /* color: #069; */
+  color:#999999;
+  display:block;
+  font-family:Arial;
+  font-size:14px;
+  font-weight:bold;
+  line-height:17px;
+  margin-right:10px;
+}
+
+#paging_links a:hover {
+  color: #006699;
+} 
+
+#paging_links a.selected {
+  color:#000000;
+  font-family:Arial;
+  font-size:20px;
+  font-weight:bold;
+  line-height:17px;
+} 
+
+#paging_links a h3 {
+*position: relative; /* peekaboo bug fix for IE6 */
+*min-width: 0; /* peekaboo bug fix for IE7 */ 
+}
+
+
+/* feature section */
+
+#feature_header {
+  margin-bottom: 10px;
+  text-align: center; 
+  font-family: Arial, sans-serif;
+  color: #069;
+  margin-left:5px;
+}
+
+/* FLUSH IMAGE LEFT */
+#canvas #feature-header-container{padding-top:0;} 
+#canvas #feature_header{margin-left:0;} 
+#canvas #feature_header #featureIdGraphic{padding:0;}
+#canvas #feature_header #featureIdGraphic img{float:left;}
+#canvas #feature_header #featureIdGraphic h1{padding:10px 0 10px 10px;}
+
+/* severe weather / user box css */
+
+#userBoxLoading div {
+  padding-top: 5px;
+  font-size: 12px;
+  color: #fafafa;
+}
+
+#story_tips {
+  position: absolute;
+  top: 11px;
+  right: 3px;
+  height: 14px;
+}
+  
+#story_tips a{
+  padding: 0; /* almost certainly not necessary */
+}
+
+#severeWeatherTrue {
+  float: right;
+}
+
+#schoolClosingTrue {
+  float: right;      
+}
+
+#severeWrap {
+  position: absolute;
+  top: 30px;
+  right: 4px;
+  width: 345px;
+}
+
+#severeWrap a{
+  padding: 0px !important; /*absolutely necessary*/
+  margin-right:10px;
+}
+  
+/* @@@@@@@@@@@@ ie hacks for feature @@@@@@@@@@@@ */
+
+#feature {
+  *text-align: center;
+}
+
+#feature #canvas {
+  *display: inline-block;
+  *text-align: left;
+  *overflow-x:hidden;
+}
+
+* html #feature {
+  text-align: center;
+}
+
+* html #feature #canvas {
+  display: inline-block;
+  text-align: left;
+  overflow-x:hidden;
+}
+
+/* @@@@@@@@@@@@ util @@@@@@@@@@@@ */
+
+body, h1, h2, h3, h4, h5, h6, p, div, ul, ol, li, img, form, label {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nocss {
+  display: none !important;
+}
+ 
+html body #debug, html body #debugB {
+  position: absolute;
+  top: 0;
+  left: 0;
+  float: left;
+  height: auto;
+  background: #fff;
+  z-index: 2001;
+  opacity:0.7;
+  -moz-opacity: 0.7;
+} 
+
+html body #debug p, html body #debugB p {
+  font: 9px/9px "Arial Narrow", arial, sans;
+  color: #000;
+}
+
+/*temp iphone placement on franchises and blogs*/
+
+#iphoneAd {
+  float:left;
+  margin-bottom:20px;
+  margin-top:-40px;
+  width:100%;
+ }
+
+#iphoneAd p{
+  color:#666666;
+  font-family:Arial;
+  font-size:17px;
+  left:75px;
+  position:relative;
+  top:45px;
+  width:310px;
+}
+
+/* TOP HEADER WEATHER MODULE */
+
+#weatherMod {
+  background:transparent url('http://media.nbcbayarea.com/designimages/weather_center.gif') repeat-x scroll 0 0;
+  float:left;
+  height:90px;
+  width: 250px;
+  overflow:hidden;
+}
+
+#weatherMod #weather_icon {
+  left:2px;
+  *left: -105px;
+  position:relative;
+  top:16px;
+  width:32px;
+}
+
+#weatherMod #current_temp {
+  font-family:Arial;
+  font-size:34px;
+  position:relative;
+  left:39px;
+  *left:-70px;
+  top:-27px;
+  *top:-30px;
+  width:20px;
+}
+
+#weatherMod #f {
+  display:block;
+  font-size:14px;
+  font-weight:bold;
+  left:55px;
+  position:relative;
+  top:-31px;
+}
+
+#weatherMod #location {
+  font-family:helvetica;
+  font-size:11px;
+  font-weight:bold;
+  left:125px;
+  *left:71px;
+  overflow:hidden;
+  position:relative;
+  text-transform:uppercase;
+  text-align: left;
+  top:-73px;
+  white-space:nowrap;
+  width:123px;
+}
+
+#weatherMod #high_low {
+  font-family:helvetica;
+  font-size:11px;
+  font-weight:bold;
+  left:115px;
+  *left:59px;
+  position:relative;
+  text-transform:uppercase;
+  width:120px;
+  top:-67px;
+  *top:-73px;
+}
+
+#weatherMod #traffic_selector {
+  position: relative;
+  top: 8px;
+  left: 0;
+  width: 250px;
+  height: 20px;
+  font: bold 11px/13px helvetica, arial, sans;
+}
+
+* html #weatherMod #traffic_selector {
+  top: -58px;
+  left: -14px;
+}
+
+#weatherMod #traffic_selector select {
+  border: 1px solid #DDD;
+  font: bold 11px/13px helvetica, arial, sans;
+}
+
+#weatherMod #traffic_in { /* THIS IS NOT USED AND SHOUDL BE DELETED */
+  display: inline;
+  left: 5px;
+  position: relative;
+  top: 8px;
+}
+
+#weatherMod #traffic_go{
+  left:188px;
+  position:relative;
+  top:-8px;
+  width:20px;
+}
+
+#header #userTools {
+  background: none;
+  width:260px;
+  height:88px;
+  position:absolute;
+  right:3px;
+  top:0px;
+}
+
+#weatherMod_left {
+  background: url('http://media.nbcbayarea.com/designimages/weather_corner_left.gif') no-repeat top left;
+  width:5px;
+  height:89px;
+  float:left;
+}
+
+#weatherMod_right {
+  background: url('http://media.nbcbayarea.com/designimages/weather_corner_right.gif') no-repeat top right;
+  width:5px;
+  height:89px;
+  float:right;
+}
+
+#weatherMod a{
+  color:#000000;
+  cursor:pointer;
+  display:block;
+  height:55px;
+  width:218px;
+}
+
+#weatherMod #wlink a{
+  background: none transparent;
+}
+
+#weatherMod #wlink a:hover{
+  text-decoration: none;
+}
+
+#severe_map_wrap{
+  margin:0 0 0 6px;
+} 
+
+* html #severe_map {
+  margin:0 0 0 12px;    
+}
+
+.weather .top_alpha_list {
+  display:block;
+  margin:10px 20px;
+  border-bottom:1px dotted #999999;
+  text-align:center;
+  font-size:20px;
+}
+
+/* sponsored stories on top stories in section pages */
+
+.sponsored {
+  background-color:#eff0f0;
+}
+
+/* mobile site link on all pages */
+
+#mobilesite_link {
+  display:block;
+  font:11px Arial,sans-serif;
+  left:405px;
+  position:absolute;
+  top:6px;
+  z-index:1;
+}
+
+#mobilesite_link a {
+  color:#666666;
+  text-decoration:underline;
+}
+
+/* footer */
+
+#footer {
+  float: left;
+}
+
+
+#rr_MLBPlayer {
+   padding-left:4px;
+   padding-top:15px;
+   padding-bottom:15px;
+   }
+
+
+.category a {font-family: arial, sans-serif; color:#000000; text-transform:uppercase; text-decoration: none; font-weight:bold; font-size:11px;}
+.category a:hover {text-decoration: none;}
+.category {display: block; margin-bottom: 5px;}
+
+/* other css include files */
+
+/* ****************************************** 
+  TITLE:        NBC_MULTIMEDIA_GALLERY.CSS
+  VERSION:      0.14
+  LAST UPDATED: 09/14/2010
+  UPDATED BY:   Toby Spinks
+********************************************* */
+
+/*  multimediaModule  */
+
+#multimediaModule {
+  float: left;
+  position: relative;
+  margin: 0 auto 20px;
+  width: 310px;
+  text-align: center;
+
+}
+
+.open-house #multimediaModule .multimediaModuleBody {
+  height:255px;
+}
+
+.open-house #watchNowModule .watchNowModuleBody {
+	height:255px;
+	}
+
+#multimediaModule .multimediaModuleBody {
+  height:305px
+}
+
+#multimediaModule .story {
+  padding: 0;
+}
+
+.multimediaModuleBody #multiMediaNavigation {
+  float:left;
+  position:relative;
+  left:10px;
+  top:245px;
+  *top:250px;
+  width:288px;
+}
+
+#multimediaModule .enjoy {
+  display: block;
+  width: 310px;
+  height: 45px;
+  background: url('http://media.nbcbayarea.com/designimages/hdr_enjoyThis.gif') 50% 12px no-repeat;
+}
+
+.open-house #multimediaModule .enjoy {
+  display: block;
+  width: 310px;
+  height: 45px;
+  background: url('http://media.nbcbayarea.com/designimages/hdr_blog_george_rescue.gif') 50% 12px no-repeat;
+}
+
+.multimediaModuleBody {
+  height: 305px;
+}
+
+#multimediaModule #mm_gallery {
+  padding-left: 5px;
+}
+  
+#multimediaModule .enjoy span {
+  display: none;
+}
+
+#multimediaModule .details {
+  float: left;
+  width: 293px;
+  text-align: center;
+}
+
+#multimediaModule .mediaLink {
+  display: inline-block;
+  margin: 0 0 5px 0;
+}
+
+#multimediaModule .title {
+  padding-top: 5px;
+  *padding-top: 15px;
+}
+
+#multimediaModule .title {
+  color:#666666;
+  font-family:Georgia,serif;
+  font-size:12px;
+  font-weight:normal;
+  height:50px;
+  line-height:16px;
+  margin:10px auto;
+  *margin:3px auto;
+  width:200px;
+}
+
+#multimediaModule .title a {
+  line-height:16px;
+  font-family:Georgia,serif;
+  font-size:14px;
+  font-weight: bold;
+  color:#006699;
+  width:200px;
+  text-decoration:none;
+}
+
+#multimediaModule .title a:hover {
+  text-decoration:underline;
+}
+
+#multimediaModule .entry {
+  position: absolute;
+  top: 50px;
+  left: 15px;
+  width: 285px;
+}
+
+
+#multimediaModule .bordermask img {
+  left: 0;
+}
+
+#multimediaModule .nav {
+  padding-top: 0;
+  cursor: pointer;
+}
+
+#multimediaModule .nav li {
+  display: block;
+  float: left;
+  padding: 0 2px;
+  width: 17px;
+  height: 21px;
+}
+
+#multimediaModule .nav li a {
+  display: block;
+  font: bold 14px/17px Georgia;
+  color: #999;
+}
+
+#multimediaModule .nav .current a {
+  font: bold 20px/17px Georgia;
+  color: #000;
+}
+
+#multimediaModule .nav a:hover {
+  font: bold 17px/17px Georgia;
+  color: #069;
+}
+
+#multimediaModule .nav .btnNavLeft, #multimediaModule .nav .btnNavRight {
+  margin: 10px;
+  padding: 0;
+  height: 17px;
+}
+
+#multimediaModule .btnNavLeft a, #multimediaModule .btnNavRight a {
+  width: 24px;
+  height: 21px;
+  display:block;
+  cursor: pointer;
+}
+
+#multimediaModule .btnNavLeft a {
+  background: url('http://media.nbcbayarea.com/designimages/watch_this_btn_left.gif') 0 0 no-repeat;
+}
+
+#multimediaModule .btnNavLeft a:hover {
+  background-position: 0 0;
+}
+
+#multimediaModule .btnNavRight a {
+  background: url('http://media.nbcbayarea.com/designimages/watch_this_btn_right.gif') 0 0 no-repeat;
+}
+
+#multimediaModule .btnNavRight a:hover {
+  background-position: 0 0;
+}
+
+#multimediaModule .nav li span {
+  display: none;
+}
+
+.multimediaModuleBody #nav_p{
+  position:relative;
+  left:15px;
+  *left:-130px;
+  top:249px;
+  width:24px;
+}
+
+.multimediaModuleBody #nav_n{
+  position:relative;
+  left:270px;
+  *left:125px;
+  top:229px;
+  width:24px;
+}
+
+.open-house .multimediaModuleBody #nav_p{
+  left:15px;
+	position:absolute;
+	top:250px;
+	width:24px;
+}
+
+.open-house .multimediaModuleBody #nav_n{
+  left:275px;
+	position:absolute;
+	top:250px;
+	width:24px;
+}
+
+#multimediaModule .video_type {
+  width: 53px;
+  background: url('http://media.nbcbayarea.com/designimages/temp_ico_video.gif') 0 0 no-repeat;
+}
+
+#multimediaModule .gallery_type{
+  width: 44px;
+  background: url('http://media.nbcbayarea.com/designimages/temp_ico_slideshow.gif') 0 0 no-repeat;
+}
+
+.multimediaModuleBody .dropshadow {
+  display:block;
+  }
+
+#switch_slideshow {
+  position:relative;
+  margin-top:0px;
+}
+
+#mm_slideshow {
+  position:relative;
+  width:300px;
+}
+
+#mm_slideshow .entry {
+  display:none;
+  overflow:hidden;
+  position:absolute;
+  top:0;
+  left:13px;
+  z-index:99;
+}
+  
+#gallery_slide {
+  float:left;
+  height:210px;
+}
+
+#mm_slideshow img {display:block; margin:0 auto;}
+
+.gallery_list_image a {width:270px;display:block;cursor:pointer;}
+
+.gallery_list_image {cursor:pointer;}
+
+#mm_slideshow a {color:#666666;text-decoration:none;height:auto;width:auto;}
+#mm_slideshow .hide_this {display:none;}
+
+/*gallery slide navigation*/
+
+#multimediaModule .gallery_text .video_type{
+background:transparent url('http://media.nbcbayarea.com/designimages/temp_ico_video.gif') no-repeat scroll 0 0;
+width:53px;
+}
+
+#multimediaModule .gallery_text .gallery_type{
+background:transparent url('http://media.nbcbayarea.com/designimages/temp_ico_slideshow.gif') no-repeat scroll 0 0;
+width:44px;
+}
+
+/* Watch Now Module */
+
+#watchNowModule {
+  float:left;
+  height:355px;
+  margin:0 auto 20px;
+  position:relative;
+  text-align:center;
+  width:310px;
+}
+
+.open-house #watchNowModule {
+	float:left;
+	height:300px;
+	margin:0 auto 20px;
+	position:relative;
+	text-align:center;
+	width:310px;
+}
+
+#watchNowModule .dropshadow {
+  text-align: left;
+}
+
+#watchNowModule .design-mid-300 {
+height:300px;
+}
+
+#watchNowModule .watchNowModuleBody  {
+  height:305px
+}
+
+#watchNowModule .mediaLink {
+  display: inline-block;
+  margin: 0 0 8px 0;
+}
+
+#watchNowModule .story {
+  padding: 0;
+}
+
+.watchNowModuleBody #watchNowNavigation {
+  float:left;
+  position:relative;
+  left:10px;
+  top:245px;
+  *top:250px;
+  width:288px;
+}
+
+
+#watchNowModule .watch {
+  background:transparent url('http://media.nbcbayarea.com/designimages/hdr_watchThis.gif') no-repeat scroll 49% 8px;
+  display:block;
+  height:47px;
+  width:310px;
+}
+
+.open-house #watchNowModule .watch {
+  background:transparent url('http://media.nbcbayarea.com/designimages/hdr_blog_more_open_house.gif') no-repeat scroll 49% 8px;
+  display:block;
+  height:47px;
+  width:310px;
+}
+
+
+.watchNowModuleBody {
+  height: 305px;
+}
+
+#watchNowModule #mm_gallery {
+  padding-left: 5px;
+}
+  
+#watchNowModule .enjoy span {
+  display: none;
+}
+
+#watchNowModule .details {
+  float: left;
+  width: 293px;
+  text-align: center;
+}
+
+#watchNowModule .mediaLink {
+  display: inline-block;
+}
+
+#watchNowModule .title {
+  padding-top: 5px;
+  *padding-top: 15px;
+}
+
+#watchNowModule .entry {
+  left:16px;
+  *left:12px;
+  position:absolute;
+  top:52px;
+  width:285px;
+}
+
+#watchNowModule .title {
+    color:#666666;
+  font-family:Georgia,serif;
+  font-size:12px;
+  font-weight:normal;
+  height:50px;
+  line-height:16px;
+  margin:10px auto;
+  *margin:8px auto;
+  width:200px;
+}
+
+#watchNowModule .title a {
+  line-height:16px;
+  font-family:Georgia,serif;
+  font-size:14px;
+  font-weight: bold;
+  color:#006699;
+  width:200px;
+  text-decoration:none;
+}
+
+#watchNowModule .title a:hover {
+  text-decoration:underline;
+}
+
+#watchNowModule .thumbnail_wrap{
+  display:block;
+  height:60px;
+  left:103px;
+  *left:75px;
+  position:absolute;
+  top:95px;
+  width:68px;
+}
+
+#watchNowModule .thumbnail_wrap a{
+  background: transparent url('http://media.nbcbayarea.com/designimages/play_btn_overlay.png') no-repeat scroll 0px 0px;
+  display: block;
+  height: 60px;
+  opacity: 0.75;
+  position: absolute;
+  width: 68px; 
+}
+
+
+#watchNowModule .nav {
+  padding-top: 0;
+  cursor: pointer;
+}
+
+#watchNowModule .nav li {
+  display: block;
+  float: left;
+  padding: 0 2px;
+  width: 17px;
+  height: 21px;
+}
+
+#watchNowModule .nav li a {
+  display: block;
+  font: bold 14px/17px Georgia;
+  color: #999;
+}
+
+#watchNowModule .nav .current a {
+  font: bold 20px/17px Georgia;
+  color: #000;
+}
+
+#watchNowModule .nav a:hover {
+  font: bold 17px/17px Georgia;
+  color: #069;
+}
+
+#watchNowModule .nav .btnNavLeft, #watchNowModule .nav .btnNavRight {
+  margin: 10px;
+  padding: 0;
+  height: 17px;
+}
+
+#watchNowModule .btnNavLeft a, #watchNowModule .btnNavRight a {
+  width: 21px;
+  height: 24px;
+  display: block;
+}
+
+#watchNowModule .btnNavLeft a {
+  background: url('http://media.nbcbayarea.com/designimages/watch_this_btn_left.gif') 0 0 no-repeat;
+}
+
+#watchNowModule .btnNavLeft a:hover {
+  background-position: 0 0;
+  cursor: pointer;
+}
+
+#watchNowModule .btnNavRight a {
+  background: url('http://media.nbcbayarea.com/designimages/watch_this_btn_right.gif') 0 0 no-repeat;
+}
+
+#watchNowModule .btnNavRight a:hover {
+  background-position: 0 0;
+  cursor: pointer;
+}
+
+#watchNowModule .nav li span {
+  display: none;
+}
+
+#watchNowModule .video_type {
+  width: 53px;
+  background: url('http://media.nbcbayarea.com/designimages/temp_ico_video.gif') 0 0 no-repeat;
+}
+
+#watchNowModule .gallery_type{
+  width: 44px;
+  background: url('http://media.nbcbayarea.com/designimages/temp_ico_slideshow.gif') 0 0 no-repeat;
+}
+
+.watchNowModuleBody #nav_p{
+  position:relative;
+  left:15px;
+  *left:-130px;
+  top:260px;
+  width:24px;
+}
+
+.open-house .watchNowModuleBody #nav_p { 
+	left:15px;
+	position:absolute;
+	top:250px;
+	width:24px;
+}
+
+.open-house .watchNowModuleBody #nav_n{
+  left:275px;
+	position:absolute;
+	top:250px;
+	width:24px;
+}
+
+.watchNowModuleBody #nav_n{
+  position:relative;
+  left:270px;
+  *left:125px;
+  top:236px;
+  width:24px;
+}
+
+
+#switch_slideshow {
+  position:relative;
+  margin-top:0px;
+}
+
+#mm_slideshow {
+  position:relative;
+  width:300px;
+}
+
+#mm_slideshow .entry {
+  display:none;
+  overflow:hidden;
+  position:absolute;
+  top:0;
+  left:13px;
+  z-index:99;
+} 
+  
+#gallery_slide {
+  float:left;
+  height:210px;
+}
+
+#mm_slideshow img {display:block; margin:0 auto;}
+
+.gallery_list_image a {width:270px;display:block;cursor:pointer;}
+
+.gallery_list_image {cursor:pointer;}
+
+#mm_slideshow a {color:#666666;text-decoration:none;height:auto;width:auto;}
+#mm_slideshow .hide_this {display:none;}
+
+/*gallery slide navigation*/
+
+#watchNowModule .gallery_text .video_type{
+background:transparent url('http://media.nbcbayarea.com/designimages/temp_ico_video.gif') no-repeat scroll 0 0;
+width:53px;
+}
+
+#watchNowModule .gallery_text .gallery_type{
+background:transparent url('http://media.nbcbayarea.com/designimages/temp_ico_slideshow.gif') no-repeat scroll 0 0;
+width:44px;
+}
+
+/**************************
+* Last edited by: Rob Sable
+* Date modified: 10-01-2012
+* Version: 66
+* Ticket No.: 15883
+**************************/
+
+/* +++ search results +++ */
+
+#searchPage #fullSearchForm {
+  position: relative;
+  padding-top: 6px;
+  width: 640px;
+  height: auto;
+  float:left;
+}
+
+#searchPage #fullSearchForm #fullSearchText {
+  margin-bottom: 6px;
+  margin-top: 20px;
+  border: 1px solid #bbb;
+  padding: 3px 2px 2px 4px;
+  width: 540px;
+  height: 19px;
+  font: 16px/18px Arial, sans-serif;
+  color: #333;
+  float: left;
+}
+
+#searchPage #fullSearchForm select {
+  border: 1px solid #d7d7d7;
+  height: 23px;
+}
+
+#searchPage #fullSearchForm a#searchButtonWrapper {
+  float: left;
+  clear: none;
+  display: block;
+  margin-left: 8px;
+  margin-top: 20px;
+}
+
+#searchPage #fullSearchForm #searchButton {
+ /* position: absolute; */
+  bottom: 0;
+  right: 0;
+}
+
+#searchPage #search_container {
+   float:left;
+}
+
+#searchPage #searchResults {
+  position: relative;
+  float: left;
+  margin-top: 10px;
+  background: #fff url('http://media.nbcbayarea.com/designimages/dsn_grey_dots_h.gif') 0 0 repeat-x;
+  width: 100%;
+}
+
+* html #searchPage #searchResults {
+  margin-top: 5px;
+ /* width: 640px; */
+}
+
+#searchPage .searchBySortTitle  {
+  background:transparent url(http://media.nbcnewyork.com/designimages/nbc_search_sortbymost.gif) no-repeat scroll 0 0;
+  display:block;
+  float:left;
+  height:12px;
+  margin-top: 8px;
+  margin-left: 10px;
+  width:63px;
+}
+
+* html #searchPage .searchBySortTitle  {
+  margin-left: 5px;
+}
+  
+#searchPage #searchSort {
+  float: left;
+  padding: 10px 0 10px 2px;
+  width: 200px;
+  height: 12px;
+  clear: right;
+  margin-left: 2px;
+ /* background: url('http://media.nbcbayarea.com/designimages/txt_sortByMost_bg.gif') 0 4px no-repeat; */
+ background: none;
+}
+
+#searchPage #searchSort li, #searchPage #searchSort li a {
+  display: block;
+  float: left;
+  height: 11px;
+}
+
+#searchPage .sponsoredLinks {
+  float: left;
+  width: 630px;
+  *width:630px;
+  padding-bottom: 10px;
+  background: #fafcfd url('http://media.nbcbayarea.com/designimages/dsn_lightgrey_dots_h.gif') 0 100% repeat-x;
+  margin: 10px;
+}
+
+* html #searchPage .sponsoredLinks {
+   margin: 10px 5px;
+   width:620px;
+  }
+  
+#searchPage .titleLinks {
+float:left;
+font-family:Georgia;
+font-size:16px;
+font-weight:bold;
+margin-top:5px;
+}
+
+#searchPage .sponsoredLinks h5 {
+  padding-left: 5px;
+  color: #666;
+  background: url('http://media.nbcbayarea.com/designimages/dsn_lightgrey_dots_h.gif') 0 0 repeat-x;
+}
+
+#searchPage .sponsoredLinks li {
+  float: left;
+  padding: 3px 5px 2px;
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+}
+
+#searchPage .sponsoredLinks .title {
+  font: 11px/13px Arial, sans-serif;
+  text-decoration: underline;
+  color: #069;
+}
+
+#searchPage .sponsoredLinks a {
+  font: 10px/12px Arial, sans-serif;
+  text-decoration: none;
+  color: #999;
+}
+
+#searchPage .sponsoredLinks br {
+  display: none;
+}
+
+#searchPage .sponsoredLinks .external {
+  float: left;
+  clear: left;
+  padding-top: 2px;
+  width: 300px;
+}
+
+#searchPage .sponsoredLinks .articlelink {
+  padding-top: 0;
+  color: #008000;
+}
+
+#searchPage .resultCount {
+  clear: both;
+  margin-left: 10px;
+}
+
+* html #searchPage .resultCount {
+  margin-left: 5px;
+}
+
+#searchPage #searchSort #sortByRelevant {
+  width: 78px;
+  color: #999;
+}
+
+#searchPage #searchSort #sortByRecent {
+  padding-left: 6px;
+  width: 46px;
+}
+
+#searchPage #searchSort a {
+   color: #999;
+   font-weight: bold;
+   font-family: Arial;
+   font-size: 14px;
+}
+
+#searchPage #searchSort a.selected {
+  color: #000; 
+}
+
+#searchPage #searchSort a:hover {
+  text-decoration: underline;
+}
+
+#searchPage #searchSort a.selected:hover {
+  text-decoration: none;
+}
+  
+#searchPage #searchSort a span {
+  display: block;
+  margin-top: -3px;
+}
+
+#searchPage #searchSort #sortByRelevant a {
+  padding-right: 5px;
+  border-right: 1px solid #999;
+  /* background: url('http://media.nbcbayarea.com/designimages/btn_relevant.gif') 0 0 no-repeat;*/
+}
+
+#searchPage #searchSort #sortByRecent a {
+  width: 80px;
+ /* background: url('http://media.nbcbayarea.com/designimages/btn_recent.gif') 0 0 no-repeat;*/
+}
+
+#searchPage #searchSort .selected,  #searchPage #searchSort #sortByRelevant a:hover, #searchPage #searchSort #sortByRecent a:hover {
+  background: transparent !important;
+}
+
+#searchPage .resultCount {
+  padding: 0;
+  font: 12px/18px Arial, sans-serif;
+  color: #a5acb0;
+  clear: both;
+  float: left;
+  width: 620px;
+}
+
+#searchPage .pagination {
+  clear: both;
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin: 10px;
+  width: 97%;
+  *width: 630px;
+  text-align: right;
+}
+
+* html #searchPage .pagination {
+  width: 600px;
+}
+
+#searchPage .pagination a {
+  color: #a5acb0;
+}
+
+#searchPage #searchResults .story {
+  clear: both;
+  position: relative;
+  float:left;
+  border-top: 1px solid #e5e5e5;
+  margin: 0px 10px;
+  padding:3px;
+  width: 97%;
+  *width: 630px;
+}
+
+* html #searchPage #searchResults .story {
+    margin: 0px 5px;
+    width: 630px;
+}
+
+#searchPage #searchResults .story .details {
+  width:630px;
+  float:left;
+  clear:both;
+}
+
+#searchResults .sponsoredTextLabelTopRight {
+     background-color: #666666;
+    color: white;
+    float: left;
+    position:relative;
+    font-family: arial;
+    font-size: 11px;
+    left: 570px;
+* left:564px;
+    opacity: 0.7;
+    padding: 5px 7px;
+    }
+    
+#searchResults .sponsoredTextLabelTopRight.featured{
+    background-color: #f00;
+    color: white;
+    float: left;
+    position:relative;
+    font-family: arial;
+    font-size: 11px;
+    left: 579px;
+* left:575px;
+    opacity: 0.7;
+    padding: 5px 7px;
+    }
+    
+* html #searchResults .sponsoredTextLabelTopRight {
+   left:564px;
+}
+
+  #searchResults  .sponsored {
+    background-color: #EFF0F0;
+    border: 1px solid #DFDFDF;
+    margin-bottom: 15px;
+    }
+
+#searchPage #searchResults .story .title {
+  padding: 0;
+}
+
+#searchPage #searchResults .story .timestamp {
+  position: absolute;
+  top: 0;
+  right: 3px;
+}
+
+#searchPage #searchResults .sponsored .timestamp {
+  top:22px;
+}
+
+#searchPage #noResults {
+  margin-top: 10px;
+  padding: 4px 5px 8px;
+  font: 12px/18px Arial, sans-serif;
+  color: #333;
+  background: #fff;
+}
+
+#searchPage #noResults p {
+  padding-top: 12px;
+}
+
+#searchPage #noResults ul {
+  padding-top: 6px;
+}
+
+#searchPage #noResults li {
+  padding-left: 12px;
+}
+
+#searchPage #noResults a {
+  text-decoration: none;
+  color: #069;
+}
+
+#searchPage #noResults a:hover {
+  text-decoration: underline;
+}
+
+/* sponsored links on search page */
+
+#searchResults .ad_150_75 {
+  float: left;
+}
+
+#searchResults .ad_150_75 .result {
+  float: left;
+  padding: 5px 0;
+  font-size: bold 16px/18px Arial, sans-serif;
+}
+
+#searchResults .ad_150_75 .result a {
+  color: #069;
+}
+
+#searchResults .ad_150_75 .result a.thumb {
+  display: block;
+  float: right;
+  margin: 0 9px 5px 0;
+  width: 150px;
+  height: 75px;
+}
+
+#searchResults .ad_150_75 .result a:hover {
+  text-decoration: underline;
+}
+
+#searchResults .ad_150_75 .result .details {
+   float: left;
+   width: 470px;
+   margin-top: 20px;
+   margin-left: 11px;
+}
+
+#searchResults .ad_150_75 .result .category {
+  display: block;
+}
+
+#searchResults .ad_150_75 .result .category .sponsored {
+  float: left;
+  width: 56px;
+  height: 12px;
+  background: url('http://media.nbcbayarea.com/designimages/cat_sponsored.gif') 0 0 no-repeat;
+}
+
+#searchResults .ad_150_75 .result .title {
+  clear: left;
+  font: bold 16px/18px Arial, sans-serif;
+}
+
+#searchResults .ad_150_75 .result .summary {
+  font: normal 12px/14px Arial, sans-serif;
+}
+
+#searchResults .ad_150_75 .result .summary a {
+  color: #666;
+}
+
+#searchResults .ad_150_75 .result .summary a:hover {
+  text-decoration: none;
+}
+
+/* copied from nbc_styles to support old sponsored search results */
+
+#searchResults .ad_150_75 li.result {
+  list-style: none;
+}
+
+.ad_thumbnail_left {
+  float: left;
+  margin-right: 8px;
+  width: 150px;
+  height: 75px;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.nbc_thumb_1 {
+  display: block;
+  background-position:60% 0%;
+}
+
+.ad_150_75 .result .ad_sponsored_text, .ad_150_75 .result .icon {
+  float: left;
+}
+
+.ad_150_75 .result .title {
+  display: inline-block;
+  clear: left;
+  width: 480px;
+}
+
+.ad_sponsored_text {
+  font-size: 10px;
+  color: #284028;
+}
+
+/* @@@ ie6 hacks for search page @@@ */
+
+* html #searchPage {
+  text-align: center;
+}
+
+* html #searchPage #canvas {
+  display: inline-block;
+  text-align: left;
+}
+
+* html #searchPage #header #masthead #logo {
+  width: 100px;
+}
+
+* html #searchPage #header #searchForm #searchText {
+  height: 31px;
+}
+
+* html #searchPage #canvas #userBox {
+  width: 973px;
+}
+
+* html #searchPage .ad_150_75 {
+  clear: both;
+  margin-top: 20px;
+  width: 100%;
+}
+
+* html #searchPage .ad_150_75 .clearfix .ad_sponsored_text {
+  float: none; 
+}
+
+* html #searchPage .ad_150_75 .clearfix .title {
+  clear: right;
+  width: auto;
+} 
+
+ul#selectByMediaType, ul#selectByCategory {
+  width: 550px;
+  font-family: Arial, sans-serif;
+  height: 16px;
+  color: #666666;
+  margin-top: 10px;
+  font-size: 14px;
+  float: left;
+}
+
+#selectByMediaType li, #selectByCategory li {
+   display: block;
+   width: auto;
+   height: 11px;
+   float:left;
+   padding: 0px 5px;
+   border-left: 1px solid #999;
+}
+
+#selectByMediaType li a, #selectByCategory a {
+   margin-top: -4px;
+   color: #666666;
+   display:block;
+}
+
+#selectByMediaType li a:hover, #selectByCategory a:hover {
+   text-decoration: underline;
+}
+
+#selectByMediaType li.first, #selectByCategory li.first {
+   border-left: none;
+}
+
+#selectByMediaType li a.selected, #selectByCategory li a.selected {
+  font-weight: bold;
+}
+
+#selectByMediaType li a.selected, #selectByCategory li a.selected:hover {
+  text-decoration: none;
+}
+    
+#processing_search_result {
+  display: none;
+  float:left;
+  top: 400px;
+  position: absolute;
+  height: 32px;
+  width: 640px;
+ left: 0px;
+ z-index: 2000;
+}   
+
+#processing_search_result img {
+  position: absolute;
+  z-index: 100;
+}
+
+ #searchResults .sponsoredLinks .newrow {
+  clear: both;
+}
+
+#searchResults .sponsoredLinks .splink_item {
+  float: left;
+  clear: both;
+  overflow: hidden;
+  margin-right: -3px;
+}
+ 
+
+/* ****************************************** 
+ 
+  TITLE:        NBC_MOBILE.CSS
+  CMS Version: 81
+  Ticket No.: 19721
+  LAST UPDATED: 09/16/2013 
+  UPDATED BY:   Chianese
+  
+********************************************* */
+
+/* @@@@@@@@@@@ mobile @@@@@@@@@@@ */
+
+.mobile #primary {
+  background: #fff;
+  border-left: 1px solid #E0E7EE;
+  border-right: 1px solid #E0E7EE;
+  padding: 0 14px 20px;
+  width: 980px;
+  font: 16px/20px Arial, sans-serif;
+  color: #666;
+}
+#rss #primary { background: #fff; width: 999px; }
+
+#mobileAlertSignup #primary #main {
+  background: #fff;
+}
+
+#mobile #primary .pageSection {
+  border-bottom: 1px dotted #DBDBDB;
+  float: left;
+  width: 100%;
+  margin:25px 0 0 0;
+}
+
+/*** JFK ***/
+#mobile #body #primary .jfk{border-bottom:none;margin:0 0 15px;}
+#mobile #primary .jfk .appHeader{margin-bottom:20px;}
+#mobile #primary .jfk p{padding-right:10px;}
+#mobile #body #primary .jfk img{margin-right:25px;}
+/*** END JFK ***/
+
+
+#mobile #body #primary .textAlerts { border-bottom: none; }
+#mobile #primary .teaser {
+  padding-top: 6px;
+  font: 20px/20px Arial, sans-serif;
+  color: #069;
+}
+
+#mobile #primary .iPad {
+   float:left;
+   width:320px;
+  }
+#mobile #primary .iPhone,#mobile #primary .android {
+   float:left;
+   padding-bottom:10px;
+   width:220px;
+}
+#mobile #primary .iPhone { margin-right:125px; }
+#mobile #primary .iPhone img { margin-bottom: 13px; }
+#mobile #primary .android { margin-right:95px; }
+#mobile #primary .android img { margin-bottom: 20px; }
+#mobile #primary .iPhone p img,#mobile #primary .android p img,#mobile #primary .iPad p img { margin-bottom: 0; }
+#mobile #primary .iPad img { margin-bottom: 19px; }
+#mobile #primary .iPhone p, #mobile #primary .android p,#mobile #primary .iPad p {
+   clear:both;
+   padding-top:0;
+   padding-bottom: 15px;
+}
+#mobile #primary p.faq { font-size: 12px; }
+#mobile #primary .textAlerts p,#mobile #primary .textAlerts .btnSignUpNow{padding-bottom:10px;}
+#mobile #primary .textAlerts .btnSignUpNow img { margin-right: 0; }
+#mobile #primary .textAlerts img,#mobile #primary .mobileWeb img { margin-right: 25px; }
+
+.mobileWeb {border-bottom:1px dotted #000000;padding-bottom:10px;}
+
+#mobile #primary img {
+  float: left;
+  padding:0;
+}
+
+#mobile #primary .iPhone .iphoneHdr{
+  float:none;
+}
+
+#mobile #primary .intro { border-bottom: none;padding-top: 0;}
+#mobile #primary .intro h3 {margin-top:10px;}
+#mobile #primary h3 {
+  color: #404040;
+  margin: 0 0 20px;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-sans-serif;
+  font-size:24px;
+}
+#mobile #primary .intro p { 
+  padding-bottom: 10px; 
+}
+#mobile #primary p {
+  font-size:15px;
+  padding-top: 10px;
+  padding-bottom:0px !important;
+}
+
+#mobile #primary p.privacy {
+  font-size:14px;
+  padding-top: 0px;
+}
+
+#mobile #primary .intro {
+  font: 17px/24px Arial, sans-serif;
+}
+
+#mobile #primary .dropshadow {
+  float: right;
+  position: relative;
+  top: -24px;
+  margin-bottom: -14px;
+}
+
+#mobile #primary .btnSignUpNow, #mobile #primary .btnGetItNow {
+  padding: 0;
+}
+
+#mobile #primary .btnSignUpNow {
+  margin: 10px 0 0 0;
+}
+
+#mobile #primary .btnGetItNow {
+  margin-top: -6px;
+  vertical-align: middle;
+}
+
+#mobile #primary .btnSignUpNow, #mobile #primary .btnSignUpNow a {
+  display: block;
+  width: 120px;
+  height: 31px;
+}
+
+#mobile #primary .btnGetItNow, #mobile #primary .btnGetItNow a {
+  display: inline-block;
+  width: 108px;
+  height: 31px;
+}
+
+#mobile #primary .btnGetItNow a {
+  background: url('http://media.nbcbayarea.com/designimages/btn_getItNow.gif') 0 0 no-repeat;
+}
+
+#mobile #primary .btnSignUpNow a {
+  background: url('http://media.nbcbayarea.com/designimages/btn_signUpNow.gif') 0 0 no-repeat;
+  margin-left:202px;
+}
+
+#mobile #primary .btnSignUpNow a:hover, #mobile #primary .btnGetItNow a:hover {
+  background-position: 0 -31px;
+}
+
+#mobile #primary ul, #rss #primary ul {
+  padding: 6px 0 8px;
+}
+.mobile #primary #subNav {
+	background: #efefef;
+   	background: -moz-linear-gradient(0% 100% 90deg,#efefef, #e5e5e5);
+   	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e5e5e5), to(#efefef));
+	border-bottom: 1px solid #bfbfbf; 
+	float: left;
+	margin: 10px 0 15px -14px; 
+    padding: 0;
+    width: 1008px;
+}
+#rss #primary #subNav { 
+	background: #efefef;
+   	background: -moz-linear-gradient(0% 100% 90deg,#efefef, #e5e5e5);
+   	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e5e5e5), to(#efefef));
+	border-bottom: 1px solid #bfbfbf; 
+	float: left;
+	margin: 10px 0 15px -5px; 
+    padding: 0;
+    width: 1008px;
+}
+#newsletterSignup #primary #subNav, #widgets #primary #subNav { 
+	background: #efefef;
+   	background: -moz-linear-gradient(0% 100% 90deg,#efefef, #e5e5e5);
+   	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e5e5e5), to(#efefef));
+	border-bottom: 1px solid #bfbfbf; 
+	float: left;
+	margin: 10px 0 15px; 
+    padding: 0;
+    width: 1008px;
+}
+
+#mobile #primary li, #rss #primary li, #newsletterSignup #primary li {
+  padding: 4px 0 0 12px;
+}
+
+#mobile #primary li {
+  font-size:15px;
+  list-style: disc;
+  padding-top:0;
+  list-style-position: inside;
+}
+
+.mobile #primary #subNav li, #newsletterSignup #primary #subNav li, #widgets #primary #subNav li {
+	background: none;
+	display: block;
+  	float: left;
+	font-size: 16px;
+	height: 28px;
+	list-style: none;
+	padding: 0;
+}
+#rss #primary #subNav li { 
+	background: none;
+	display: block;
+  	float: left;
+  	font-size: 16px;
+  	height: 28px;
+  	list-style: none;
+  	padding: 0;
+  	width: auto; 
+  } 
+.mobile #primary #subNav li.email .nocss, #rss #primary #subNav li.email .nocss, #newsletterSignup #primary #subNav li.email .nocss, #widgets #primary #subNav li.email .nocss { border-left: none; }
+.mobile #primary #subNav li.widget .nocss, #rss #primary #subNav li.widget .nocss, #newsletterSignup #primary #subNav li.widget .nocss, #widgets #primary #subNav li.widget .nocss { border-right: none; width: 245px; }
+.mobile #primary #subNav li .nocss, #rss #primary #subNav li .nocss, #newsletterSignup #primary #subNav li .nocss, #widgets #primary #subNav li .nocss { background: #fff; }
+.mobile #primary #subNav li a, #rss #primary #subNav li a, #newsletterSignup #primary #subNav li a, #widgets #primary #subNav li a { display: block; float: left; padding: 0; }
+.mobile #primary #subNav li .nocss, #rss #primary #subNav li .nocss, #newsletterSignup #primary #subNav li .nocss, #widgets #primary #subNav li .nocss {
+	background: #fff;
+	border-top: 1px solid #bfbfbf;
+	border-right: 1px solid #bfbfbf;
+	border-bottom: 1px solid #fff;
+    color: #000;
+    display: block !important;
+    font-size: 16px;
+    font-weight: bold;
+    height: 19px;
+    padding: 5px 0 3px;
+    text-align: center;
+    text-transform: uppercase;
+	width: 252px;
+}
+.mobile #primary #subNav li a .nocss, #rss #primary #subNav li a .nocss, #newsletterSignup #primary #subNav li a .nocss, #widgets #primary #subNav li a .nocss {
+	background: none;
+	border-right: 1px solid #cdcdcd;
+	border-bottom: 1px solid #bfbfbf; 
+	border-left: 1px solid #f9f9f9;
+}
+.mobile #primary #subNav li a:hover .nocss, #rss #primary #subNav li a:hover .nocss, #newsletterSignup #primary #subNav li a:hover .nocss, #widgets #primary #subNav li a:hover .nocss { 
+	background: #fff; 
+	border-bottom: 1px solid #fff; 
+	text-decoration: none; 
+}
+.mobile #primary #subNav li a:hover, #rss #primary #subNav li a:hover, #newsletterSignup #primary #subNav li a:hover, #widgets #subNav li a:hover { text-decoration: none; }
+#rss #main a {background: url("http://media.nbcwashington.com/designimages/ico_rss_17px.gif") no-repeat 100% 0;display: block;}
+
+p.question {
+   font-size:20px;
+   font-weight:normal;
+   font-family:Helvetica, Arial, sans-serif;
+   }
+
+/* 4INFO widgets styles */
+#fiWidget { width:896px; margin:34px 38px 34px 38px; color:#3f3f3f; font-family: Arial, sans-serif; font-size:12px; line-height:1.4em; }
+#fiWidget form { margin:0; padding:0; }
+#fiWidget h1 { font-size:18px; margin:0 0 12px 0; }
+#fiWidget h3 { font-size:14px; margin:18px 0 12px 0; }
+#fiWidget h3, #fiMessage { width:896px; padding:18px 0 0 0; border-top:solid 2px #e8e8e8;}
+#fiWidget ul { margin:12px 0 17px 15px; padding:0; }
+#fiWidget input { vertical-align:middle; border:1px solid #000 }
+#fiWidget #fiStats { display:none; }
+#fiWidget .clear, #fiPhone { clear:both; float:none; }
+#fiIntro { width:800px; height:180px; padding:3px 0 10px 122px; background:url('http://media.nbcbayarea.com/designimages/phone_htc_android_g1_180h.gif') no-repeat; }
+#fiIntro li { margin:0 0 5px 0; }
+#fiChsType ul { margin:0; padding:0; list-style:none; border:solid 1px #fff; }
+#fiChsType li, #fiWidget ul.fi3Cols li { width:145px; float:left; }
+#fiChsType h3, #fiMessage, #fiConfirm h3 { border-width:3px; margin-top:0; }
+#fiChsType input { vertical-align:top; *vertical-align:middle; }
+#fiWidget .fiMenu { margin-bottom:5px; }
+#fiWidget .fiMenu input { background:#fff; }
+#fiWidget .fiInput ul { list-style:none; margin:0; padding:0; }
+#fiWidget #fiPhInput input { border: 1px solid #999 !important; }
+#fiWidget .fiInput select { width:175px; }
+#fiHoroscope .fiInput select { width:150px; }
+#fiWeather .fiInput select { width:75px; }
+#fiWeather .fiTriggers { margin-top:5px; }
+#fiMsgTxt { margin:0 0 10px 0; }
+#fiMsgTxt .fiSuccess { color:green; }
+#fiMsgTxt .fiNotSet { color:red; }
+#fiLinks { margin:18px 0 10px 0; }
+#fiPoweredBy { text-align:right; }
+#fiDisclaimer { font-size:10px; line-height:normal; width896px; color:#8c8c8c; }
+
+/*  MOBILE WEATHER APPS */
+.appHeader {
+clear: both;
+font-size: 26px;
+margin-bottom: 30px;
+font-family: Helvetica, arial, sans-serif;
+font-weight: normal;
+color: #404040;
+}
+
+.appBorder {
+border-bottom: 1px dotted #b2b2b2;
+margin-bottom: 20px;
+clear: both;
+}
+
+#mobile #primary .weatherLayout .iPhone, #mobile #primary .weatherLayout .android,
+#mobile #primary .weatherLayout .iPad{
+/* background-image:url('http://media.nbcbayarea.com/designimages/mobilepage_tabs_gradient.gif');
+background-repeat: repeat-x; */
+text-align: center;
+width: 300px;
+margin-bottom: 21px;
+padding-top: 25px;
+
+box-shadow: 0px 2px 5px 0px #eee inset ;
+-moz-box-shadow: 0px 2px 5px 0px #eee inset ;
+-webkit-box-shadow: 0px 2px 5px 0px #eee inset ;
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #f2f2f2 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #f2f2f2 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #f2f2f2 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #f2f2f2));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #f2f2f2 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #f2f2f2 100%);
+}
+
+#mobile #primary .weatherLayout .iPhone img, #mobile #primary .weatherLayout .android img,
+#mobile #primary .weatherLayout .iPad img{
+float: none;
+}
+#mobile #primary .weatherLayout .iPhone p img, #mobile #primary .weatherLayout .android p img,
+#mobile #primary .weatherLayout .iPad p img{
+margin:0px;
+}
+#mobile #primary .weatherLayout .iPhone img{
+margin:0px;	
+}
+
+#mobile #primary .weatherLayout .iPhone, #mobile #primary .weatherLayout .android{
+margin-right: 32px;
+}
+
+#mobile #primary .weatherLayout .android img{
+margin-bottom: 33px;
+}
+
+#mobile #primary .weatherLayout .iPad img{
+margin-bottom: 58px;
+}
+
+#mobile #primary .weatherLayout h3 {
+font-size: 22px;
+}
+
+#mobile #primary .weatherLayout .faq {
+font-size: 12px;
+}
+
+
+
+
+/* SHARABLE WIDGET */
+#widgets #primary {
+  background: #fff;
+  border-left: 1px solid #E0E7EE;
+  border-right: 1px solid #E0E7EE;
+  padding: 0;
+  width: 1008px;
+  font: 16px/20px Arial, sans-serif;
+  color: #666;
+}
+
+#widgets #body #primary .intro {
+	background: url('http://media.nbcbayarea.com/designimages/bg_widget.png') repeat-x;
+   	font-family: Arial, Helvetica, sans-serif;
+	height: 183px;
+	margin: 35px 0 0;
+	padding: 0 24px 0 14px;
+	position:relative;
+	width: 970px;
+}
+#widgets #primary .intro .media { position: absolute; left: 0; top: -48px; }
+#widgets #primary .intro h3 {
+ 	color: #000; 
+ 	font-family: Arial, Helvetica, sans-serif; 
+ 	font-size: 25px;  
+ 	margin: 26px 0 8px 214px; 
+} 
+#widgets.la #primary .intro h3{font-size: 23px; }
+#widgets #primary .intro p { color: #000; font-size: 15px;  margin: 6px 0 0 215px; padding-right:8px; } 
+#widgets #primary .pageSection { 
+	background: #eee;
+	float: left;
+	margin: 0; 
+	padding: 34px 30px 70px; 
+	width: 948px; 
+}
+#widgets #primary .pageSection ul { float: left; list-style: none; margin: 0; padding: 0; }
+#widgets #primary .pageSection ul li { 
+	background: #e2e2e2; 
+	border-bottom: 1px solid #e8e8e8;
+   	 border-right: 1px solid #e8e8e8;
+	-moz-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.20);
+	-webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.20);
+ 	box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.20);
+	float: left; 
+	list-style: none;
+	margin: 0 0 0 25px; 
+	padding: 8px 8px 20px; 
+}
+#widgets #primary .pageSection ul li:first-child { margin-left: 0; }
+#widgets #primary h3 { 
+	color: #000; 
+	float: left;
+	font-size: 17px; 
+	margin: 5px 0 1px 8px;
+}
+#widgets #primary p { 
+	clear: both;
+	color: #000; 
+	float: left;
+	font-size: 13px; 
+	margin: 0 0 13px 8px;
+	padding: 0;
+}
+#widgets #primary .btn,#widgets .copy .btn { 
+	background: #082a5c;
+   	background: -moz-linear-gradient(0% 100% 90deg,#082a5c, #396ba6);
+   	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#396ba6), to(#082a5c));
+	border: 1px solid #a2adbb;
+	clear: both;
+	color: #fff; 
+	float: left;
+	font-family:  Helvetica, Arial, sans-serif;
+	font-size: 13px; 
+	margin: 0 29px;
+	padding: 4px 11px 2px;
+	text-shadow: 1px 1px 2px #3f3f3f
+}
+#widgets #primary .btn a,#widgets .copy .btn a { color: #fff; text-decoration: none; }
+#widgets .copy { padding: 20px 25px; }
+#widgets .copy h2 { 
+	font-family: helvetica, sans-serif;
+	font-size:20px;
+	font-weight: bold;
+	color:#000;
+	margin:0 0 35px;
+	padding:0; 
+}
+#widgets .copy p { 
+	font-family: arial, sans-serif;
+	font-size:14px;
+	color:#000;
+	margin:0 0 20px;
+	padding:0; 
+}
+#widgets .copy .block { 
+	border: 1px solid #d6d6d6;
+	font-family: arial, sans-serif;
+	font-size:14px;
+	color:#585858;
+	margin: 0 0 15px;
+	padding: 5px 5px 20px;
+	width:436px; 
+}
+#widgets #fancybox-overlay { background-color: #000000 !important; }
+#widgets #fancybox-wrap { padding-top: 0 !important; }
+#widgets #fancybox-wrap  #fancybox-close { top: -15px !important; }
+#widgets #fancybox-content { border: none !important; width: 501px !important; height: 353px !important; padding: 0;}
+

@@ -1,0 +1,1 @@
+twttr.receiveCount({"count":0,"url":"http:\/\/www.nbcbayarea.com\/news\/local\/Fatal-Crash-on-Highway-24-in-Lafayette-Snarls-Traffic-248898811.html\/"});

@@ -1,0 +1,1 @@
+twttr.receiveCount({"count":1,"url":"http:\/\/www.nbcbayarea.com\/news\/local\/Police-Arrest-3-in-Connection-With-Bingo-Hall-Robbery-248931301.html\/"});
