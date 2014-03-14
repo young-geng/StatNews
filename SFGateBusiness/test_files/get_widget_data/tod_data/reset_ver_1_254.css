@@ -1,0 +1,136 @@
+﻿
+	html
+	{
+		overflow-y:scroll;
+		overflow-x:hidden;
+		height:100%;
+	}
+	
+	html, body
+	{
+		min-height:100%;
+	}
+
+	body
+	{
+		margin:0;
+		padding:0;
+		font-size:13px;
+		color:#111;
+		min-width:1040px;
+	}
+
+	a
+	{
+		color:#06c;
+		text-decoration:none;
+		cursor:pointer;
+	}
+	
+	a:hover
+	{
+		text-decoration:underline;
+		color:#1c74e0;
+	}
+	
+	a.nohover
+	{
+		text-decoration:none;
+	}
+	
+	
+	h1, h2, h3, h4, h5, h6,
+	.h1, .h2, .h3, .h4, .h5, .h6
+	{
+		font-weight:normal;
+		color:#362F2D;
+		margin:0.1em 0;
+	}
+	
+	h1, .h1
+	{
+		font-size:33px;
+	}
+	
+	h2, .h2
+	{
+		font-size:21px;
+	}
+	
+	h3, .h3
+	{
+		font-size:16px;
+	}
+	
+	hr
+	{
+		background-color:#ccc;
+		border: medium none;
+		height: 1px;
+	}
+	
+	img
+	{
+		border:none;
+	}
+	
+	textarea
+	{
+		resize:none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	/* fixes and shortcuts */
+	
+	.group:before,
+	.group:after {
+		content:"";
+		display:table;
+	}
+	.group:after {
+		clear:both;
+	}
+	.group {
+		zoom:1; /* For IE 6/7 (trigger hasLayout) */
+	}
+	
+	.ui-button-a
+	{
+		overflow:visible;
+	}
+	
+	
+	.left
+	{
+		float:left;
+	}
+	
+	.right
+	{
+		float:right;
+	}
+	
+	.center
+	{
+		text-align:center;
+	}
+	
+	.centered
+	{
+		margin:0 auto;
+	}
+	
+	.clear
+	{
+		clear:both;
+	}
+	
+	.inline
+	{
+		display:inline-block;
+	}

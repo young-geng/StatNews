@@ -1,0 +1,75 @@
+var juiceservice=("https:"==document.location.protocol?"https:":"http:")+"//aps.hearstnp.com/";
+var SiteYSMAdSource="npc_hearst_sanfranciscochronicle_t";
+var APSpageID=2449;
+var ctxt_ad_url="http://"+JuicePageUrl,ctxt_ad_interface="http://cm.npc-hearst.overture.com/js_1_0/",ctxt_ad_config="2130893885",ctxt_ad_width=728,ctxt_ad_height=90,ctxt_ad_source="npc_hearst_sanfranciscochronicle_t1_ctxt",ctxt_ad_type="business",ctxt_ad_id="business";
+var googletag=googletag||{};
+googletag.cmd=googletag.cmd||[];
+var aps=aps||{};
+aps.page=null;
+aps.adSlots=[];
+aps.juiceLog=[];
+(function(){window.onJuiceEvent_LoadingGPT&&window.onJuiceEvent_LoadingGPT();
+var b="https:"==document.location.protocol;
+var a=(b?"https:":"http:")+"//www.googletagservices.com/tag/js/gpt.js";
+document.write("<scr"+'ipt src="'+a+'"></scr'+"ipt>")
+})();
+(function(){var a=juiceservice+"Scripts/initDefineAds.js";
+document.write("<scr"+'ipt src="'+a+'"></scr'+"ipt>")
+})();
+aps.logInfo=function(a){aps.logEvent(new Date(),a)
+};
+aps.logException=function(b,a){if(typeof a!="undefined"){if(typeof a.message!="undefined"){aps.logEvent(new Date(),b+a.message);
+return
+}}aps.logEvent(new Date(),b)
+};
+aps.logEvent=function(b,a){aps.juiceLog.push({d:b,m:a})
+};
+function defineTags(d){window.onJuiceEvent_StartDefineTags&&window.onJuiceEvent_StartDefineTags();
+aps.page=d;
+for(var c=0;
+c<d.ads.length;
+c++){var a=d.ads[c];
+var e;
+var b=false;
+if(a.oop){e=googletag.defineOutOfPageSlot("/"+d.networkCode+"/"+d.adUnit,a.code)
+}else{e=googletag.defineSlot("/"+d.networkCode+"/"+d.adUnit,[a.width,a.height],a.code)
+}aps.adSlots.push(e);
+e.addService(googletag.pubads());
+setDFPSlotTargeting(a,e,false)
+}setDfpSearchValues();
+setPageUrlForKvpTracking();
+googletag.pubads().enableSingleRequest();
+googletag.pubads().enableSyncRendering();
+googletag.pubads().collapseEmptyDivs();
+googletag.enableServices();
+window.onJuiceEvent_endDefineTags&&window.onJuiceEvent_endDefineTags()
+}function hearstSetAdPageType(e){if(aps.adSlots.length>0){for(var c=0;
+c<aps.adSlots.length;
+c++){var b=false;
+var a=page.ads[c];
+var f=aps.adSlots[c];
+for(var d=0;
+d<a.kvps.length;
+d++){if(a.kvps[d].key=="page_type"){b=true;
+a.kvps[d].value=e;
+break
+}}if(!b){a.kvps.push({key:"page_type",value:e})
+}setDFPSlotTargeting(a,f,true)
+}}}function setDFPSlotTargeting(a,e,b){if(b){e.clearTargeting()
+}for(var c=0;
+c<a.kvps.length;
+c++){var d=a.kvps[c];
+e.setTargeting(d.key,d.value)
+}}function hearstPlaceAd(a){aps.logInfo("hearstPlaceAd "+a);
+try{googletag.display(a)
+}catch(b){aps.logException("hearstPlaceAd exception for "+a,b)
+}}function hearstRefreshAds(){aps.logInfo("hearstRefreshAds");
+googletag.pubads().refresh();
+return true
+}function hearstRefreshInterstitialAds(a){aps.logInfo("hearstRefreshInterstitialAds")
+}function setDfpSearchValues(){if(typeof(aps)!="undefined"&&aps!=null){aps.key=aps.key||"";
+aps.values=aps.values||"";
+try{googletag.pubads().setTargeting(aps.key,aps.values)
+}catch(a){}}}function setPageUrlForKvpTracking(){try{googletag.pubads().setTargeting("PageUrl",getAutoKVPPageURL(JuicePageUrl))
+}catch(a){}}function setPageType(){try{googletag.pubads().setTargeting("page_type",omni_className||omni_blogusage)
+}catch(a){}}var definedTags={"networkCode":"7351","adUnit":"sfgate.com/Business","ads":[{"width":300,"height":250,"code":"A300","kvps":[{"key":"position","value":"ATF"},{"key":"page_type","value":"landing_page"}],"rm":true,"interstitial":false,"oop":false},{"width":728,"height":90,"code":"A728","kvps":[{"key":"position","value":"ATF"},{"key":"page_type","value":"landing_page"}],"rm":true,"interstitial":false,"oop":false},{"width":300,"height":250,"code":"B300","kvps":[{"key":"position","value":"BTF"},{"key":"page_type","value":"landing_page"}],"rm":true,"interstitial":false,"oop":false},{"width":950,"height":30,"code":"A951","kvps":[{"key":"position","value":"ATF"},{"key":"page_type","value":"landing_page"}],"rm":true,"interstitial":false,"oop":false},{"width":234,"height":60,"code":"A234","kvps":[{"key":"position","value":"ATF"},{"key":"page_type","value":"landing_page"}],"rm":true,"interstitial":false,"oop":false},{"width":1,"height":1,"code":"RM","kvps":[{"key":"position","value":"ATF"},{"key":"page_type","value":"landing_page"}],"rm":true,"interstitial":false,"oop":false},{"width":300,"height":250,"code":"S300","kvps":[{"key":"position","value":"STF"},{"key":"page_type","value":"landing_page"}],"rm":true,"interstitial":false,"oop":false},{"width":728,"height":90,"code":"B728","kvps":[{"key":"position","value":"BTF"},{"key":"page_type","value":"landing_page"}],"rm":true,"interstitial":false,"oop":false}]};var aps=aps||{};aps.juiceMatchedUrl="www.sfgate.com/business";

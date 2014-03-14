@@ -1,0 +1,45 @@
+.sfg_biz002 {
+    background-color: #EEEEEE;
+    border: 1px solid #666666;
+    font-family: verdana,arial,sans-serif;
+    margin: 10px 0;
+    padding: 10px 10px 15px;
+}
+.sfg_biz002 img {
+    border: 0 none;
+}
+.sfg_biz002 h2 {
+    font-size: 13px;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+.sfg_biz002 .raquo {
+    color: #015660;
+    font-weight: bold;
+}
+.sfg_biz002 h3 {
+    padding-bottom: 5px;
+}
+.sfg_biz002 h4 {
+    font-size: 0.86em;
+    padding-bottom: 5px;
+}
+.latestbyticker td.data a{
+	font-weight: normal !important;
+	background: url("/img/utils/bullet.gif") no-repeat scroll 0 6px transparent;
+	overflow: hidden;
+	padding-left: 11px;
+	display:block;
+	height: 13px;
+}
+.marketupdates td.data a {
+	font-weight: normal !important;
+}
+.fc .subhead {
+	font-style: normal !important;
+}
+.hr {
+	background:transparent url('/img/utils/dotrule.gif') repeat-x top left;
+	height:10px;
+}
+hr {display:none;}

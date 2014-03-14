@@ -1,0 +1,56 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script type="text/javascript">
+var anas = [3468,3628,4298,4748,4938,5008,5228,5658,1907,1927,1997,2067,2106,2186,2408,2418,2508,3288,1585,3228,4118,3198,3368,6368,3908,1575,2166,1345,1495,1635,1765,2146,2328,2458,2488,2498,2748,2778,3158,4258,4488,2828,3278,3698,3958,3968,4088,4228,4498,4548,4618,4718,5048,6318];
+var curCall = 0;
+var stop = 0;
+function loadNextPixel() {
+  if(curCall < anas.length && stop == 0) {
+    loadPixel(anas[curCall], curCall + 1);
+    curCall++;
+  }
+};
+function loadPixel(anaId, n) {
+  var elem = document.createElement('img');
+  if (elem.addEventListener) {
+    elem.addEventListener('load',loadNextPixel,false);
+    elem.addEventListener('error',loadNextPixel,false);
+  } else if (elem.attachEvent) {
+    elem.attachEvent('onload',loadNextPixel);
+    elem.attachEvent('onerror',loadNextPixel);
+  }
+  elem.border = '0';
+  elem.hspace = '0';
+  elem.vspace = '0';
+  elem.width = '1';
+  elem.height= '1';
+  elem.src = 'http://rc.rlcdn.com/127121.gif?n=' + n + '&ana=' + anaId + '&' + 'null';
+  document.body.appendChild(elem);
+};
+function extraCalls() {
+  loadNextPixel();
+  loadNextPixel();
+  loadNextPixel();
+  loadNextPixel();
+  loadNextPixel();
+}
+function stopCalls() {
+  stop = 1;
+}
+function extraCallsWithTimeout() {
+  window.setTimeout('extraCalls()',500);
+}
+if (window.addEventListener) {
+  window.addEventListener('load',extraCallsWithTimeout,false);
+} else if (window.attachEvent) {
+  window.attachEvent('onload',extraCallsWithTimeout);
+}
+</script></head>
+<body><img src="365748_data/pixel.gif" border="0" vspace="0" width="1" height="1" hspace="0">
+
+<img src="127121_data/liveramp.gif" border="0" vspace="0" width="1" height="1" hspace="0">
+
+<img src="127121_data/p16.gif" border="0" vspace="0" width="1" height="1" hspace="0">
+
+<img src="127121_data/lr.gif" border="0" vspace="0" width="1" height="1" hspace="0">
+
+<img src="127121_data/datapair.gif" border="0" vspace="0" width="1" height="1" hspace="0"><img src="http://rc.rlcdn.com/127121.gif?n=1&amp;ana=3468&amp;null" border="0" vspace="0" width="1" height="1" hspace="0"><img src="http://rc.rlcdn.com/127121.gif?n=2&amp;ana=3628&amp;null" border="0" vspace="0" width="1" height="1" hspace="0"><img src="http://rc.rlcdn.com/127121.gif?n=3&amp;ana=4298&amp;null" border="0" vspace="0" width="1" height="1" hspace="0"><img src="http://rc.rlcdn.com/127121.gif?n=4&amp;ana=4748&amp;null" border="0" vspace="0" width="1" height="1" hspace="0"><img src="http://rc.rlcdn.com/127121.gif?n=5&amp;ana=4938&amp;null" border="0" vspace="0" width="1" height="1" hspace="0"><img src="http://rc.rlcdn.com/127121.gif?n=6&amp;ana=5008&amp;null" border="0" vspace="0" width="1" height="1" hspace="0"><img src="http://rc.rlcdn.com/127121.gif?n=7&amp;ana=5228&amp;null" border="0" vspace="0" width="1" height="1" hspace="0"><img src="http://rc.rlcdn.com/127121.gif?n=8&amp;ana=5658&amp;null" border="0" vspace="0" width="1" height="1" hspace="0"></body></html>

@@ -1,0 +1,944 @@
+@CHARSET "UTF-8";
+
+/*
+***only admin need this css, can remove at www****
+modules/system/system.theme.css define
+table {
+  border-collapse: collapse;
+}
+term detail page have a line, so hook
+*/
+table {
+  border-collapse: separate;
+}
+
+
+/* 2013.6.20 Melvon  frome interface_ver_1_180.css */
+.member{ width:550px !important;}
+.filter-form { display:inline-block; position:relative; width:230px; margin:0 0 0 2px; padding:0; vertical-align:top;}
+
+.filter-form .form-text{ font-size:13px; width:212px; height:16px; border:1px solid #aaa; margin:6px 0; padding:6px 8px; vertical-align: middle; background:url("../img/bkg_input.png") top left repeat-x; box-shadow:0 0 2px rgba(0,0,0,0.3) inset; border-radius:2px;}
+
+.filter-form .form-text:hover{ border-color: #888; }
+
+.filter-form .form-submit	{ border:0; display:block; right:2px; top:8px; position: absolute; height: 26px; width:82px; background:url("../img/quote_button.png") no-repeat; text-indent:-9999px;}
+.filter-form label			{ display:none !important;}
+
+
+
+
+
+
+
+/* Melvon 2013.7.10 Login Form */
+.page-accounts						{ background:#efefef;}
+.login-form .form-item-email, 
+.login-form .form-item-password, 
+.login-form .form-item-remember		{ width:300px; margin:0 auto;}
+
+.login-form .form-item-email label, 
+.login-form .form-item-password label{ display:block; padding-bottom:4px; }
+
+.login-form .form-text				{ border-radius: 2px; font-size: 14px; padding: 4px 6px; border: solid 1px #5aa0d7; box-shadow: inset 0 0 2px #aaa; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; margin-bottom: 10px; width:300px;}
+.login-form .form-text:focus{ border-radius: 0 0 0 0; outline: 1px solid #5AA0D7;}
+
+.login-form .warning, .login-form .error { border: solid 1px #AD0303 !important; background: #fff url('../img/btn_ui_alert.png') center right no-repeat; display: inline-block; zoom: 1; clear: both;}
+
+.login-form .form-submit			{ width:0px; height:0px; overflow:hidden; -ms-filter:"progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";  filter:alpha(opacity=0); -moz-opacity:0; opacity:0;}
+
+.form-item > .tooltip > .content { right: 5px; width: 140px; line-height: 15px; }
+
+
+
+
+
+
+
+/* Melvon 2013.7.18 --- Update:2013.8.8 */
+
+
+.page-accounts-signupmember,
+.page-accounts-signupfxtradermember,
+.page-accounts-signupsimulatormember,
+.page-accounts-signupquizzermember,
+.page-accounts-onestep-member,
+.page-accounts-newsletter-member		{ background:url('http://i.investopedia.com/assets_v2/img/bkg_signup.png') repeat-y scroll center top transparent;}
+
+.page-accounts-signupmember .box,
+.page-accounts-signupfxtradermember .box,
+.page-accounts-signupsimulatormember .box,
+.page-accounts-signupquizzermember .box,
+.page-accounts-onestep-member .box
+.page-accounts-newsletter-member .box{ margin-bottom:0;}
+
+/* .page-accounts-signupmember .registration-form,
+.page-accounts-signupfxtradermember .registration-form,
+.page-accounts-signupsimulatormember .registration-form,
+.page-accounts-signupquizzermember .registration-form,
+.page-accounts-onestep-member .registration-form,
+.page-accounts-newsletter-member*/ .registration-form { margin-top:20px;}
+
+.registration-form .form-type-textfield label,
+/* .page-accounts-signupmember .registration-form .form-type-textfield label,
+.page-accounts-signupmember .registration-form .form-type-password  label,
+.page-accounts-signupfxtradermember .registration-form .form-type-textfield label,
+.page-accounts-signupfxtradermember .registration-form .form-type-password  label,
+.page-accounts-signupsimulatormember .registration-form .form-type-textfield label,
+.page-accounts-signupsimulatormember .registration-form .form-type-password  label,
+.page-accounts-signupquizzermember .registration-form .form-type-textfield label,
+.page-accounts-signupquizzermember .registration-form .form-type-password  label, 
+.page-accounts-newsletter-member .registration-form .form-type-textfield label,
+.page-accounts-onestep-member .registration-form .form-type-textfield label,
+.page-accounts-newsletter-member .registration-form .form-type-password  label
+.page-accounts-onestep-member*/ .registration-form .form-type-password  label	{ display:block; margin-bottom:4px;}
+
+ .registration-form .form-type-radios > label,
+/* .page-accounts-signupmember .registration-form .form-type-radios > label,
+.page-accounts-signupmember .registration-form .form-type-radios .form-type-radio,
+.page-accounts-signupfxtradermember .registration-form .form-type-radios > label,
+.page-accounts-signupfxtradermember .registration-form .form-type-radios .form-type-radio,
+.page-accounts-signupsimulatormember .registration-form .form-type-radios > label,
+.page-accounts-signupsimulatormember .registration-form .form-type-radios .form-type-radio,
+.page-accounts-signupquizzermember .registration-form .form-type-radios > label,
+.page-accounts-signupquizzermember .registration-form .form-type-radios .form-type-radio,
+.page-accounts-newsletter-member .registration-form .form-type-radios > label,
+.page-accounts-onestep-member*/ .registration-form .form-type-radios > label, 
+/* .page-accounts-newsletter-member  .registration-form .form-type-radios .form-type-radio*/
+/* .page-accounts-onestep-member */ .registration-form .form-type-radios .form-type-radio{ display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline;}
+.newsletter-form .form-radios .form-type-radio{ display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline;}
+
+/* .page-accounts-signupmember .registration-form .form-type-radios > label,
+.page-accounts-signupfxtradermember .registration-form .form-type-radios > label,
+.page-accounts-signupsimulatormember .registration-form .form-type-radios > label,
+.page-accounts-signupquizzermember .registration-form .form-type-radios > label,
+.page-accounts-newsletter-member .registration-form .form-type-radios > label,
+.page-accounts-onestep-member */ .registration-form .form-type-radios > label 			 { margin:20px 0 10px 0;}
+
+/* .registration-form .form-type-radios .form-type-radio,
+.page-accounts-signupmember .registration-form .form-type-radios .form-type-radio,
+.page-accounts-signupfxtradermember .registration-form .form-type-radios .form-type-radio,
+.page-accounts-signupsimulatormember .registration-form .form-type-radios .form-type-radio,
+.page-accounts-signupquizzermember .registration-form .form-type-radios .form-type-radio,
+.page-accounts-newsletter-member .registration-form .form-type-radios .form-type-radio,
+.page-accounts-onestep-member  */.registration-form .form-type-radios .form-type-radio { margin-right:10px;}
+
+/*  .registration-form .form-radios,
+.page-accounts-signupmember .registration-form .form-radios,
+.page-accounts-signupfxtradermember .registration-form .form-radios,
+.page-accounts-signupsimulatormember .registration-form .form-radios,
+.page-accounts-signupquizzermember .registration-form .form-radios,
+.page-accounts-newsletter-member .registration-form .form-radios,
+.page-accounts-onestep-member  */.registration-form .form-radios						 { margin-bottom:20px;}
+
+/* .registration-form .form-text,
+.page-accounts-signupmember .registration-form .form-text,
+.page-accounts-signupfxtradermember .registration-form .form-text,
+.page-accounts-signupsimulatormember .registration-form .form-text,
+.page-accounts-signupquizzermember .registration-form .form-text,
+.page-accounts-newsletter-member .registration-form .form-text,
+.page-accounts-onestep-member */ .registration-form .form-text { margin-bottom: 10px; width: 520px; border-radius: 2px; font-size: 14px; padding: 4px 6px; border: solid 1px #5aa0d7; box-shadow: inset 0 0 2px #aaa; box-sizing: border-box; }
+
+/* .registration-form .form-text:focus,
+.page-accounts-signupmember .registration-form .form-text:focus,
+.page-accounts-signupfxtradermember .registration-form .form-text:focus,
+.page-accounts-signupsimulatormember .registration-form .form-text:focus,
+.page-accounts-signupquizzermember .registration-form .form-text:focus,
+.page-accounts-newsletter-member .registration-form .form-text:focus,
+.page-accounts-onestep-member  */.registration-form .form-text:focus {border-radius: 0; outline: solid 1px #5aa0d7; }
+
+/* .page-accounts-signupmember .registration-form .form-submit,
+.page-accounts-signupfxtradermember .registration-form .form-submit,
+.page-accounts-signupsimulatormember .registration-form .form-submit,
+.page-accounts-signupquizzermember .registration-form .form-submit,
+.page-accounts-newsletter-member .registration-form .form-submit,
+.page-accounts-onestep-member */ .registration-form .form-submit,
+#account-api-forgot-email-form .form-submit,
+#account-api-forgot-password-form .form-submit{ width:0px; height:0px; overflow:hidden; -ms-filter:"progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";  filter:alpha(opacity=0); -moz-opacity:0; opacity:0;}
+
+
+/* Warning Tip */
+.registration-form .form-type-textfield .warning, 
+.registration-form .form-type-password  .warning,
+/* Error Tip */
+.registration-form .form-type-textfield .error, 
+.registration-form .form-type-password .error, 
+.registration-form .form-type-text .error{ border: solid 1px #AD0303 !important; background: #fff url('../img/btn_ui_alert.png') center right no-repeat; display: inline-block; zoom: 1; clear: both;}
+/*start andy [20140207 bug342604] style for radio buttons*/
+.registration-form .form-type-radios .tooltip {display:block !important;}
+.registration-form .form-type-radios .tooltip .content{right:166px;bottom:26px;}
+.registration-form .form-type-radios .form-radios.warning label{color:#F00 !important;}
+.registration-form #edit-financial-advisor.warning{padding:2px 0px;width:520px;border:1px solid #AD0303;background: #fff url('../img/btn_ui_alert.png') center right no-repeat;}
+/*end andy [20140207 bug342604] style for radio buttons*/
+/* 2013.7.23 */
+.page-accounts-member-precoreg .contact-information-form > div,
+#account-api-contact-information-form > div,
+#account-api-forgot-email-form > div,
+#account-api-forgot-password-form > div	{ margin:0 auto; width:542px; padding:20px 0 0;}
+
+.contact-information-form .form-item,
+#account-api-forgot-email-form .form-item,
+#account-api-forgot-password-form .form-item{ padding:4px 0;}
+
+.contact-information-form .form-item label{ width:125px; margin-right:6px; text-align:right; display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline; }
+#account-api-forgot-email-form .form-item label,
+#account-api-forgot-password-form .form-item label{ display:block; width:300px; margin:0 auto 10px;}
+
+.contact-information-form .form-item .form-text{  width:340px; border-radius: 2px; font-size: 14px; padding: 4px 6px; border: solid 1px #5aa0d7; box-shadow: inset 0 0 2px #aaa; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; margin-bottom: 10px;}
+
+#account-api-forgot-email-form .form-item .form-text,
+#account-api-forgot-password-form .form-item .form-text{display:block;  margin:0 auto 10px; width:300px; border-radius: 2px; font-size: 14px; padding: 4px 6px; border: solid 1px #5aa0d7; box-shadow: inset 0 0 2px #aaa; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box;}
+
+.contact-information-form .form-item .form-select{ width:340px; border: solid 1px #5aa0d7; border-radius: 3px; box-shadow: inset 0 0 1px #aaa; padding: 3px; margin-bottom: 10px;
+font-size: 14px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box;}
+
+.contact-information-form .form-item .form-text.warning,
+.contact-information-form .form-item .form-text:focus,
+.contact-information-form .form-item .form-select.warning,
+.contact-information-form .form-item .form-select.error,
+.contact-information-form .form-item .form-select:focus{ border-radius: 0; outline: solid 1px #5aa0d7;}
+#account-api-contact-information-form .form-submit  { width:0px; height:0px; overflow:hidden; -ms-filter:"progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";  filter:alpha(opacity=0); -moz-opacity:0; opacity:0;}
+
+/*ajax-progress ajax-progress-throbber*/
+
+table.table-newsletterlist thead{
+	display: none;
+}
+
+table.table-newsletterlist .element-invisible {
+    display: none;
+}
+
+
+#account-api-profile-form .form-wrapper{ border:0; margin-bottom:20px;}
+#account-api-profile-form .form-wrapper legend{ display:block; width:100%; padding-bottom:4px; border-bottom:1px solid #bbb; font-size: 16px; font-family: 'SlingLight', Georgia, "Times New Roman", Times, serif;}
+#account-api-profile-form .form-wrapper input.form-text{ width:340px; margin-bottom: 10px;  padding: 4px 6px;  border-radius: 2px; font-size: 14px;border: solid 1px #5aa0d7; box-shadow: inset 0 0 2px #aaa; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; background-color: white; -webkit-user-select: text; cursor: auto; text-indent: 0px; text-shadow: none; display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline;}
+#account-api-profile-form .form-wrapper input.form-text:focus{ border-radius: 0; outline: solid 1px #5aa0d7;}
+#account-api-profile-form .form-wrapper select	{ width:340px; height:26px; margin:4px 0;}
+#account-api-profile-form .form-wrapper .warning{ border: solid 1px #AD0303 !important; background: #fff url('http://i.investopedia.com/assets_v2/img/btn_ui_alert.png') center right no-repeat; display: inline-block; zoom: 1;clear: both;}
+#account-api-profile-form .form-wrapper textarea { width:340px; margin-bottom: 10px;  padding: 4px 6px;  border-radius: 2px; font-size: 14px;border: solid 1px #5aa0d7; box-shadow: inset 0 0 2px #aaa; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; background-color: white; -webkit-user-select: text; cursor: auto; text-indent: 0px; text-shadow: none; display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline;}
+
+#account-api-profile-form .form-wrapper .form-checkboxes{ padding-left:340px;}
+#account-api-profile-form .form-wrapper .form-checkboxes label{ text-align:left; width: auto !important;}
+#account-api-profile-form .form-wrapper .form-checkboxes input		{ vertical-align:middle;}
+
+#account-api-profile-form .form-wrapper .form-item-investment-types > label	{ float:left; padding-top:64px;}
+
+#account-api-profile-form .fieldset-wrapper label{ width:340px; text-align:right; display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline; }
+#account-api-profile-form .fieldset-wrapper .form-type-radios			{ padding:10px 0 10px 340px;}
+#account-api-profile-form .fieldset-wrapper .form-type-radios > label	{ text-align:left; margin-bottom:10px;}
+#account-api-profile-form .fieldset-wrapper .form-type-radio 			{ display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline;}
+
+#account-api-profile-form .fieldset-wrapper .form-type-textarea > label { vertical-align: top; }
+#account-api-profile-form .fieldset-wrapper .form-textarea-wrapper { display: inline-block;}
+#account-api-profile-form .fieldset-wrapper .form-type-radio label		{ width:auto !important; text-align:left;}
+
+#account-api-profile-form .table-newsletterlist							{ width:600px !important; margin:0 auto;}
+#account-api-profile-form .table-newsletterlist .form-type-checkbox > label,
+#account-api-profile-form .table-newsletterlist .form-type-checkbox > input	{  display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline;}
+#account-api-profile-form .table-newsletterlist .form-type-checkbox > label	{ display:none;}
+#account-api-profile-form .table-newsletterlist .form-type-checkbox > input { width:auto !important;}
+
+#account-api-profile-form .table-newsletterlist .title label					{ text-align:left; width:auto !important;}
+
+#account-api-profile-form .form-item-include-partners				{ width:600px; margin:20px auto; padding:20px 0; border-width:1px 0px 1px 0px; border-color:#bbb; border-style:solid;}
+#account-api-profile-form .form-item-include-partners label			{ width:90%; text-align:left;}
+#account-api-profile-form .form-item-include-partners input			{ vertical-align:middle;}
+#account-api-profile-form .form-submit	{ width:0px; height:0px; overflow:hidden; -ms-filter:"progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";  filter:alpha(opacity=0); -moz-opacity:0; opacity:0;}
+
+/* 2013.8.12 */
+#page-accounts-member-news { background:url('http://i.investopedia.com/assets_v2/img/bkg_generic.png') repeat;}
+
+.newsletter-form fieldset	{ border:none;}
+.newsletter-form .form-item-email label{ display:block; text-align:left; margin-bottom:10px;}
+.newsletter-form .form-item-email .form-text{ margin-bottom:10px; padding:4px 6px; width:100%; border:solid 1px #5aa0d7; box-shadow:inset 0 0 2px #aaa; font-size:14px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; -o-box-sizing:border-box;}
+.newsletter-form .form-item-email .form-text:focus{ border-radius: 0; outline: solid 1px #5aa0d7;}
+.newsletter-form .form-item-email .form-text.warning{ border: solid 1px #AD0303 !important; background: #fff url('../img/btn_ui_alert.png') center right no-repeat; display: inline-block;
+zoom: 1; clear: both; outline: none !important; border-radius: 2px !important;}
+.newsletter-form .form-item-email .tooltip.msg-validate{ width: 100%;}
+
+.newsletter-form .form-item-select-all	{ border-bottom:1px solid #ccc; padding:0 0 14px 0; margin:0 0 10px 3px !important; text-align:left;}
+.newsletter-form .form-item-select-all label{ margin-left:2px;}
+
+.newsletter-form table.table-newsletterlist{ margin:0 !important; padding:0 !important;}
+.newsletter-form table.table-newsletterlist td:first-child{ width:14px !important; margin-left:0 !important; padding-left:0 !important;}
+.newsletter-form table.table-newsletterlist td input[type="checkbox"] { margin-left: 3px !important;}
+.newsletter-form table.table-newsletterlist td	{ text-align:left; padding-left:0 !important;}
+.newsletter-form table.table-newsletterlist td.title{ padding-left:8px !important;}
+.newsletter-form table.table-newsletterlist td.distribution{ text-align:center;}
+.newsletter-form table.table-newsletterlist td.details{ text-align:right !important;}
+
+.newsletter-form .col { display: block; width: 48%; float: left; position: relative;}
+.newsletter-form .col:first-child {padding-right: 2%;}
+.newsletter-form .col:last-child {padding-left: 2%;}
+.newsletter-form .col .form-type-checkbox{ position: absolute; top: 115px; left: 52px; color: #fff;}
+.newsletter-form .col .form-type-checkbox input{ vertical-align: 0px;}
+.newsletter-form fieldset.form-wrapper {}
+
+.newsletter-form .form-item-include-partners		{ border-top:1px solid #ccc; border-bottom:1px solid #ccc; padding:14px 0; margin:4px 0 4px 3px; text-align:left;}
+.newsletter-form .form-item-include-partners label{ text-align:left; margin-left:2px;}
+.newsletter-form .form-submit	{ width:0px; height:0px; overflow:hidden; -ms-filter:"progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";  filter:alpha(opacity=0); -moz-opacity:0; opacity:0;}
+.newsletter-form .form-item.form-type-radio.warning,
+.newsletter-form .form-item .form-text.warning,
+.newsletter-form .form-item .form-text:focus,
+.newsletter-form .form-item .form-text.error,
+.newsletter-form .form-item .form-select.warning,
+.newsletter-form .form-item .form-select.error,
+.newsletter-form .form-item .form-select:focus{ border-radius: 0; outline: solid 1px #5aa0d7;}
+/*start andy [20140207 bug342604] style for radio buttons*/
+.newsletter-form .form-radios.warning {outline:none !important;}
+.newsletter-form .form-radios.warning label{color:#AD0303 !important;}
+.newsletter-form .form-item-financial-advisor{text-align:left;}
+.newsletter-form #edit-financial-advisor.warning{padding:2px;padding-right:32px;border:1px solid #AD0303;background: #fff url('../img/btn_ui_alert.png') center right no-repeat;}
+.newsletter-form .form-radios {display:inline-block;}
+.newsletter-form .form-item-financial-advisor .tooltip .content{bottom:27px;}
+/*end andy [20140207 bug342604] style for radio buttons*/
+/* 2013.8.26 */
+.reset-password-form .form-item { width: 300px; margin: 0 auto;}
+.reset-password-form .form-item label{ display: block; margin-bottom: 4px;}
+.reset-password-form .form-item label span{ display: none; }
+.reset-password-form .form-item .form-text{  
+	margin: 4px 0;
+	padding: 6px 8px;
+	background-image: url(../img/bkg_input.png);
+	background-position: top left;
+	background-repeat: repeat-x;
+	vertical-align: middle;
+	box-shadow: 0 0 2px rgba(0,0,0,0.3) inset;
+	font-size: 14px;
+	border: solid 1px #5aa0d7;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	width: 300px;
+	border-radius: 2px;
+}
+.reset-password-form .form-item .form-text:focus{ border-radius: 0; outline: solid 1px #5aa0d7;}
+.reset-password-form .form-item .form-text:hover{ border-color: #888888;}
+.reset-password-form .form-item .form-text.warning { border: solid 1px #AD0303 !important; background: #fff url('../img/btn_ui_alert.png') center right no-repeat; display: inline-block;
+zoom: 1; clear: both; }
+.reset-password-form .form-submit{ width: 0; height: 0; overflow: hidden; -ms-filter:"progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";  filter:alpha(opacity=0); -moz-opacity:0; opacity:0;  }
+
+
+/* 2013.8.29 */
+.forgot-password-form { width: 500px; margin: 0 auto;}
+.forgot-password-form .msg-validate { display: block; width: 300px; margin: 0 auto;}
+.forgot-password-form .msg-validate .form-text:focus{ border-radius: 0; outline: solid 1px #5aa0d7; }
+.forgot-password-form .msg-validate .form-text.warning{ border: solid 1px #AD0303 !important; background: #fff url('../img/btn_ui_alert.png') center right no-repeat; display: inline-block;
+zoom: 1; clear: both;}
+
+
+/* 2013.8.30*/
+.registration-form .selectmenu { display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline; }
+.messages {
+	padding-top:12px;
+}
+
+.messages.status {
+	
+}
+
+
+/* 2013.9.2 */
+.page-accounts-newsletter-member .box.first {
+padding-top: 25px;
+}
+
+
+
+/* 2013.9.9 */
+.page-accounts-newsletter-member .form-type-password label,
+.page-accounts-onestep-member .form-type-password label{ display: block;}
+
+
+
+/* ======================================== 2013.9.26 Tinypage-Contact ======================================== */
+.page-corp { background: url("../img/bkg_signup.png") repeat-y scroll center top transparent; }
+.page-corp .layout-page-content { margin-right: 420px !important;}
+
+.page-corp-emailcampaign-aspx,
+.page-corp-copyright-aspx,
+.page-corp-flipboard-aspx,
+.page-corp-privacypolicy-aspx,
+.page-corp-termsofuse-aspx,
+.page-corp-whitelist-aspx,
+.page-corp-shareemailsuccess-aspx  										  { background:#fff !important;}
+
+.page-corp-shareemailsuccess-aspx-table  { margin:40px;}
+#elements_wrapper > p {     padding-left: 105px; width: 360px;}
+.form-hidden 													  { display: none !important;}
+
+.contact-us-form  												  { }
+.contact-us-form > div > .form-item 							  { padding: 6px 0;}
+.contact-us-form .form-item-selected-value 						  { border-bottom: 1px solid #ccc; padding-bottom: 1em;} /* 第一个select带底部线条 */
+.contact-us-form .form-actions 									  { padding: 4px 0; text-align: center;}
+.contact-us-form .form-actions .form-submit 					  { width: 152px; height: 47px; border: 0; text-indent: -9999px; background: url('http://i.investopedia.com/assets_v2/img/btn_submit.png') no-repeat;cursor: pointer;} /* 提交按钮 */
+
+
+.tinypage-contact-license-form,
+.tinypage-contact-writer-form,
+.tinypage-contact-suggestion-form,
+.tinypage-contact-question-form,
+.tinypage-contact-opportunities-form,
+.tinypage-contact-simulator-form,
+.tinypage-contact-requests-form,
+.tinypage-contact-inquiries-form 								   { }
+
+.contact-us-form .form-type-textfield 	> label,
+.contact-us-form .form-type-checkboxes 	> label,
+.contact-us-form .form-type-radios 		> label,
+.contact-us-form .form-type-select 		> label,
+.contact-us-form .form-type-textarea 	> label,
+.contact-us-form .form-type-textfield 	> .form-text,
+.contact-us-form .form-type-checkboxes 	> .form-checkboxes,
+.contact-us-form .form-type-radios 		> .form-radios,
+.contact-us-form .form-type-select 		> .form-select,
+.contact-us-form .form-type-textarea 	> .form-textarea-wrapper   { display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline; }
+
+.contact-us-form .form-type-textfield 	> label,
+.contact-us-form .form-type-checkboxes 	> label,
+.contact-us-form .form-type-radios 		> label,
+.contact-us-form .form-type-select 		> label,
+.contact-us-form .form-type-textarea 	> label 					{ width:110px; font-weight:normal;}
+
+.contact-us-form .form-type-textfield 	> .form-text,
+.contact-us-form .form-type-textfield  .form-text.warning,
+.contact-us-form .form-type-checkboxes 	> .form-checkboxes,
+.contact-us-form .form-type-radios 		> .form-radios,
+.contact-us-form .form-type-select 		> .form-select,
+.contact-us-form .form-type-select     .form-select.warning 		{ width:360px;}
+
+/*.contact-us-form .form-type-textfield 	> .form-text#edit-captcha-response { width:298px;}*/
+
+
+.contact-us-form .form-type-textfield 	> .form-text,
+.contact-us-form .form-type-textfield  .form-text.warning 	{ padding:4px 6px; font-size:14px; border-radius:2px; border:solid 1px #5aa0d7; box-shadow:inset 0 0 2px #aaa; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.contact-us-form .form-type-textfield  .form-text.warning   { background: url("../img/btn_ui_alert.png") no-repeat scroll right center #FFFFFF; border: 1px solid #AD0303 !important; clear: both; }
+.contact-us-form .form-type-textfield   > .form-text:focus  { border-radius:0; outline:solid 1px #5aa0d7;}
+
+
+.contact-us-form .form-type-textarea 	> .form-textarea-wrapper > .form-textarea,
+.contact-us-form .form-type-textarea  > .form-textarea-wrapper .form-textarea.warning {  width: 360px !important; padding: 6px 8px; height:140px; border-width:1px; border-style:solid; border-color: #888888; vertical-align:middle; box-shadow:0 0 2px rgba(0,0,0,0.3) inset; }
+
+ul.alphabet li a.tooltip {
+	padding:10px 6px;
+}
+form div.warning {
+    background-image: none;
+    border: 0;
+}
+
+.contact-us-form .form-item, .contact-us-form .form-actions {
+    margin-bottom: 0.8em;
+    margin-top: 0.8em;
+}
+
+.contact-us-form .form-item.form-type-checkbox,.contact-us-form .form-item.form-type-radio {margin:0}
+
+.contact-us-form .ajax-progress {
+	display:none;
+}
+
+
+
+
+/* 2013.10.24 giveaway.html - Melvon */
+@font-face {
+    font-family: 'DistrictThin';
+    src: url('../fonts/DistrictThin-webfont.eot');
+    src: url('../fonts/DistrictThin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DistrictThin-webfont.woff') format('woff'),
+         url('../fonts/DistrictThin-webfont.ttf') format('truetype'),
+         url('../fonts/DistrictThin-webfont.svg#DistrictThin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.clearfix:after { content:""; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix       { display:inline-block; }
+.clearfix       { display:block;}
+
+.page-corp-nexus-tablet-giveaway 					{ background: #fff;}
+
+.sweepstakes 										{ padding: 50px 0;}
+.sweepstakes-inner 									{ margin-bottom: 20px;}
+
+.sweepstakes h2,
+.sweepstakes h3,
+.sweepstakes h4 									{ display: block; width: 564px; font-family: 'DistrictThin'; color: #362f2d; }
+.sweepstakes h2 									{ margin-bottom: 38px; font-size: 58px; line-height: 62px;}
+.sweepstakes h3 									{ margin-bottom: 18px; font-size: 33px; line-height: 31px; }
+.sweepstakes h4 									{ margin-bottom: 18px; font-size: 19px; line-height: 22px; }
+
+.sweepstakes .giveaway-layout 						{ float: left; }
+.sweepstakes .giveaway-layout.w-left 				{ width: 630px;}
+.sweepstakes .giveaway-layout.w-right 				{ float: right;}
+
+.sweepstakes .sweepstakes_social 					{ position: relative; margin: 40px 0 0; text-indent: 100px;}
+.sweepstakes .sweepstakes_social a					{ margin: 0 4px; width:139px; height:32px; line-height: 30px;  font-weight: bold; text-align:right; text-transform:uppercase; background: url(../img/sweepstakes/sweepstakes_social.png) no-repeat; display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline;}
+.sweepstakes .sweepstakes_social .facebook 			{ color: #4464a9; background-position: 0 0;}
+.sweepstakes .sweepstakes_social .tweet 			{ color: #5696b6; background-position: 0 -33px;}
+.sweepstakes .sweepstakes_social .pin 				{ color: #ab131b; background-position: 0 -66px;}
+.sweepstakes .sweepstakes_social .email 			{ color: #212327; background-position: 0 -99px;}
+.sweepstakes .sweepstakes_social a span 			{ margin-right: 2px; width:32px; height: 32px; line-height: 30px; text-align: center; text-indent: 0; display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline;}
+.sweepstakes .sweepstakes_ornament 					{ position: absolute; left: 708px; top: -40px; width: 211px; height: 98px; background:url(../img/sweepstakes/sweepstakes_ornament.png) no-repeat; }
+
+.sweepstakes .PadPreview 							{ position: relative; padding-top:74px; width: 323px; height: 505px; background:url(../img/sweepstakes/padbg.png) no-repeat;  }
+.sweepstakes .Padcontent 							{ width: 254px; height: 368px; margin: 0 auto;}
+
+.sweepstakes .Remark 								{ padding-top:50px; line-height: 18px; font-size: 14px; font-family: 'DistrictThin';}
+.sweepstakes .Remark.center 						{ text-align: center; }
+.sweepstakes .Remark a 								{ text-decoration: underline;}
+
+
+/* Thank You */
+.sweepstakes .confirm h2,
+.sweepstakes .confirm h3,
+.sweepstakes .confirm h4 							{ width: 100%; text-align: center;}
+
+.sweepstakes-List 									{ padding-top: 40px;}
+.sweepstakes-List .title 							{ text-indent: 10px; font-family: 'DistrictThin'; font-size: 17px; color: #4c4c4c; line-height: 30px; border-bottom:1px solid #d9d9d9; text-transform: uppercase;}
+.sweepstakes-List ul 								{ margin: 12px 0 0 0; padding: 0; list-style: none;}
+.sweepstakes-List ul li 							{ width: 226px; float: left; margin: 0 12px;}
+.sweepstakes-List .listimg 							{ width: 224px; height: 89px; border: 1px solid #e0e0e0;}
+.sweepstakes-List p 								{ margin: 0; padding:6px 0; font-size: 15px; line-height: 18px; color: #4c4c4c; font-family: 'DistrictThin';}
+
+.sweepstakes-List .list 							{ margin: 12px 0 0 0; padding: 0; list-style: none;}
+.sweepstakes-List .list li 							{ width: 175px; float: left; margin: 0 12px;}
+.sweepstakes-List .list li h3.item-title 			{ width: 174px; padding:6px 0;}
+.sweepstakes-List .list li h3.item-title a 			{ font-size: 15px; line-height: 18px; color: #4c4c4c; }
+
+.sweepstakes-List .list li .item-image 				{ display: block; padding: 0;}
+.sweepstakes-List .list li .item-image-src 			{ width: 174px !important; height: 89px !important; }
+.sweepstakes-List .list li .item-image-src img 		{ width: 174px;}
+.sweepstakes-List .list li .item-description 		{ display: none;}
+
+
+/* Form */
+.sweepstakes .giveaway-layout .formBox 				{ padding: 24px 20px 10px 24px; background: #fff; border: 4px solid #efefef;}
+.sweepstakes .giveaway-layout .formBox .tips 		{ margin-top: 0; font-size: 17px; font-family: 'DistrictThin'; color: #362f2d;}
+.sweepstakes .giveaway-layout .formBox fieldset 	{ border:0; padding: 0; margin: 0 0 10px 0;}
+
+.sweepstakes .giveaway-layout .formBox .form-type-checkbox{ width: 189px; height: 28px; float: left;}
+.sweepstakes .giveaway-layout .formBox .form-type-checkbox label{ font-family: 'DistrictThin'; font-size: 14px; color: #0170b7; }
+
+
+.sweepstakes .giveaway-layout .formBox .form-submit,
+.sweepstakes .giveaway-layout .formBox .form-item-email { display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline; }
+
+.sweepstakes .giveaway-layout .formBox .form-item-email 		{ margin-top: 10px;}
+.sweepstakes .giveaway-layout .formBox .form-item-email > label { display: none;}
+.sweepstakes .giveaway-layout .formBox .form-item-email .form-text{ width: 460px; padding-left: 4px; height: 28px; line-height: 28px; background: #fff; border: 1px solid #cbcbcb;}
+
+.sweepstakes .giveaway-layout .formBox .form-item-include-partners,
+.sweepstakes .giveaway-layout .formBox .form-item-include-nexus7-tablet-giveaway{ height: 22px; width: 100%; float: none;}
+
+.sweepstakes .giveaway-layout .formBox .form-item-include-partners label,
+.sweepstakes .giveaway-layout .formBox .form-item-include-nexus7-tablet-giveaway label{ color: #362f2d;}
+
+.sweepstakes .giveaway-layout .formBox .form-submit { vertical-align: -2px; *vertical-align: -14px; *margin-left: 4px; border: 0; width: 85px; height:31px; overflow: hidden; font-size: 0; background:url(../img/sweepstakes/formbox_submit.png) no-repeat;  }
+/*formbox_submit.png */
+
+
+/* =========================================================================================== */
+/*                                  2013.9.6 Calculator New Design: Form Group                 */
+/* =========================================================================================== */
+/* ----- Calculator ----- */
+.calculator-inner 										{ padding: 20px 0; border-radius: 5px; box-shadow: 1px 1px 3px #ddd; border: solid 1px #ccc; background: #fff; }
+
+
+/* ----- Calculator Form Global ----- */
+.form-horizontal input,
+.form-horizontal textarea,
+.form-horizontal select,
+.form-horizontal .help-inline,
+.form-horizontal .uneditable-input,
+.form-horizontal .input-prepend,
+.form-horizontal .input-append 							{ display: inline-block; *display: inline; margin-bottom: 0; vertical-align: -2px;  *zoom: 1;}
+
+.form-horizontal label 									{ display: block; margin-bottom: 5px;}
+.form-horizontal .radio, 
+.form-horizontal .checkbox 								{ min-height: 20px; padding-left: 20px; }
+
+.form-horizontal .control-group 						{ /* margin-bottom: 20px; */ *zoom: 1;}
+.form-horizontal .control-group:before,
+.form-horizontal .control-group:after 					{ display: table; line-height: 0; content: "";}
+.form-horizontal .control-group:after 					{clear: both;}
+.form-horizontal .control-label 						{ float: left; width: 240px; padding-top: 5px; text-align: right;}
+.form-horizontal .controls 								{ position: relative; line-height: 24px; *display: inline-block; *padding-left: 20px; margin-left: 260px; *margin-left: 0;}
+.form-horizontal .controls:first-child 					{ *padding-left: 180px;}
+.form-horizontal .help-block 							{ margin-bottom: 0;}
+
+.form-horizontal input + .help-block,
+.form-horizontal select + .help-block,
+.form-horizontal textarea + .help-block,
+.form-horizontal .uneditable-input + .help-block,
+.form-horizontal .input-prepend + .help-block,
+.form-horizontal .input-append + .help-block 			{ margin-top: 10px; }
+.form-horizontal .form-actions 							{ padding-left: 180px;}
+
+.form-horizontal .radio,
+.form-horizontal .checkbox 								{ min-height: 20px; padding-left: 20px;}
+.form-horizontal .radio input[type="radio"],
+.form-horizontal .checkbox input[type="checkbox"] 		{ float: left; margin-left: -20px;}
+.form-horizontal .controls > .radio:first-child,
+.form-horizontal .controls > .checkbox:first-child 		{ padding-top: 5px;}
+.form-horizontal .radio.inline,
+.form-horizontal .checkbox.inline 						{ display: inline-block; padding-top: 5px; margin-bottom: 0; vertical-align: middle; }
+.form-horizontal .radio.inline + .radio.inline,
+.form-horizontal .checkbox.inline + .checkbox.inline 	{ margin-left: 10px;}
+
+
+/* ----- Calculator  Control-group ----- */
+.control-group 											{ margin-bottom: 10px;}
+.form-horizontal legend + .control-group 				{ margin-top: 20px; -webkit-margin-top-collapse: separate;}
+
+.control-group.warning .control-label,
+.control-group.warning .help-block,
+.control-group.warning .help-inline 					{ color: #b94a48 !important; font-weight: bold !important;}
+
+.control-group.warning .checkbox,
+.control-group.warning .radio,
+.control-group.warning input,
+.control-group.warning select,
+.control-group.warning textarea 						{ color: #b94a48 !important;}
+
+.control-group.warning input,
+.control-group.warning select,
+.control-group.warning textarea 						{ border-color: #b94a48 !important; 
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.control-group.warning input:focus,
+.control-group.warning select:focus,
+.control-group.warning textarea:focus 					{ border-color: #a47e3c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
+}
+
+
+/* ----- Calculator Btn ----- */
+.form-horizontal .btn                                                           { border-radius: 3px; 
+                                                                                  border-width: 1px; 
+                                                                                  border-style: solid; box-shadow: 1px 1px 2px rgba(0,0,0,0.3); 
+                                                                                  margin:0; 
+                                                                                  text-align:  center; 
+                                                                                  cursor:pointer; 
+                                                                                  position: relative; 
+                                                                                  padding: 10px 20px; 
+                                                                                    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);}
+
+.form-horizontal .btn-submit 							{ min-width: 144px; color: #fff; 
+	background: #71b01f; 
+	background: -moz-linear-gradient(top, #85bd31 0%, #5a9617 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#85bd31), color-stop(100%,#5a9617));
+	background: -webkit-linear-gradient(top, #85bd31 0%,#5a9617 100%);
+	background: -o-linear-gradient(top, #85bd31 0%,#5a9617 100%);
+	background: -ms-linear-gradient(top, #85bd31 0%,#5a9617 100%);
+	background: linear-gradient(top, #85bd31 0%,#5a9617 100%);
+	border-color: #5a9617;
+}
+.form-horizontal .btn-submit:hover,
+.form-horizontal .btn-submit:hover 						{ border-color: #464646; }
+
+.form-horizontal .btn-default 							{ min-width: 50px; color: #333; 
+	background: #f0f0f0;
+	background: -moz-linear-gradient(top, #fafafa 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top, #fafafa 0%,#ececec 100%);
+	background: -o-linear-gradient(top, #fafafa 0%,#ececec 100%);
+	background: -ms-linear-gradient(top, #fafafa 0%,#ececec 100%);
+	background: linear-gradient(top, #fafafa 0%,#ececec 100%);
+	border-color: #aaa;
+}
+.form-horizontal .btn-default:hover { border-color: #5aa0d7; }
+
+.form-horizontal .btn-small {  min-width: 100px; color: #fff; padding: 5px 20px; 
+	background: #71b01f; 
+	background: -moz-linear-gradient(top, #85bd31 0%, #5a9617 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#85bd31), color-stop(100%,#5a9617));
+	background: -webkit-linear-gradient(top, #85bd31 0%,#5a9617 100%);
+	background: -o-linear-gradient(top, #85bd31 0%,#5a9617 100%);
+	background: -ms-linear-gradient(top, #85bd31 0%,#5a9617 100%);
+	background: linear-gradient(top, #85bd31 0%,#5a9617 100%);
+	border-color: #5a9617;
+        vertical-align: 3px;
+}
+.form-horizontal .btn-small:hover,
+.form-horizontal .btn-small:hover 						{ border-color: #464646; }
+
+
+/* ----- Calculator Input ----- */
+.form-horizontal input[type="text"] { width:300px; margin-bottom: 10px; border-radius: 2px; font-size: 14px; padding: 4px 6px; border: solid 1px #5aa0d7; box-shadow: inset 0 0 2px #aaa;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+} 
+.form-horizontal input[type="text"]:focus{ border-radius: 0; outline: solid 1px #5aa0d7; }
+.form-horizontal input[type="text"].small{ width: 150px;}
+.form-horizontal input[type="text"].mini { width: 70px;}
+
+
+/* ----- Calculator  Submit Box ----- */
+.tipFormBox						{ position:absolute; bottom:37px; left:0; padding:6px 10px; width:280px; line-height: 18px !important; border-width:1px; border-style:solid; border-radius:4px; font-size:12px; }
+.tipFormBox:after 				{ position:absolute; bottom:-6px; left:12px; display:block; width:0; height:0; border-width:6px 6px 0 6px; border-style:solid; content:''; }
+.tipFormBox:before				{ position:absolute; bottom:-7px; left:11px; display:block; width:0; height:0; border-width:7px 7px 0 7px; border-style:solid; content:''; }
+
+.tipFormBox_warning						{ border-color:#d8afaf; color:#b94a48; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); background:#f2dede;}	
+.tipFormBox_warning:after				{ border-color:#f2dede transparent transparent transparent; }
+.tipFormBox_warning:before				{ border-color:#cb9a9a transparent transparent transparent; }
+.tipFormBox .warning_icon 				{ width: 20px; height: 20px; background:url('../img/btn_ui_alert.png') center center no-repeat; display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline; }
+
+
+/* ----- Calculator Text information ----- */
+.calculator-textinformation 			{ padding: 20px 30px;}
+.calculator-textinformation.noPadTop 	{ padding-top: 0;}
+.calculator-textinformation .logo-icon 	{ vertical-align: middle;}
+.calculator-uldefault li 				{ margin-bottom: 10px;}
+
+/* ----- Calculator Result ----- */
+.calculator-ResultList 					{ margin: 30px 0 10px; padding: 20px 0; background: #edf6ff; border-top: 1px solid #bbbbbb; border-bottom: 1px solid #bbbbbb;}
+.calculator-ResultList .control-label 	{ width: 50%;}
+.calculator-ResultList .controls  		{ margin-left: 51%;}
+.calculator-ResultList .controls span 	{ font-size: 16px;}
+
+
+/* ----- Calculator Chart --*/
+.calculator-chart 						{ /*width: 80%;*/ margin:30px auto; padding: 10px; text-align: center; border-radius: 5px; box-shadow: 1px 1px 3px #ddd; border: solid 1px #ccc; background: #fff; color: #999;}
+
+/* ----- Calculator error message container ----- */
+.calculator-inner .container 			{ color:Red;background-color:White;border-color:#336699;border-width:3px;border-style:Dashed; width:50%; padding: 10px; margin: 0 auto 20px; }
+.calculator-inner .container > h4 > img         {  margin-right:8px; vertical-align: -3px;}
+
+/* Calculator 2013.10.28 Melvon */
+.radio_label                                      { display:-moz-inline-stack !important; display:inline-block !important; vertical-align:middle !important; zoom:1 !important; *display:inline !important;}
+.radio_label input                                {vertical-align: -2px !important;}
+
+
+
+
+/*  ========== SharingContent ========== */
+.social-toolbar 					{ margin:0; width: auto !important; position: static;}
+.social-toolbar .social 			{ border: none; box-shadow: none;}
+.social-toolbar .social-float,
+.social-toolbar .social-action,
+.social-toolbar .social_ornament 		{ display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline; }
+
+.social-toolbar .social-action a 		{ display: block; width: 60px; height: 20px; line-height: 10px; margin-bottom: 6px;}
+.social-toolbar .social_ornament  	 	{ width: 211px; height: 98px; background:url(../img/sweepstakes/sweepstakes_ornament.png) no-repeat; }
+
+/* SharingContent 2013.10.28 */
+.social-toolbar .social-float 		{ height: 20px; position: relative; overflow: hidden;}
+.social-toolbar .social-float > div,
+.social-toolbar .social-float > span,
+.social-toolbar .social-float > iframe{ position: absolute; top: -40px; left: 0;}
+
+.social-toolbar .facebook { width: 60px; padding-bottom: 7px;}
+.social-toolbar .twitter  { width: 70px; padding-bottom: 10px;}
+.social-toolbar .linkedin { width: 70px; padding-bottom: 9px;}
+.social-toolbar .google   { width: 70px; padding-bottom: 6px;}
+
+
+
+
+
+
+/*  ========== NewsLetter Witch Get ========== */
+.newsletter-widget-form 		{ margin-bottom: 10px; border: 1px solid #92c9f8; background-color: #afd7ff; }
+.newsletter-widget-form .tips 	{ display: block; margin: 0; height: 56px; padding:0 17px 0 63px; background:url(../img/letter_icon.png) left center no-repeat; }
+.newsletter-widget-form .tips span{ padding-top: 12px; display:-moz-inline-stack; display:inline-block; vertical-align:middle; zoom:1; *display:inline;}
+.newsletter-widget-form .link   { padding: 0 14px;}
+.newsletter-widget-form .link a { color: #0663a5;}
+
+.newsletter-widget-form .form-item,
+.newsletter-widget-form .form-submit{  margin: 7px 0 0 9px; display:-moz-inline-stack; display:inline-block; vertical-align:-1px; zoom:1; *display:inline; }
+
+.newsletter-widget-form .form-item  { margin-left: 9px;}
+
+.newsletter-widget-form .form-text { width: 163px; height: 22px; padding: 4px; border:none; background:url(../img/newsletter-widget-form-input.jpg) no-repeat; }
+.newsletter-widget-form .form-text.warning, .newsletter-widget-form .form-text.error { border-radius:3px; border: solid 1px #AD0303 !important; background: #fff url('../img/btn_ui_alert.png') center right no-repeat; display: inline-block; zoom: 1; clear: both;}
+
+.newsletter-widget-form .form-submit{ width: 102px; height: 30px; margin-left: 0; border:none; text-align: center; color: #fff; line-height: 30px; background:url(../img/newsletter-widget-form-button.jpg) no-repeat;  }
+
+/*  ========== INV Site - Article changes Part 2 (Featured Authors) start ========== */
+.featured-author-title-parent          { margin-bottom: 12px;}
+
+.featured-author-profile-pic           { float:left;  margin-right: 22px; width: 72px; }
+.featured-author-profile-pic a img     { width: 72px; height: 72px;} 
+.featured-author-profile-pic span      { display:block; margin-top: 5px; width:72px; height:22px; color:#fff; font-size:9px; text-align: center; line-height: 22px; /*border-radius:2px;*/ /*background:#1569b4;*/ overflow: hidden; background: url("../img/icon_commentary.png") no-repeat;}
+.featured-author-profile-pic span img  { }
+
+//bug for http://www.staging.investopedia.com/exam-guide/series-7/getting-started/default.asp
+//.content-title,
+//.content-title.featured-author  { float:left;}
+.content-title                  { width:100%;}
+.content-title.featured-author  { float:left; width:586px;}
+.content-title h1               { margin-top:0px !important; line-height:32px;}
+.featured-author-top-bar        { }
+
+.featured-author-profile-text   { font-size: 12px; line-height: 18px; }
+//.profile-follow          	{ display: block; float:right; width:auto; height:21px; /*text-indent:76px;*/ line-height:21px;  background: #0177c9 /*url("../img/icon_twitter_follow_background.png") repeat-x*/; margin-top: 3.1px;}
+
+.profile-follow {
+    width: auto;
+    padding: 2px;
+    //margin: -32px 0 auto;
+    background:#0177c9;
+    color:#000;
+    float:right;
+    margin: 5.1px 0;
+}
+
+/*.profile-follow-img          	{ 0177c9 display: block; width:76px; height:21px; text-indent:76px; line-height:21px; background: transparent url("../img/icon_twitter_logo_white.png") no-repeat 10px 9px;}*/
+.profile-follow-img             
+{   float:left; 
+    height: 13px;
+    margin-left: 7px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+.profile-follow a               
+{ 
+    color:#FFF; 
+    //float:left;  
+    //font-size:11px;
+    //margin-right: 12px;
+    margin-right: 5px;
+}
+.profile-follow a:hover         { text-decoration:none;
+                                }
+
+.featured-author-article-author hr    		{ margin-top: 0px !important; width:100%;}
+
+.article-author-more-from                  { margin-top: 20px;} 
+.article-author-more-from > span           { font-size: 15px;}
+.article-author-more-from > ol             { margin-top: 10px;}
+.article-author-more-from > ol > li        { list-style-type: disc !important; /* list-style-position: inside !important; */ margin:0 0 4px 16px !important;}
+.article-author-more-from > ol > li h3     { font-size: 13px; font-family: Verdana, Geneva, sans-serif;}
+.article-author-more-from .item-title a
+{
+    color:#06c;
+    text-decoration:none;
+    cursor:pointer;
+}
+.article-author-more-from .item-title a:hover
+{
+    text-decoration:underline;
+    color:#1c74e0;
+}
+
+/*  ========== FEATURED AUTHOR HOMEPAGE MODULE start ========== */
+.featured-author-s8 .separator {
+	margin: 2px 0 18px 0;
+}
+
+.featured-author-s8 .item
+{
+    margin-bottom:18px;
+}
+
+.featured-author-s8 .item-image
+{
+    float:left;
+    margin-right:10px;
+    display:block;
+    padding: 3px;
+}
+
+.featured-author-s8 .item-title
+{
+    font-size:15px;
+}
+
+.featured-author-s8 .item-image-src
+{
+    width:82px;
+    height:82px;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size:82px 82px !important;
+}
+
+.featured-author-s8 .item-image img
+{
+    width:82px;
+    height:82px;
+}
+
+.featured-author-s8 .item-description
+{
+	margin-top: 8px;
+}
+/*  ========== FEATURED AUTHOR HOMEPAGE MODULE end ========== */
+
+/*  ========== INV Site - Article changes Part 2 (Featured Authors) end   ========== */
+
+/*  ========== INV Site - Article changes Part 3 (Partner Articles) start   ========== */
+.partner-articles-profile-pic
+{
+    float: right;
+    background-color: #FFFFFF;
+    height: 60px;
+    margin-right: 1px;
+    margin-top: -65px;
+    width: 120px;
+}
+
+.partner-articles h1 {
+    width: 550px;
+}
+
+.partner-articles-profile-pic a img
+{
+    width: 120px;
+    height: 60px;
+}
+
+.content-title.partner-articles  { /*float:left;*/ /*width:500px;*/}
+
+.partner-articles-clear
+{
+    padding: 1px;
+}
+/*  ========== INV Site - Article changes Part 3 (Partner Articles) end   ========== */
+
+/*  ========== INV LP Updates: Replace existing Advertising & Content Licensing Pages start ========== */
+.page-corp{ background:none;}
+.Advandlicense{ padding:50px 0;}
+.Advandlicense .sidebar{ width:250px; float:left; min-height:645px; border-right:#d8d8d8 1px solid;}
+.Advandlicense .sidebar ul{list-style:none; padding:0; margin:0;}
+.Advandlicense .sidebar ul li{ background:#f0f0f0; line-height:40px; height:40px;  margin:0 0 8px 0; padding-left:10px;}
+.Advandlicense .sidebar ul li a{ color:#606060; font-size:24px; text-decoration:none; font-family:'Verlag';}
+.Advandlicense .sidebar ul li.active{ background:#81ba2f;}
+.Advandlicense .sidebar ul li.active a{ color:#fff;}
+.Advandlicense .invintro{ padding:10px;}
+.Advandlicense .invintro p{ padding-bottom:10px; line-height:150%; color:#111;  font-family: 'DistrictThin'; font-size:15px; margin:0;}
+.Advandlicense .invtraffic{ padding:10px; color:#111;  font-family: 'DistrictThin'; font-size:20px;}
+.Advandlicense .invtraffic strong{ font-size:22px; color:#111;}
+.Advandlicense .invtraffic p{ padding-bottom:20px; margin:0;}
+.Advandlicense .pagecontent{ margin-left:295px; padding-bottom:15px;}
+.Advandlicense .pagecontent .aboutinv h1{ font-size:23px; font-family: 'DistrictThin'; color:#111;}
+.Advandlicense .pagecontent .aboutinv p{ font-size:15px; font-family: 'DistrictThin'; line-height:24px;}
+.Advandlicense .pagecontent .aboutinv p span{ color:#81ba2f;}
+.Advandlicense .pagecontent .aboutinv p a{ text-decoration:underline; color:#08c}
+.Advandlicense .pagecontent .aboutinv p a:hover{ text-decoration:none;}
+.Advandlicense .responsiveimg{ position:relative; padding:10px 0 0;}
+.Advandlicense .responsiveimg img{ width:100%;}
+.Advandlicense .contactusbutton{ position:absolute; top:10px; right:0; width:25%;}
+.Advandlicense .contactusbutton p{ font-size:23px;font-family: 'DistrictThin'; text-align:center;}
+.Advandlicense .contactusbutton a{ display:block; height:44px; line-height:40px; width:90%; margin:0 auto; color:#fff; text-decoration:none; font-size:20px; text-align:center; border:#79ab41 1px solid; box-shadow:2px 2px 2px rgba(2, 2, 2, 0.2); -moz-box-shadow:2px 2px 2px rgba(2, 2, 2, 0.2); -webkit-box-shadow:2px 2px 2px rgba(2, 2, 2, 0.2); background:#6da823; background-image:linear-gradient(bottom , #5b9718, #83bc30);background-image:-moz-linear-gradient(bottom , #5b9718, #83bc30);background-image:-webkit-linear-gradient(bottom , #5b9718, #83bc30);}
+.Advandlicense .otherlinks{ padding:5px 0; text-align:center;}
+.Advandlicense .otherlinks a{text-decoration:underline; color:#08c; margin:0 15px; font-size:15px;   font-family: 'DistrictThin';}
+.Advandlicense .otherlinks a:hover{text-decoration:none;}
+
+.Advandlicense .reprint { position: absolute;right: 0;top: 150px;width: 25%;}
+.Advandlicense .reprint p{ font-size:13px;font-family: 'DistrictThin'; text-align:center;}
+.cleanBefore *:before{content:'' !important;}
+/*  ========== INV LP Updates: Replace existing Advertising & Content Licensing Pages end ========== */

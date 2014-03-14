@@ -1,0 +1,2 @@
+
+Bootstrapper._serverTime = '2014-03-13 23:55:55'; Bootstrapper._clientIP = '169.229.99.41'; var psj0 = 'http://nexus.ensighten.com/hearst/news/code/3913e72ce2c3b9012b89eba92c8d29d6.js?ruleId=314113';Bootstrapper.insertScript(psj0);var psj1 = 'http://nexus.ensighten.com/hearst/news/code/dd70d00b120f1c1dcd445e9761a1c54e.js?ruleId=312194';Bootstrapper.loadScriptCallback(psj1, Bootstrapper.callOnPageSpecificCompletion);Bootstrapper.setPageSpecificDataDefinitionIds([])

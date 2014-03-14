@@ -1,0 +1,91 @@
+﻿	/* ==== print styles ======== */
+
+@media print
+
+{
+
+	body { background: white; font-size: 11pt; }
+
+	* { background: transparent !important; color: #000 !important; box-shadow:none !important; text-shadow: none !important; }
+
+	a, a:visited { text-decoration: underline; }
+
+	a[href]:after { content: ""; }
+
+	abbr[title]:after { content: ""; }
+
+
+	/* Don't show links for images, or javascript/internal links */
+
+	.layout-page-content { margin-right:0 !important; }
+
+	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+
+	pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+
+	thead { display: table-header-group; }
+
+	tr, img { page-break-inside: avoid; }
+
+	/*img { max-width: 100% !important; } commenting out to fix image display issues in IE8 */
+
+	@page {  margin: 0; }
+
+	p, h2, h3 { orphans: 3; widows: 3; }
+	h2, h3 { page-break-after: avoid; }
+	
+	#Header { display:none; }
+	#Footer { display:none; }
+	#divPromo { display:none; }
+	#TaboolaDiv { display:none; }
+	#SponsoredLinks { display:none; }
+	#disqus_thread { display:none; }
+	#SponsoredLinks1 { display:none; }
+	#Comments { display:none; }
+	#SharingFloat #SharingContent { display:none; }
+	#VideoConsole { display:none; } 
+	
+	#HomeChannel #Video { display:none; }
+
+	.layout-side { display:none; }
+	.content-image { display:none; }
+	.mainnav { display:none; }
+	.subnav { display:none; }
+	.tags { display:none; }
+	
+	.ad-box { display:none; }
+	.item .item-image { display:none; }
+	.sponsorlinks { display:none; }
+	.box .ui-canvas { display:none; }
+	.pagination { display:none; }
+	.box.ui-canvas.banner-button { display:none; }
+	.btm { display:none; }
+	.faq-question-icon { display:none; }
+	.faq-answer-icon { display:none; }
+	.faq-ask-btn { display:none; }
+
+	.social-wrapper { display:none; }
+	.social-wrapper .social { display:none; }
+	
+	.ui-boxmenu {  display:block; }
+	
+	.disclaimer { display:none; }
+	.ads { display:none; }
+
+/* Comparison charts */
+
+	#Comparisons .result-item-body { border:none; box-shadow:none; display:block; }
+	#Comparisons .table-result-group group1, #Comparisons .table-result-group group2, #Comparisons .table-result-group group3, #Comparisons .table-result-group group4, #Comparisons .table-result-item, #Comparisons .table-result-group { display:block !important; }
+	#Comparisons .result-item-title { font-weight:bold; }
+	#Comparisons .result-item-checkbox { display:none; }
+	#Comparisons .ui-button-b, #Comparisons .select-all, #Comparisons .ui-button-filter { display:none; }
+	#Comparisons .comparison-content { margin:0; padding-left:0px; padding-right:10px; }
+
+	.controlbox { display:none; }
+	.table-result-item .brand { display:none; }
+	.ui-tabset { display:none; }
+	
+	#Carousel .ui-carousel, #Carousel .ui-carousel .slide { border:none; box-shadow:none; display:block !important; }
+
+
+}

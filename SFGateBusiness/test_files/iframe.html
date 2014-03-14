@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Main HTML Thumbnail Launcher </title>
+<link href="iframe_data/thumbLauncher4.css" rel="stylesheet" type="text/css">
+<script src="iframe_data/lgrt.js" async="" id="legalos" type="text/javascript"></script><script type="text/javascript" language="javascript">
+    pathtobumper = 'http://assets.newsinc.com/launchers/20130214/';
+    function getUrlVars() {
+        var vars = {};
+        var parts = 'http://assets.newsinc.com/launchers/20130214/thumbnailLauncher5.html?wid=10998&freewheel=45981&sitesection=sfgate_nws_biz_fro&width=300&height=250&thumbid=slider&zoneid=50912&ga=false'.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+            if (value.charAt(value.length - 1) == "#") {
+                value = value.substring(0, value.length - 1);
+            }
+            vars[key.toLowerCase()] = value;
+        });
+        return vars;
+    }
+</script>
+<script src="iframe_data/main.js" data-requiremodule="main" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script type="text/javascript" src="iframe_data/segments.js"></script><script type="text/javascript" src="iframe_data/PageViewJSONP.asc"></script><style media="screen" type="text/css">#ndn_adbox {visibility:hidden}</style><script src="iframe_data/adaptvAdPlayer.js" type="text/javascript"></script><script src="iframe_data/adaptvInfo.js" type="text/javascript"></script><script src="http://cdn-static.liverail.com/js/companions.js?20131002" type="text/javascript"></script></head>
+<body style="margin:0px;">
+<div id="ndn_container" style="overflow: hidden; background-repeat: no-repeat;">
+    <div style="visibility: visible;" id="ndn_placeholder" class="ndn_placeholder"><div id="ndn_thumbs"><div class="ndn_placeholderthumb" id="ndn_thumb0"><a onclick="openNdnWindow('http://widget.newsinc.com/_cfvp/playlist16x9_player.html?CID=504&amp;WID=10998&amp;VID=25711321&amp;freewheel=45981&amp;sitesection=sfgate_nws_biz_fro&amp;external_url=http://www.sfgate.com/business/')"><div class="ndn_placeholderhoverimage" border="0"></div><div class="ndn_placeholderhovertext"><abbr title="Expanded Overtime Won't Hurt Small Business: Baker">Expanded Overtime Won't Hurt Small Business: Bake…</abbr></div><div class="ndn_placeholderhoverlogo"></div><img class="ndn_placeholderthumbimg" src="iframe_data/10397003.jpg" border="0"></a></div></div></div>
+	<object style="visibility: visible;" id="ndn_adbox" data="iframe_data/bumper.swf" type="application/x-shockwave-flash" width="300" height="250"><param value="true" name="allowfullscreen"><param value="always" name="AllowScriptAccess"><param value="transparent" name="wmode"></object>
+	<div style="height: 250px; width: 300px; background-color: rgb(0, 0, 0);" id="ndn_thumbContainer" class="ndn_thumbContainer"> 
+		<div style="height: 250px; background-color: rgb(0, 0, 0); top: 0px;" id="ndn_thumbScroller" class="ndn_thumbScroller"></div>
+		<div style="height: 250px; top: -250px; background-color: rgb(0, 0, 0);" id="ndn_thumbScroller2" class="ndn_thumbScroller2"></div>
+		
+		
+	</div>
+	<div id="ndn_selector" class="ndn_selector" style="visibility: hidden; display: none;"><select class="ndn_playlistSelector" id="ndn_playlistSelector" onchange="getPlaylist();"> </select></div>
+	<div style="top: -40px;" id="ndn_thumbControls" class="ndn_thumbControls"></div>
+    <div id="ndn_adchoice" class="ndn_adchoice" style="visibility:hidden;left:0px;z-index:80;position:relative;"><a href="http://assets.newsinc.com/info/adchoices.html" target="_blank"><div id="admarker" border="0"></div></a></div>
+    <div id="ndn_thumb_ad" class="ndn_thumb_ad" style="visibility:hidden;z-index:80;position:relative;"></div>
+	<div id="ndn_countdown" class="ndn_countdown">Today's top videos available in 00:00</div>
+</div>
+ 
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+    _qoptions = {
+        qacct: "p-573scDfDoUH6o"
+    };
+</script>
+<script type="text/javascript" src="iframe_data/quant.js"></script>
+<noscript>
+    <img src="http://pixel.quantserve.com/pixel/p-573scDfDoUH6o.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast" />
+</noscript>
+<!-- End Quantcast tag -->
+<script type="text/javascript">    document.write(unescape("%3Cscript src='" +
+
+(document.location.protocol == "https:" ? "https://sb" : "http://b") +
+".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</script><script src="iframe_data/beacon.js"></script>
+<script data-main="http://assets.newsinc.com/launchers/20130214/scripts/main" src="iframe_data/require-jquery.js"></script>
+
+<!-- Start GOOGLE  -->
+<script type="text/javascript">
+    /// Set up
+    function getUrlVarsg() {
+        //alert("hello ");
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+            if (value.charAt(value.length - 1) == "#") {
+                value = value.substring(0, value.length - 1);
+            }
+            vars[key.toLowerCase()] = value;
+        });
+        return vars;
+    }
+    //console.log ( 'start');
+    var dpid;
+
+    var external_url = document.referrer;
+    if (external_url == "") {
+        external_url = window.location.href.split('?')[0];
+    }
+    var siteSectionG;
+    var widg;
+    //dpid
+
+    var urlvars;
+    fng = window["getUrlVars"];
+    fngExists = typeof fng === 'function';
+    if (fngExists) {
+        urlvars = eval('getUrlVars()');
+    } else {
+        urlvars = getUrlVarsg();
+    }
+
+    if (urlvars["freewheel"] == undefined || urlvars["freewheel"] == "") {
+        dpid = "undefined-freewheel";
+    } else {
+        dpid = urlvars["freewheel"];
+    }
+
+    //sitesection
+    if (urlvars["sitesection"] == undefined || urlvars["sitesection"] == "") {
+        siteSectionG = "undefined";
+    } else {
+        siteSectionG = urlvars["sitesection"];
+    }
+    //widg
+    if (urlvars["wid"] == undefined || urlvars["wid"] == "") {
+        widg = "undefined";
+    } else {
+        widg = urlvars["wid"];
+    }
+    ///Google
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-35606174-1']); // GA Account ID for NDN Widget Tracking 
+    _gaq.push(['_setDomainName', 'newsinc.com']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_setCustomVar',
+      1, // This custom var is set to slot #1. Required parameter. 
+      'partnerId', // This the is custom field name to track the partner id, aka dpid. Required parameter. 
+      dpid, // This is the partner id field to be passed in. Required parameter. 
+      3 // Sets the scope to page-level. 
+   ]);
+    _gaq.push(['_setCustomVar',
+      2, // This custom var is set to slot #2. Required parameter. 
+      'widgetURL', // This is the custom field name to track url of the partner page the widget is on, not the url of the widget. Required parameter. 
+      external_url, // This value of the url variable to be passed in. Required parameter. 
+      3 // Sets the scope to page-level. 
+   ]);
+    _gaq.push(['_setCustomVar',
+      3,
+      'siteSection',
+      siteSectionG,
+      3
+   ]);
+    _gaq.push(['_setCustomVar',
+      4, // This custom var is set to slot #4. Required parameter. 
+      'widgetID', // This is the custom field name to track widget id. Required parameter. 
+      widg, // This value of the wid variable to be passed in. Required parameter. 
+      3 // Sets the scope to page-level. 
+   ]);
+    _gaq.push(['_trackPageview']);
+
+
+    (function () {
+        var doGA;
+        if (urlvars["ga"] == undefined || urlvars["ga"] == "") {
+            doGA = "undefined";
+        } else {
+            doGA = urlvars["ga"];
+        }
+        if (doGA == "true") {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        }
+    })();
+    //console.log ( 'end');
+</script>
+
+
+<div></div><iframe src="iframe_data/sana.html" id="swfviewFRM" width="0" height="0"></iframe><div style="top: 0px; left: 150px; height: 1px; width: 1px; position: absolute;" id="adaptv_vw_div1"><object id="adaptv_vw_1" name="adaptv_vw_1" align="middle" width="1px" height="1px"><param name="movie" value="//redir.adap.tv/redir/client/FPSDetector.swf"><param name="bgcolor" value="#000000"><param name="allowScriptAccess" value="always"><param name="FlashVars" value="callback=adaptvInfo.handleViewabilityChange&amp;autoStart=true"><embed src="iframe_data/FPSDetector.swf" id="adaptv_vw_1" name="adaptv_vw_1" bgcolor="#000000" allowscriptaccess="always" flashvars="callback=adaptvInfo.handleViewabilityChange&amp;autoStart=true" type="application/x-shockwave-flash" align="middle" width="1px" height="1px"></object></div><div style="top: 125px; left: 299px; height: 1px; width: 1px; position: absolute;" id="adaptv_vw_div2"><object id="adaptv_vw_2" name="adaptv_vw_2" align="middle" width="1px" height="1px"><param name="movie" value="//redir.adap.tv/redir/client/FPSDetector.swf"><param name="bgcolor" value="#000000"><param name="allowScriptAccess" value="always"><param name="FlashVars" value="callback=adaptvInfo.handleViewabilityChange&amp;autoStart=true"><embed src="iframe_data/FPSDetector.swf" id="adaptv_vw_2" name="adaptv_vw_2" bgcolor="#000000" allowscriptaccess="always" flashvars="callback=adaptvInfo.handleViewabilityChange&amp;autoStart=true" type="application/x-shockwave-flash" align="middle" width="1px" height="1px"></object></div><div style="top: 249px; left: 150px; height: 1px; width: 1px; position: absolute;" id="adaptv_vw_div3"><object id="adaptv_vw_3" name="adaptv_vw_3" align="middle" width="1px" height="1px"><param name="movie" value="//redir.adap.tv/redir/client/FPSDetector.swf"><param name="bgcolor" value="#000000"><param name="allowScriptAccess" value="always"><param name="FlashVars" value="callback=adaptvInfo.handleViewabilityChange&amp;autoStart=true"><embed src="iframe_data/FPSDetector.swf" id="adaptv_vw_3" name="adaptv_vw_3" bgcolor="#000000" allowscriptaccess="always" flashvars="callback=adaptvInfo.handleViewabilityChange&amp;autoStart=true" type="application/x-shockwave-flash" align="middle" width="1px" height="1px"></object></div><div style="top: 125px; left: 0px; height: 1px; width: 1px; position: absolute;" id="adaptv_vw_div4"><object id="adaptv_vw_4" name="adaptv_vw_4" align="middle" width="1px" height="1px"><param name="movie" value="//redir.adap.tv/redir/client/FPSDetector.swf"><param name="bgcolor" value="#000000"><param name="allowScriptAccess" value="always"><param name="FlashVars" value="callback=adaptvInfo.handleViewabilityChange&amp;autoStart=true"><embed src="iframe_data/FPSDetector.swf" id="adaptv_vw_4" name="adaptv_vw_4" bgcolor="#000000" allowscriptaccess="always" flashvars="callback=adaptvInfo.handleViewabilityChange&amp;autoStart=true" type="application/x-shockwave-flash" align="middle" width="1px" height="1px"></object></div></body></html>
