@@ -45,6 +45,6 @@ def get_articles(homepage_url, link_extracter, site_name):
 
 
 if __name__ == '__main__':
-    article_list = get_articles("http://www.sfgate.com/", get_links, "SFGate")
-    DB_input(article_list, "sfgate_db")
+    article_list = get_articles("http://www.nbcbayarea.com/news/local/", get_links, "nbcbayarea_local_news")
+    DB_input(article_list, "nbcbayarea_local_news_db")
 
