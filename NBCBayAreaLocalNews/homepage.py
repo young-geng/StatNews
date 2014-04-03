@@ -7,13 +7,16 @@ from urlparse import urljoin
 
 def top_stories(dictionary, soup):
     for i in soup.find('div', attrs = {"id": "most-read-module"}).find("ul", attrs = {"class": "topFive selected"}).find_all('a'):
-        dictionary["Top Stories"].append(urljoin("http://www.nbcbayarea.com/news/local/", i['href']))
+        if i:
+            dictionary["Top Stories"].append(urljoin("http://www.nbcbayarea.com/news/local/", i['href']))
     for i in soup.find('div', attrs = {"id": "most-read-module"}).find("ul", attrs = {"class": "topFive"}).find_all('a'):
-        dictionary["Top Stories"].append(urljoin("http://www.nbcbayarea.com/news/local/", i['href']))
+        if i:
+            dictionary["Top Stories"].append(urljoin("http://www.nbcbayarea.com/news/local/", i['href']))
 
 def all_stories(dictionary, soup):
-	for i in soup.find('div', attrs = {"id": "main"}).find_all('p'):
-	    dictionary["All Stories"].append(urljoin("http://www.nbcbayarea.com/news/local/", i.find('a')['href']))
+    for i in soup.find('div', attrs = {"id": "main"}).find_all('p'):
+        if i.find('a'):
+            dictionary["All Stories"].append(urljoin("http://www.nbcbayarea.com/news/local/", i.find('a')['href']))
 
 
 

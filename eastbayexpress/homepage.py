@@ -6,29 +6,34 @@ from urlparse import urljoin
 
 
 def local_blogs_news(dictionary, soup):
-	for i in soup.find('div', attrs = {"id": "LocalBlogsNews"}).find_all('div', attrs = {"class": "title"}):
-	    dictionary["Local News Blogs"].append(urljoin("http://www.eastbayexpress.com/", i.find('a')['href']))
+    for i in soup.find('div', attrs = {"id": "LocalBlogsNews"}).find_all('div', attrs = {"class": "title"}):
+        if i:
+            dictionary["Local News Blogs"].append(urljoin("http://www.eastbayexpress.com/", i.find('a')['href']))
 
 
 def local_blogs_culture(dictionary, soup):
-	for i in soup.find('div', attrs = {"id": "LocalBlogsCulture"}).find_all('div', attrs = {"class": "title"}):
-	    dictionary["Local Culture Blogs"].append(urljoin("http://www.eastbayexpress.com/", i.find('a')['href']))
+    for i in soup.find('div', attrs = {"id": "LocalBlogsCulture"}).find_all('div', attrs = {"class": "title"}):
+        if i:
+            dictionary["Local Culture Blogs"].append(urljoin("http://www.eastbayexpress.com/", i.find('a')['href']))
 
 
 def home_main_news(dictionary, soup):
-	for i in soup.find("div",attrs = {"id":"HomeMainNews"}).find_all("div", attrs = {"class": "storyItem"}):
-	    dictionary["News"].append(urljoin("http://www.eastbayexpress.com/", i.find('a')['href']))
+    for i in soup.find("div",attrs = {"id":"HomeMainNews"}).find_all("div", attrs = {"class": "storyItem"}):
+        if i:
+            dictionary["News"].append(urljoin("http://www.eastbayexpress.com/", i.find('a')['href']))
 
 
 def home_main_food_drink(dictionary, soup):
-	for i in soup.find("div", attrs = {"id": "HomeMainFoodDrink"}).find_all("div", attrs = {"class": "storyItem"}):
-	    for j in i.find_all("a"):
-	        dictionary["Food & Drink"].append(urljoin("http://www.eastbayexpress.com/", j['href']))
+    for i in soup.find("div", attrs = {"id": "HomeMainFoodDrink"}).find_all("div", attrs = {"class": "storyItem"}):
+        for j in i.find_all("a"):
+            if j:
+                dictionary["Food & Drink"].append(urljoin("http://www.eastbayexpress.com/", j['href']))
 
 def home_main_arts(dictionary, soup):
-	for i in soup.find("div", attrs = {"id": "HomeMainArts"}).find_all("div", attrs = {"class": "storyItem"}):
-	    for j in i.find_all("a"):
-	        dictionary["Arts"].append(urljoin("http://www.eastbayexpress.com/", j['href']))
+    for i in soup.find("div", attrs = {"id": "HomeMainArts"}).find_all("div", attrs = {"class": "storyItem"}):
+        for j in i.find_all("a"):
+            if i:
+                dictionary["Arts"].append(urljoin("http://www.eastbayexpress.com/", j['href']))
 
 def get_links(html):
     soup = BeautifulSoup(html)
