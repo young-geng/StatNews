@@ -1,0 +1,36 @@
+/* CSS for cars.com widget at sacbee.com */
+#cars_widget span.widget1 {margin: 0px; font-family:Arial,verdana,sans-serif; font-size:18pt; font-weight:bold; color:#3F25AE}
+#cars_widget span.widget2 {margin: 0px; font-family:Arial,verdana,sans-serif; font-size:13pt; font-weight:bold; color:#EB5900}
+#cars_widget span.widget3 {margin: 0px; font-family:Arial,verdana,sans-serif; font-size:8pt; font-weight:bold; color:Black}
+#cars_widget span.widget4 {margin: 0px; font-family:Arial,verdana,sans-serif; font-size:9.25pt; color:Black}
+#cars_widget select.widget {margin: 0px; font-size: 13px;}
+#cars_widget select.widgetmm {margin: 0px; font-size: 13px; width: 100%;}
+#cars_widget input.text.widget {margin: 0px; font-size: 13px;}
+#cars_widget a.widget {font-family:Arial,verdana,sans-serif; font-size:8pt; font-weight:bold;}
+#cars_widget a.widget:active {color: #3F25AE; text-decoration: underline;}
+#cars_widget a.widget:visited {color: #3F25AE; text-decoration: underline;}
+#cars_widget a.widget:hover {text-decoration: none;}
+#cars_widget a.widgetsm {font-family:Arial,verdana,sans-serif; font-size:8pt;}
+#cars_widget a.widgetsm:active {color: #3F25AE; text-decoration: underline;}
+#cars_widget a.widgetsm:visited {color: #3F25AE; text-decoration: underline;}
+#cars_widget a.widgetsm:hover {text-decoration: none;}
+#cars_widget a.widgetlg {font-family:Arial,verdana,sans-serif; font-size:7.5pt; font-weight:bold;}
+#cars_widget a.widgetlg:active {color: #3F25AE; text-decoration: underline;}
+#cars_widget a.widgetlg:visited {color: #3F25AE; text-decoration: underline;}
+#cars_widget a.widgetlg:hover {text-decoration: none;}
+#cars_widget ul.widget {list-style-position: inside; margin-left: 0px; margin-top: 0px; margin-bottom: 10px;}
+#cars_widget li.widget {margin-top: 0px; margin-bottom: 0px; list-style:square; color:#EB5900;}
+#cars_widget table.widget {white-space: no-wrap;}
+#cars_widget .BttnPill {display: inline; white-space: no-wrap;}
+#cars_widget .BttnPill a {text-decoration: none; width: auto;}
+#cars_widget .BttnPill a:link, 
+#cars_widget .BttnPill a:active,
+#cars_widget .BttnPill a:visited { color: #fff; text-decoration: none;}
+#cars_widget .BttnPill a:hover {color: #fc0; cursor: pointer; text-decoration: none;}
+#cars_widget .BttnPill .bttntxt a {padding-left: 20px;}
+#cars_widget .BttnPill .bttntxtalt a {padding-left: 10px;}
+#cars_widget .bttntxt {float: left; font-family: Verdana, Arial, sans-serif; font-size: 10px; font-weight: bold; padding: 0 2px 1px 0; height: 17px; line-height: 16px;}
+#cars_widget .bttntxtalt {background: transparent url(http://www.cars.com/images/long_back_orng_no_arrow.gif) no-repeat left top;}
+#cars_widget .bttntxt {background: transparent url(http://www.cars.com/images/long_back_orng.gif) no-repeat left top;}
+#cars_widget .bttncap {float: left; width: 8px; height: 17px; padding: 0;} 
+#cars_widget .bttncap {background: transparent url(http://www.cars.com/images/bttncapOrngR.gif) no-repeat top left;}
