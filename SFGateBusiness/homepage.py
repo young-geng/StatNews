@@ -38,7 +38,7 @@ def get_links(html):
 
 if __name__ == "__main__":
     from Scraper.Scraper import scraper
-    #scraper.scrape()
+    scraper.scrape("http://www.sfgate.com/business/", "SFGate Business", "sfgate_business", get_links)
      
     
  
