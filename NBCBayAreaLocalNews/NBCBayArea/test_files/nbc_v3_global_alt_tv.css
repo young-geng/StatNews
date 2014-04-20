@@ -1,0 +1,682 @@
+/******************************************************************************************************************
+*  Last Updated By: Dan Chianese  *  02/28/2014  *  CMS Version: 356  *  Ticket No.: 21239  *
+*******************************************************************************************************************/ s
+/*text in search bar at top*/
+/*main top color*/
+/*nav bar color*/
+/*hover states for nav and the subnav for internal*/
+/*nav vertical lines*/
+/*all links color and background*/
+/*footer background color*/
+/*this just in, the feast, etc*/
+ /*over images*/
+ /*behind weather and left rail*/
+ /*link colors for header and footer*/
+ /*current temp, days of week, highs*/
+  /*sponsored background color, etc*/
+  /*us & world, local, etc*/
+ /* mm selected border */
+
+
+/*CSS reset*/
+html, body, div, span, applet, object,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+em {font-style:italic;}
+
+/*CSS reset*/
+body { background-image:url('http://media.nbcbayarea.com/designimages/masthead_bg_tv.png'); background-repeat:repeat-x; background-color:#fafafa; font-family:arial, sans-serif; font-size:12px;}
+body.xfinity {background:url('http://media.nbcbayarea.com/designimages/masthead_bg_tv_partner.png') repeat-x 0 0 #FAFAFA;}
+#mastheadRightLinks a {color:#fafafa !important;font-family:arial;text-decoration:none;}
+
+/* GENERAL ANCHOR TAG */
+#home_v3_ad {width:970px;margin:0 auto; padding-top:10px; text-align:center;}
+a {color:#1259A6;text-decoration:none;}
+
+/* GENERAL GO TO TAG */
+.goTo {color: #0B3665 !important; font-family: arial; font-weight:bold; font-size: 12px; padding-top:2px; float:left;}
+
+/* #sidebar{background-color:#edfaff !important;} */
+#sidebar{background-color:#ffffff !important;}
+
+
+/* #masthead {width:100%; height:80px; margin:0 auto; background-color:#0D3162; background-image:url('http://media.nbcbayarea.com/designimages/citysite_tv_radial_grad.jpg'); background-repeat:no-repeat; background-position: 50% 0;} */
+#masthead {width:1010px; height:80px; margin:0 auto; background-color:#0D3162; background-image:url('http://media.nbcbayarea.com/designimages/citysite_tv_radial_grad.png'); background-repeat:no-repeat; background-position: 50% 0;}
+
+/* #nav {width:100%; height:39px; margin:0 auto; background-color:#0E3870;} */
+#nav {width:1010px; height:39px; margin:0 auto; background-color:#0E3870;}
+#canvas {position:relative; width:100%; height:100%; margin:0 auto; }
+#body {position:relative; width:990px; height:100%; margin:0 auto; text-align:left;}
+#section #body {overflow:hidden;background:#FFF;width:1008px;border-left:1px solid #E0E7EE;border-right:1px solid #E0E7EE;}
+#body a:hover {text-decoration:underline;}
+#primary, #secondary, #partners {margin:0 auto;}
+
+/* CONTENT PRIORITY */
+
+.Breaking, .Coming {background-color:#c02b27;color: #fff;float: left;font-family: Helvetica,arial,sans-serif;font-size: 9px;font-weight: bold;margin-right: 5px;margin-top: 3px;padding: 2px;text-transform: uppercase;}
+.topTwo .Breaking,.topTwo .Coming {background-color:#c02b27;color: #fff;float: left;font-family: Helvetica,arial,sans-serif;font-size: 9px;font-weight: bold;margin-right: 5px;margin-top: 3px;padding: 2px;text-transform: uppercase;}
+.Exclusive {background-color:#c02b27;color:#fff;float: left;font-family: Helvetica,arial,sans-serif;font-size: 9px;line-height:9px;font-weight: bold;margin-right: 5px;margin-top: 1px;padding: 2px;text-transform: uppercase;}
+.topTwo .Exclusive {border: 1px solid #1259A6;color: #1259A6;float: left;font-family: Helvetica,arial,sans-serif;font-size: 9px;font-weight: bold;margin-right: 5px;margin-top: 3px;padding: 2px;text-transform: uppercase;}
+.Live {color: #fff;float: left;font-family: Helvetica,arial,sans-serif;font-size: 9px;line-height:9px;font-weight: bold;margin-right: 5px;margin-top: 1px;padding: 2px;text-transform: uppercase;}
+.topTwo .Live {color: #fff;float: left;font-family: Helvetica,arial,sans-serif;font-size: 9px;font-weight: bold;margin-right: 5px;margin-top: 3px;padding: 2px;text-transform: uppercase;}
+#logocont {height: 52px;left:13px; position: absolute;text-shadow: none;}
+.dgo #logocont {left:0px !important;}
+
+/* Shutting down market specific mastheads */
+/* Markets with LARGE logos
+.ny #masthead, .la #masthead, .dc #masthead, .ami #masthead { height:84px !important; }
+*/
+
+/* Markets with MEDIUM logos
+.phi #masthead, .dfw #masthead, .bay #masthead, .har #masthead { height:76px !important; }
+   
+.chi #masthead { height:72px !important; }
+*/
+/* Markets with SMALL logos
+.dgo #masthead { height:60px; }
+*/
+
+#mastheadLinks #mastheadLeftLinks {margin-top:14px;}
+.dgo #mastheadLinks #mastheadLeftLinks {margin-top:6px;}
+.bay #mastheadLinks #mastheadLeftLinks {margin-top:15px;}
+.har #mastheadLinks #mastheadLeftLinks {margin-top:18px;}
+.dfw #mastheadLinks #mastheadLeftLinks {margin-top:10px;}
+.phi #mastheadLinks #mastheadLeftLinks {margin-top:7px;}
+.ny #mastheadLinks #mastheadLeftLinks {margin-top:7px;}
+.ami #mastheadLinks #mastheadLeftLinks {margin-top:6px;}
+.chi #mastheadLinks #mastheadLeftLinks {margin-top:15px;}
+.dc #mastheadLinks #mastheadLeftLinks {margin-top:15px;}
+.la #mastheadLinks #mastheadLeftLinks {margin-top:7px;}
+
+#home #breaking-news {margin-top:-1px;} /* to make up for ad 1px x 1px at top */
+#breaking-news {width:1010px; height:60px; margin: 0 auto; background-color:#CA0002; background-image:url('http://media.nbcbayarea.com/designimages/header_breakingnews.png'); float:none;clear:both; position:relative;}
+#breakingShare { position: absolute; left: 940px; top: 17px; }
+#breakingShare div { margin-right:5px; }
+#breaking-news .breaking-news {border-right: 1px solid #7F1A14;color: #FFFFFF;float: left;font-family: Helvetica,Arial,sans-serif;font-size: 18px;font-weight:bold;line-height:20px;height: 58px;margin-top: 2px;padding-left: 19px;padding-right:19px;padding-top: 4px;width: auto;}
+#breaking-news .live-video {border-right: 1px solid #7F1A14;color: #FFFFFF;float: left;font-family: Helvetica,Arial,sans-serif;font-size: 18px;font-weight:bold;height: 58px;line-height: 20px;margin-top: 2px;padding-left: 19px;padding-right: 19px;padding-top: 4px;width: auto;}
+#breaking-news .live-video p {  padding-top:7px;  text-align:left;  text-shadow:2px 2px 0 rgba(0, 0, 0, 0.5);  }
+#breaking-news .breaking-news p {  padding-top:7px;  text-align:left;  text-shadow:2px 2px 0 rgba(0, 0, 0, 0.5);  }
+#breaking-news .details {border-left: 1px solid #A63832;color: #FFFFFF;float: left;font-family: Helvetica,Arial,sans-serif;font-size: 36px;height: 58px;letter-spacing: 1.2px;margin-top: 4px;padding-left: 19px;text-align: left;text-shadow:2px 2px 0 rgba(0, 0, 0, 0.5);}
+#breaking-news .details p { padding-top:7px; } 
+#breaking-news .details a {text-decoration:none; color:#fff;}
+#breaking-news .details .timestamp {font-size:11px; margin-top:5px;color:#ffffff;text-align:left;}
+#breaking-news #breaking-container {position: relative; margin: 0pt auto; width: 1010px; height: 60px;overflow:hidden}
+#home #live-video {margin-top:-1px;} /* to make up for ad 1px x 1px at top */
+#live-video {width:100%;background-color:#CA0002;float:none;padding:0;margin:0 0 12px;clear:both;}
+#live-video .liveContainer {width:1000px;margin:0 auto;padding:0;color:#FFFFFF;font-weight:bold;font-family:"Helvetica", Arial, san-serif;padding:15px 0;font-size:18px;text-align:left;}
+#live-video .liveContainer a {color:#FFFFFF;cursor:pointer;}
+#live-video .liveContainer a span {padding:0 0 0 24px;background:url("http://media.nbcbayarea.com/designimages/icon_liveVideo.png") no-repeat 0 1px transparent;}
+#live-video .liveContainer a:hover {text-decoration:none;}
+#breaking-news #breaking-container p a{color:#fff;}
+
+/* NAVGIATION */
+#nav ul{margin:0 auto;padding:0;width:1010px;background:url('http://media.nbcbayarea.com/designimages/citysite_navigation_off_grad.gif') 0 0 repeat-x;overflow:hidden;}
+#nav li {float:left; height:39px; background-image: url('http://media.nbcbayarea.com/designimages/citysite_navigation_off_grad.gif'); margin-left:0px; border-left: 1px solid #335C87; /* Someday... :( 
+   background-image: linear-gradient(center bottom , #062954 1%, #346393 85%); background-image: -o-linear-gradient(center bottom , #062954 1%, #346393 85%); background-image: -moz-linear-gradient(center bottom , #062954 1%, #346393 85%); background-image: -webkit-linear-gradient(center bottom , #062954 1%, #346393 85%); background-image: -ms-linear-gradient(center bottom , #062954 1%, #346393 85%); background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.01, #062954),color-stop(0.85, #346393)); */}
+#nav li:hover{background-image:url('http://media.nbcbayarea.com/designimages/citysite_navigation_hover_grad.gif');}
+#nav li.rightSearch:hover {background-image: url('http://media.nbcbayarea.com/designimages/citysite_navigation_off_grad.gif');}
+
+div.dd_news {left:68px;}
+div.dd_entertainment {left:410px;}
+div.dd_the-scene {left:550px;}
+div.dd_on-air {left:620px;}
+div.dd_traffic {left:414px;}
+div.dd_weather {left:191px;}
+div.dd_offers {left:773px;}
+div.dd_contact{left:743px;}
+
+
+div.dd_entertainment .dd_div {width:165px;}
+div.dd_entertainment .dd_div ul li {width:137px;}
+
+#nav .linkText { position:relative;top:10px;}
+#nav li.rightSearch {border-right:0px !important;width:158px;margin: 0px !important;}
+#nav li.rightSearch input{border:0 none;color:#858590;font-size:11px;font-weight:bold;height:17px;margin:2px 8px 0 0;width:127px;padding-left:5px;float:left;}
+#nav li.rightSearch #searchSubmit{background: white url('http://media.nbcnewyork.com/designimages/nbc_v3_search_mag.gif') no-repeat scroll 99% 2px;display: block;float: left !important;height: 14px !important;margin: 4px 0px 0px !important;width: 18px !important;padding-left:0px !important;}
+.home #nav li.navItem_home, .home #nav li.navItem_home:hover,
+.news #nav li.navItem_news, .news #nav li.navItem_news:hover,
+.entertainment #nav li.navItem_entertainment, .entertainment #nav li.navItem_entertainment:hover,
+.the_scene #nav li.navItem_the-scene, .the_scene #nav li.navItem_the-scene:hover,
+.on_air #nav li.navItem_on-air, .on_air #nav li.navItem_on-air:hover,
+.traffic #nav li.navItem_traffic, .traffic #nav li.navItem_traffic:hover,
+.weather #nav li.navItem_weather, .weather #nav li.navItem_weather:hover,
+.video #nav li.navItem_video, .video #nav li.navItem_video:hover,
+.contests #nav li.navItem_contests, .contests #nav li.navItem_contests:hover,
+.investigations #nav li.navItem_investigations, .investigations #nav li.navItem_investigations:hover, .sports #nav li.navItem_sports, .sports #nav li.navItem_sports:hover,.contact_us #nav li.navItem_contact, .contact_us #nav li.navItem_contact:hover,.traffic #nav li.navItem_aca, .traffic #nav li.navItem_aca:hover  { background-image:url('http://media.nbcbayarea.com/designimages/citysite_navigation_selected_grad.gif');}
+.on_air .contests #nav li.navItem_on-air a {color:#FFFFFF;}
+.on_air .contests #nav li.navItem_on-air {background:url("http://media.nbcbayarea.com/designimages/citysite_navigation_off_grad.gif") 0 0 repeat;}
+.on_air .contests #nav li.navItem_on-air:hover {background:url("http://media.nbcbayarea.com/designimages/citysite_navigation_hover_grad.gif") 0 0 repeat;color:#fff;}
+
+.home #nav li.navItem_home a, .news #nav li.navItem_news a, .entertainment #nav li.navItem_entertainment a, .the_scene #nav li.navItem_the-scene a, .on_air #nav li.navItem_on-air a, .traffic #nav li.navItem_traffic a,.traffic #nav li.navItem_aca a, .weather #nav li.navItem_weather a, .video #nav li.navItem_video a, .contests #nav li.navItem_contests a, .investigations #nav li.navItem_investigations a, .sports #nav li.navItem_sports a,.contact_us #nav li.navItem_contact a { color:#000; text-shadow: rgba(0, 0, 0, 0.292969) 0px 0px 0px;}
+#nav li.socialNavButtons {background:none;border-left:1px solid #19416D;float:right;overflow:hidden;position:relative;width:auto;padding:0;margin:0;text-align:center;}
+#nav li.socialNavButtons:hover {background:none;}
+
+#nav li.socialNavButtons #followLinks {float:left;position:relative;width:auto;height:40px;margin:0;padding: 0px 0px;border-left:1px solid #335C87;}
+#nav li.socialNavButtons #followLinks ul {background:none;border:none;height:auto;padding:0;margin:6px auto 0;overflow:hidden;width:auto;float:none;}
+#nav li.socialNavButtons #followLinks ul li {width:25px;height:25px;float:left;margin:0px 0px;padding:0;background:none;border: none;padding: 0px 3px 0px 0px;}
+#nav li.socialNavButtons #followLinks ul li:hover {background:none;}
+#nav li.socialNavButtons #followLinks ul li a {background:url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-102313.png") no-repeat -104px 0 transparent;display:block;width:25px;height:25px;padding:0;margin:0;line-height:1em;}
+#nav li.socialNavButtons #followLinks ul li a#twitterLink {background-position:-128px 0;}
+#nav li.socialNavButtons #followLinks ul li a#gplusLink {background-position:-155px 0;}
+
+
+#currentTempTopHeader {color: #FFFFFF;float: left;font-family: Helvetica,arial,sans-serif;font-size: 20px !important;font-weight: normal;margin-left: 3px !important;padding-top: 5px;}
+
+/* for new badge bubble thing */
+#nav .navItem_video {position:relative;}
+#nav .navItem_video .new-badge {left: 40px;position: absolute;right: 3px;top: -10px;}
+
+/* code for drop down navigation and subnav */
+
+
+/*hover states for nav and the subnav for internal*/
+ /*behind weather and left rail*/
+
+
+
+
+
+#dd_wrap{margin: 0 auto;position: relative;width: 1014px;z-index: 3000;}
+div.dd_news, div.dd_entertainment, div.dd_the-scene, div.dd_on-air, div.dd_traffic, div.dd_weather, div.dd_offers, div.dd_contact, div.dd_video, div.dd_aca, div.dd_sports {position:absolute;background:#ffffff;z-index:2000;display:none;top:118px;border:3px solid #0B3665;padding:0;}
+.dd_border_wrap a:hover{text-decoration: underline;}
+.dd_content .details .title a:hover {text-decoration: underline;}
+.dd_top_pos{top: 157px;}
+* html .dd_top_pos{top: 160px;}
+.dd_div{float: left;padding: 5px 0 0 0;width: 150px;}
+.right{ background-color: #edfaff;}
+.nav_blogs_hdr {display: block;float: left;font-family: Helvetica,Arial,sans-serif;font-size: 11px;font-weight: bold;padding: 5px 0 10px 22px;text-align: left;text-transform: uppercase;width: 120px;}
+
+.dd_div ul { }
+.dd_div ul li{border-bottom: 1px dotted #DEDEDE;color: #333333;font-size: 14px;letter-spacing: -0.25px;line-height: 30px;margin: 0 auto;text-align: left;width: 110px;}
+.dd_div ul.franchise li{border-bottom: 1px dotted #DEDEDE;color: #333333;font-size: 14px;letter-spacing: -0.25px;line-height: 26px;margin: 0 auto;text-align: left;width: 130px;}
+.dd_div ul li.last { border-bottom: 0px;}
+.dd_div ul li a{color: #000000;font-family: arial;font-weight: bold;text-decoration: none;}
+.dd_div ul li a.Olympics,#sectionNav li a.Olympics{color:#bd0d00;}
+
+.dd_border_wrap ul{width: 155px;float:left;padding-bottom:20px;}
+.dd_border_wrap ul li.first{padding:10px 0 2px;}
+.dd_border_wrap ul li{border:1px dotted #cccccc;padding:1px 0 2px;width: 100%;height: 20px;border-width: 0 1px 1px 0;}
+.dd_border_wrap ul li a{margin:0 0 0px 20px;font-family:georgia;color:#006699;font-size:12px;font-weight: bold;}
+.dd_content {font-family:georgia;margin:10px 0px 2px 5px;width:275px;}
+.dd_content span{display: block !important;}
+.dd_content_wrapper {float:left;padding:12px 20px 20px 20px;width:230px;}
+div.dd_entertainment .dd_content_wrapper {padding:12px 20px 31px 20px !important;}
+div.dd_the-scene .dd_content_wrapper {padding:12px 20px 65px 20px !important;}
+* html .dd_content_wrapper {margin: 10px 10px 10px 0;width: 180px;}
+.dd_content {float:left;font-family:georgia;width:280px;* width:290px;margin:10px 0 2px 5px;}
+* html .dd_content {width:270px;margin-left:0px;}
+
+/*.dd_the-scene .dd_content .details{float:right;width:210px;}*/
+.dd_content_image{float:left;width: 50px;margin:0 10px 0 0;*margin:0 5px 0 0;}
+*html .dd_content_image{margin:0 5px 0 0;}
+.dd_content_image img{height:40px;width:52px;}
+.dd_content_image .bordermask{width: 52px;height: 40px;}
+.dd_content .details{font-size:10px;width:275px;*width:220px;}
+
+* html .dd_content .details {font-size:12px;width:200px;padding: 0;}
+* html .dd_content .details a{font-size:12px;}
+
+.dd_content .details .title a{color:#666666;font-size:14px;font-weight: normal;text-decoration:none;width: auto;}
+.dd_content .details .title a.franchise_link{color:#666666;font-size:14px;font-weight: normal;text-decoration:none;text-transform:capitalize;}
+.dd_content .details .title a.franchise_link:hover{text-decoration:underline;}
+.dd_content .details .franchise_data .franchise_title{}
+.dd_content .details .franchise_data .franchise_subtitle{}
+.dd_content .details .franchise_data .franchise_title a{color:#006699;font-size:14px;font-weight:bold;text-decoration:none;}
+.dd_content .details .franchise_data .franchise_subtitle a{color:#006699;font-size:10px;margin-left:5px;text-decoration:none;text-transform:capitalize;}
+.dd_content .details .franchise_data a:hover {text-decoration: underline;}
+
+div.dd_traffic .dd_moment_header {float:left;font-family:georgia;margin:10px;color:#666666;font-weight:bold;}
+div.dd_traffic .dd_moment_sub_header a{border-bottom:1px dotted #b2b2b2;color:#FF0101;float:left;font-family:georgia;font-weight:bold;margin:0 0 3px 10px;padding:0 0 10px;width:95%;}
+
+* html div.dd_traffic .dd_moment_sub_header{position: relative;margin-right: -3px;}
+* html div.dd_traffic .dd_moment_header{position: relative;margin-right: -3px;}
+
+div.dd_traffic .dd_moment_image {float:left;font-family:georgia;padding:10px;}
+div.dd_traffic .dd_moment_image .ddm_image{float:left;width:60px;}
+div.dd_traffic .dd_moment_image .ddm_link{float:left;width:250px;}
+div.dd_traffic .dd_moment_image img{border: 1px solid black;}
+div.dd_traffic .dd_moment_image a{color:#666666;}
+
+.dd_content_image .dropshadow .bordermask a {display:block;width:52px;height:39px;left:1px;opacity:1;position:absolute;top:1px;z-index:99;}
+
+#sectionNav {background-color: #e8e8e8;display: block;/* float: left; */height: 28px;margin: 0 auto;width: 1010px;z-index: -5;}
+#sectionNav li {float: left;margin-left: 0;width: auto;}
+#sectionNav li a {color: #34455c;display: block;float: left;font-family: arial,sans-serif;font-size: 12px;margin: 8px 8px 0px 8px;*margin: 10px 11px 0;text-align: center;text-transform: uppercase;}
+#sectionNav li.front a { color:#9a9a9a; margin: 8px 0px 0; *margin: 10px 0px 0; }
+#sectionNav li.front { margin: 0; }
+#sectionNav li.blog-list-right a { color: #34455C; display: block; float: left; font-size: 12px;margin: 8px 6px 0; text-align: center; text-transform: uppercase;}
+* html #sectionNav { margin: 0 auto;}
+
+/* Legacy page patches */
+#traffic #body {background-color: #fff !important;height: 100% !important;overflow: hidden !important;width: 1008px !important;}
+#slideshow #body { background-color: #fff !important; height: 100% !important; width: 1008px !important; overflow: hidden !important; border-left:1px solid #E0E7EE; border-right:1px solid #E0E7EE; }
+.ugc #main {background-color:#fff;}
+
+/* Legacy page patches */
+#slideshow #body { background-color: #fff !important; height: 100% !important; overflow: hidden !important; width: 1008px !important; }
+
+   #nav li a {color: #FFFFFF;display: block;height: 30px;padding: 10px 11px 0px; text-shadow: rgba(0, 0, 0, 0.292969) 1px 1px 0px; text-align: center;text-decoration: none;text-transform: uppercase;font: normal 13px/20px arial, sans-serif;}
+
+#nav li.navItem_home a {padding:10px 12px 0px 14px;}
+#nav li.navItem_news a {padding-left:11px;padding-right:11px;}
+
+/* #nav li.navItem_on-air a, #nav li.navItem_entertainment a, #nav li.navItem_video a {padding-top:9px;} */
+#sales #nav li a {height: 26px;*height: 34px;}
+#nav li.rightSearch input {*margin: 2px 8px 0px 10px;}
+.the_scene .navItem_the-scene, .on_air .navItem_on-air {background: #1B78C7;}
+
+/* SUBNAV SELECT STATES */
+.local #sectionNav a.local,.politics #sectionNav a.politics,.sports #sectionNav a.sports,.tech #sectionNav a.tech,.weird #sectionNav a.weird, .weather #sectionNav a.weather,.popcornbiz #sectionNav a.popcornbiz, .open-house #sectionNav a.open-house, .go-healthy-ny #sectionNav a.go-healthy-ny, .want-this #sectionNav a.want-this, .prop-zero #sectionNav a.prop-zero, .sounddiego #sectionNav a.sounddiego, .the-cove #sectionNav a.the-cove,.philthy-stuff #sectionNav a.philthy-stuff, .capital-games #sectionNav a.capital-games, .red-fever #sectionNav a.red-fever, .madhouse-enforcer #sectionNav a.madhouse-enforcer,.press-here #sectionNav a.press-here, .worth-the-drive #sectionNav a.worth-the-drive,.ward-room #sectionNav a.ward-room,.inc-well #sectionNav a.inc-well,.inc-well #sectionNav a.inc-well,.press-here #sectionNav a.press-here,.grizzly-detail #sectionNav a.grizzly-detail,.threadny #sectionNav a.threadny,.nonstop-sound #sectionNav a.nonstop-sound,.niteside #sectionNav a.niteside,.celebrity #sectionNav a.celebrity,.movies #sectionNav a.movies,.television #sectionNav a.television,.music #sectionNav a.music, .as_seen_on #sectionNav a.as-seen-on,.shows #sectionNav a.shows,.contests #sectionNav a.contests,.community #sectionNav a.community,.about_us #sectionNav a.about-us, .food_drink #sectionNav a.food-drink, .fashion #sectionNav a.fashion, .shopping #sectionNav a.shopping, .events #sectionNav a.events,.real-estate #sectionNav a.real-estate, .cars #sectionNav a.cars, .landing #sectionNav a.forecast, .maps #sectionNav a.maps_radar, .severe_weather_alerts #sectionNav a.severe_weather_alerts, .school_closings #sectionNav a.school_closing_alerts, .stories #sectionNav a.weather_stories, .health #sectionNav a.health { font-size:12px; font-weight:bold; font-family: Helvetica, "arial black", sans-serif; height: 20px; }
+
+/* hack to turn off on air if on contests tab */
+.contests li.navItem_on-air {background-color:#006da2;}
+.home-bay #sectionNav{display:none;}
+#sectionNav ul{width:990px;margin:0 auto;padding:0;}
+#sectionNav li.rightSearch{float:right;margin:6px 0 0;width:162px;}
+#sectionNav .linkText { position:relative;top:6px;}
+#nav #searchForm {background-color: white;float: left !important;height: 22px !important;margin: 8px 0 0 10px !important;padding: 0;right: 12px;width: 127px !important;}
+#nav #searchText {float: left;margin: 0;width: 100px;}
+* html #nav #searchForm {margin-right:5px;} 
+* html #sectionNav {margin:0 auto;}
+#sales #nav li a { *height:34px;}
+#nav li.rightSearch input{ *margin:2px 8px 0px 10px;}
+.the_scene .navItem_the-scene, .on_air .navItem_on-air{background:#1B78C7;}
+
+/* FOOTER */
+.checkout-ad {margin-top: 20px;}
+#partners {width:990px; height:118px; background-color:#eeb524;}
+#footer {width:100%; height:auto; float:left; margin:0 auto; padding-bottom:25px; background-color:#0E3870 !important;}
+#footer #footerDiv {background-color:#0E3870 !important;margin: 0 auto;width: 990px;font: normal 11px arial;color: #ffffff;}
+#footer #footerDiv #footerLogo{background-color:#0E3870 !important;float: left;margin-top:0;width:100%;padding:20px 0 0 10px;}
+#footer #footerDiv #footerLogo .right{background-color:#0E3870 !important;float:right;margin-right:5px;width:325px;}
+#footer #footerDiv #footerLogo .left{background-color:#0E3870 !important;float:left;width:650px;}
+#footer #footerDiv #footerLinks {background-color:#0E3870 !important;float: left;padding-left: 10px;width: 100%;}
+#footer #footerDiv #footerLogo #leftLogo {margin:30px 0 0;}
+#footer #footerDiv #footerLogo #leftCopy {float:left;clear:both;padding-top:15px;width:575px;color:#B6D4EE;}
+#footer #footerDiv #footerLogo .leftTerms {float:left;clear:both;margin:0;width:350px;}
+#footer #footerDiv #footerLogo .leftTerms.about {background-color:#0E3870 !important;float:right;clear:both;margin:0;text-align:right;width:315px;}
+#footer #footerDiv #footerLogo .leftTerms .btm{margin: 0;}
+#footer #footerDiv #footerLogo .leftTerms a{color: #B6D4EE;font: 11px arial;margin: 0 12px 0 0;text-decoration: none;}
+#footer #footerDiv #footerLogo .leftTerms a:hover{text-decoration: underline;}
+#footer #footerDiv #footerLogo #leftShare {background-color:#0E3870 !important;float:right;clear:both;}
+#footer #footerDiv #footerLogo #leftShare ul{background-color:#0E3870 !important;float:left;margin:10px 0;width: 100%;}
+#footer #footerDiv #footerLogo #leftShare ul li{background-color:#0E3870 !important;border-right: 1px solid #b8e4df;float: left;height: 12px;margin: 9px 5px;width: 20px;}
+#footer #footerDiv #footerLinks .footCol {background-color:#0E3870 !important;float:left;width:228px;}
+#footer #footerDiv #footerLinks .last{float:left;width:75px;}
+#footer #footerDiv #footerLinks .footCol ul {background-color:#0E3870 !important;float: left;margin:25px 0 0;width: 135px;}
+#footer #footerDiv #footerLinks .footCol ul li {background-color:#0E3870 !important;width: 130px;}
+#footer #footerDiv #footerLinks .last ul,#footer #footerDiv #footerLinks .last ul li{width:75px;}
+#footer #footerDiv #footerLinks .footCol ul li a {font: 11px/16px arial;color: #B6D4EE;text-decoration: none;}
+#footer #footerDiv #footerLinks .footCol ul li a:hover {text-decoration: underline;}
+#footer #footerDiv #footerLinks .footCol ul li.header {margin: 0 0 10px 0;}
+#footer #footerDiv #footerLinks .footCol ul li.header a {font: 14px arial;color: #ffffff;text-transform: uppercase;text-decoration: none;}
+#footer #footerDiv #footerLinks .footCol ul li.header a:hover {text-decoration: underline;}
+#footer #footerDiv #footerLogo #leftShare a#fb_footer{background: url("http://media.nbcbayarea.com/designimages/nbc_v3_footer_share_sprite.png") no-repeat scroll -22px 0 transparent;display: block;height: 18px;margin-left: 2px;position:  static;margin-top: -4px;width: 7px;}
+#footer #footerDiv #footerLogo #leftShare a#fb_footer:hover{background: url("http://media.nbcbayarea.com/designimages/nbc_v3_footer_share_sprite.png") no-repeat scroll -22px -16px transparent;}
+#footer #footerDiv #footerLogo #leftShare a#tw_footer{background: url("http://media.nbcbayarea.com/designimages/nbc_v3_footer_share_sprite.png") no-repeat scroll -30px 1px transparent;display: block;height: 18px;position: static;margin-top: -4px;width: 9px;}
+#footer #footerDiv #footerLogo #leftShare a#tw_footer:hover{background: url("http://media.nbcbayarea.com/designimages/nbc_v3_footer_share_sprite.png") no-repeat scroll -30px -16px transparent;}
+#footer #footerDiv #footerLogo #leftShare a#ph_footer{ background: url("http://media.nbcbayarea.com/designimages/nbc_v3_footer_share_sprite.png") no-repeat scroll -80px 0 transparent;display: block;height: 18px;margin-left: 1px;margin-left: 1px;position:  static;margin-top: -4px;width: 9px;}
+#footer #footerDiv #footerLogo #leftShare a#ph_footer:hover{ background: url("http://media.nbcbayarea.com/designimages/nbc_v3_footer_share_sprite.png") no-repeat scroll -80px -16px transparent;}
+#footer #footerDiv #footerLogo #leftShare a#rss_footer{background: url("http://media.nbcbayarea.com/designimages/nbc_v3_footer_share_sprite.png") no-repeat scroll -40px 0 transparent;display: block;height: 18px;margin-left: -1px;position:  static;margin-top: -4px;width: 12px;}
+#footer #footerDiv #footerLogo #leftShare a#rss_footer:hover{background: url("http://media.nbcbayarea.com/designimages/nbc_v3_footer_share_sprite.png") no-repeat scroll -40px -16px transparent;}
+#footer #footerDiv #footerLogo #leftShare a#em_footer {background:url("http://media.nbcbayarea.com/designimages/nbc_v3_footer_share_sprite.png") no-repeat scroll -64px 0 transparent;display:block;height:18px;margin-left:-1px;position: static;margin-top:-5px;width:16px;}
+#footer #footerDiv #footerLogo #leftShare a#em_footer:hover {background:url("http://media.nbcbayarea.com/designimages/nbc_v3_footer_share_sprite.png") no-repeat scroll -64px -16px transparent;}
+
+/* MASTHEAD */
+#mastheadLinks {width:1010px;margin: 0 auto;padding-top:6px !important;}
+#mastheadLinks #mastheadLeftLinks{float:left;}
+#mastheadLinks #mastheadLeftLinks a#logo{float:left;}
+#mastheadLeftLinks .homepageTitle h1 {position:absolute;white-space:nowrap;padding-left:5px;visibility:hidden;}
+#mastheadLinks #mastheadRightLinks a.mh_follow {float: left;color: #7da9dc;font-family: arial;font-size: 11px;margin: 0 0 0 0;padding: 0 8px;text-decoration: none;text-transform: uppercase;}
+#mastheadLinks #mastheadRightLinks a.mh_follow{margin: 0;padding: 0 !important;}
+#mastheadLinks #mastheadRightLinks a.bl {border-left: 1px solid;}
+#mastheadLinks #mastheadRightLinks #userMsg { color:#b8e4df;font-family:Arial;font-size:11px;padding-right:5px;padding-left:8px;}
+#mastheadRightLinks #loginRegLinks a#editAccount, #mastheadRightLinks #loginRegLinks a#logOut {padding-left:8px;padding-right:5px;}
+#mastheadLinks #mastheadRightLinks #userMsg a {color:#b8e4df;text-decoration:none;text-transform:uppercase;padding:0px;margin:0;}
+#mastheadLinks #mastheadRightLinks .brLast {border-right: none;border-left:none;color:#7DA9DC;float:left;font-family:arial;font-size:11px;margin:0;padding:0 8px;text-decoration:none;text-transform:uppercase;}
+#mastheadRightLinks #followLinks, #mastheadRightLinks #loginRegLinks {float:right !important;clear:both;color:#b8e4df;}
+#mastheadRightLinks #followLinks { margin-top:0px !important; }
+#mastheadRightLinks .follow-us {background:none!important;font-family:Helvetica,Helvetica,sans-serif;font-size:16px;color:#fafafa;display:block;height:12px;margin-top:6px;text-transform:uppercase;padding:0 5px!important;width:100px!important;}
+#mastheadLinks #mastheadRightLinks #loginRegLinks  {padding-top:3px !important;}
+#mastheadRightLinks #followLinks a:hover, #mastheadRightLinks #loginRegLinks a:hover  {text-decoration:underline;}
+#mastheadRightLinks #loginRegLinks a:hover  {  text-decoration:none;}
+#mastheadRightLinks #loginRegLinks a:hover  {  text-decoration:none;  color:#fff;}
+#mastheadRightLinks #loginRegLinks a.divider:hover  {  text-decoration:none;  color:#b8e4df;}
+#mastheadLinks #mastheadRightLinks #followLinks .br {border-right: 1px solid;color:#fafafa;}
+#mastheadLinks #mastheadRightLinks div#tipsLink {padding-top:6px; margin-top:0px;clear:none !important;float:left !important;}
+#mastheadRightLinks #tipsLink a#tips {padding-left:4px;}
+#mastheadRightLinks #tipsLink a#tips span.tipsImg { background:url("http://media.nbcbayarea.com/designimages/nbc_v3_footer_share_sprite.png") no-repeat scroll -52px -5px transparent;display:block;height:12px;left:0px;top:0px;width:12px;float:left;margin-top:-2px;}
+#mastheadRightLinks #ugcLink a span.ugcIcon {background:url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png") no-repeat scroll -70px -44px transparent; display:block; float:left; width:12px; height:11px;}
+#mastheadRightLinks #ugcLink a:hover span.ugcIcon {background:url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png") no-repeat scroll -70px -54px transparent; display:block; float:left; width:12px; height:11px;}
+#mastheadRightLinks #tipsLink a#tips span.tipsText {float:left;padding-left:4px;}
+#mastheadRightLinks #tipsLink a#tips span.tipsImg:hover { background:url("http://media.nbcbayarea.com/designimages/nbc_v3_footer_share_sprite.png") no-repeat scroll -52px -21px transparent;display:block;float:left;height:12px;left:0;top:0;width:12px;margin-top:-2px;}
+#mastheadRightLinks #tipsLink a#tips:hover span.tipsImg { background:url("http://media.nbcbayarea.com/designimages/nbc_v3_footer_share_sprite.png") no-repeat scroll -52px -21px transparent;display:block;float:left;height:12px;left:0;top:0;width:12px;margin-top:-2px;}
+#mastheadRightLinks #followLinks a.divider, #mastheadRightLinks #loginRegLinks a.divider {border-right:none;font-size:11px;padding:0px 0px 0px 3px;}
+#mastheadRightLinks #loginRegLinks #loggedIn a#tips span.tipsImg {background:url("http://media.nbcbayarea.com/designimages/nbc_v3_footer_share_sprite.png") no-repeat scroll -52px -7px transparent;margin-top:0px;} 
+#mastheadRightLinks #loginRegLinks #loggedIn a#tips span.tipsImg:hover {background:url("http://media.nbcbayarea.com/designimages/nbc_v3_footer_share_sprite.png") no-repeat scroll -52px -23px transparent;margin-top:0px;}
+#mastheadLinks #mastheadRightLinks div#loggedInTips {padding-top:1px;margin-top:23px;}
+#mastheadRightLinks #tipsText a#tips span.tipsText {}
+#mastheadRightLinks #followLinks a#fbLink, #mastheadRightLinks #followLinks a#twitterLink {font-size:16px;}
+#mastheadRightLinks #followLinks a#fbLink img, #mastheadRightLinks #followLinks a#twitterLink img {margin-bottom:-2px;}
+#masthead #mastheadRightLinks {position:absolute;top:0;left:694px;width:300px;height:78px;overflow:hidden;font-size:12px;font-family:Arial,Sans-Serif;color:#FFFFFF;}
+#masthead #mastheadRightLinks #mastheadWeatherModule {position:absolute;top:30px;left:18px;width:92px;height:60px;padding:0;/*background:url('http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png') 0 -660px no-repeat transparent*/background:none;}
+#masthead #mastheadRightLinks #mastheadWeatherModule #mastheadWeatherModule1 {display:block;overflow:hidden;padding:0;}
+#masthead #mastheadRightLinks #mastheadWeatherModule #mastheadWeatherModule1 #mastheadWeatherTemp #mastheadWeatherTempNow {font-weight:bold;font-size:21px;margin:8px 0 4px;padding:0;line-height:1em;}
+#masthead #mastheadRightLinks #mastheadWeatherModule #mastheadWeatherModule1 #mastheadWeatherTemp #mastheadWeatherTempNow a span.scale {font-size:10px;font-weight:normal;left:-7px;position:relative;top:1px;}
+#masthead #mastheadRightLinks #mastheadWeatherModule #mastheadWeatherModule1 #mastheadWeatherTemp #mastheadWeatherHiLo {/*padding:0;line-height:1em;*/display:none;}
+#masthead #mastheadRightLinks #socializeLoggedinState {position:relative;}
+#masthead #mastheadRightLinks #socializeLoggedinState ul {position:absolute;top:12px;left:auto;right:4px;width:130px;z-index:1;color:#2B4F86;border:1px solid #DFDFDF;border-top:none;background-color:#FFFFFF;}
+#masthead #mastheadRightLinks #socializeLoggedinState li {display:block;padding:0;margin:0;}
+#masthead #mastheadRightLinks #socializeLoggedinState li a {display:block;padding:8px 4px;margin:0;font-weight:bold;text-transform:capitalize;font-size:12px;color:#2B4F86!important;}
+#masthead #mastheadRightLinks #socializeLoggedinState li a:hover {background-color:#EFEFEF;}
+#masthead #mastheadRightLinks #ugcBox {float:right;margin:0;text-align:center;padding:8px 4px 0;height:17px;width:290px;font-size:11px;/*background:url('http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png') 0 -725px no-repeat transparent;*/background:none #2B4F86;line-height:1em;-webkit-border-bottom-right-radius: 10px;-webkit-border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;-moz-border-radius-bottomleft: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;}
+#masthead #mastheadRightLinks #ugcBox a {position:relative;margin:0 4px;}
+#masthead #mastheadRightLinks #ugcBox span#socializeLoggedinState a#myAccount span {background:url('http://media.nbcbayarea.com/designimages/profileDDArrows.png') no-repeat scroll 0 0 transparent;float:none;height:13px;width:15px;position:relative;left:0;top:-1px;padding:0 8px 0 7px;margin:0 0 0 2px;}
+#masthead #mastheadRightLinks #ugcBox span#socializeLoggedinState a#myAccount span.active {background-position:-15px 0;}
+#masthead #mastheadRightLinks form#searchForm {float:right;width:188px;margin:10px 0 0 0;position:relative;border:2px solid #648bb7;}
+#home #masthead #mastheadRightLinks form#searchForm {width:275px;}
+#masthead #mastheadRightLinks form#searchForm #searchText {width:148px;height:15px;position:relative;border:1px solid #FFFFFF;color:#999999;padding:2px 30px 2px 8px;}
+#home #masthead #mastheadRightLinks form#searchForm #searchText {width:235px;}
+#masthead #mastheadRightLinks form#searchForm #searchSubmit {position:absolute;top:2px;left:165px;width:20px;}
+#home #masthead #mastheadRightLinks form#searchForm #searchSubmit {left:254px;}
+#masthead #mastheadRightLinks a {color:#FFFFFF;text-transform:uppercase;}
+.la #masthead #mastheadRightLinks a {color:#4D7DA2;}
+.bay #masthead #mastheadRightLinks #mastheadWeatherModule,
+.har #masthead #mastheadRightLinks #mastheadWeatherModule,
+.dfw #masthead #mastheadRightLinks #mastheadWeatherModule,
+.ny #masthead #mastheadRightLinks #mastheadWeatherModule {background-position:-110px -660px;}
+.dgo #masthead #mastheadRightLinks #mastheadWeatherModule {background-position:-220px -660px;}
+.la #masthead #mastheadRightLinks #mastheadWeatherModule {background-position:-330px -660px;color:#4D7DA2;}
+#masthead #mastheadRightLinks #mastheadWeatherModule #mastheadWeatherModule1 #mastheadWeatherIcon {float:left;margin:0 2px 0 0;}
+#masthead #mastheadRightLinks #mastheadWeatherModule #mastheadWeatherModule1 #mastheadWeatherTemp {float:left;text-align:left;font-style:normal;}
+.la #masthead #mastheadRightLinks #mastheadWeatherModule #mastheadWeatherModule1 #mastheadWeatherTemp {color:#4D7DA2;}
+#masthead #mastheadRightLinks #mastheadWeatherModule #mastheadWeatherModule1 #mastheadWeatherTemp a {color:#FFF;}
+.la #masthead #mastheadRightLinks #mastheadWeatherModule #mastheadWeatherModule1 #mastheadWeatherTemp a {color:#4D7DA2;}
+#masthead #mastheadRightLinks #mastheadWeatherModule #mastheadWeatherModule1 #mastheadWeatherTemp #mastheadWeatherTempHiLo {}
+.bay #masthead #mastheadRightLinks #ugcBox,
+.har #masthead #mastheadRightLinks #ugcBox,
+.dfw #masthead #mastheadRightLinks #ugcBox,
+.ny #masthead #mastheadRightLinks #ugcBox {background-position:-180px -725px;}
+.dgo #masthead #mastheadRightLinks #ugcBox {background-position:0 -750px;}
+.la #masthead #mastheadRightLinks #ugcBox {background-position:-180px -750px;color:#4D7DA2;}
+#masthead #mastheadRightLinks #ugcBox a span {float:left;width:12px;position:absolute;top:0;left:0;background:url('http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png') no-repeat transparent;}
+#masthead #mastheadRightLinks #ugcBox a.ugcLink span {height:11px;background-position:-70px -54px;}
+#masthead #mastheadRightLinks #ugcBox a.tipsLink span {height:8px;background-position:-52px -24px;top:2px;}
+.la #masthead #mastheadRightLinks #ugcBox a.ugcLink span {background-position:-52px -54px}
+.la #masthead #mastheadRightLinks #ugcBox a.tipsLink span {background-position:-52px -46px;}
+.bay #masthead #mastheadRightLinks form#searchForm,
+.har #masthead #mastheadRightLinks form#searchForm,
+.dfw #masthead #mastheadRightLinks form#searchForm,
+.ny #masthead #mastheadRightLinks form#searchForm {border:2px solid #204177;}
+.dgo #masthead #mastheadRightLinks form#searchForm {border:2px solid #3891c4;}
+.la #masthead #mastheadRightLinks form#searchForm {border:2px solid #d2dbe3;}   
+#followLinks ul { float:left; padding-right:5px; padding-top:3px;}
+#followLinks ul li {float:left;color:#fafafa;padding:0 1px 0px 0px;}
+#followLinks ul li.br {padding:0 8px 0px 5px;}
+#mastheadRightLinks #followLinks a#fbLink {background:url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png") no-repeat scroll -104px 0px transparent; display:block; height:25px; left:2px; padding:0; top:0; width:25px;}
+#mastheadRightLinks #followLinks a#fbLink:hover {background:url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png") no-repeat scroll -104px 0px transparent; display:block; height:25px; left:2px; padding:0; top:0; width:25px;}
+#mastheadRightLinks #followLinks a#twitterLink {background:url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png") no-repeat scroll -128px 0px transparent; display:block; height:25px; padding:0; position:relative; top:0; width:25px;}
+#mastheadRightLinks #followLinks a#twitterLink:hover {background:url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png") no-repeat scroll -128px 0px transparent; display:block; height:25px; padding:0; position:relative; top:0; width:25px;}
+#mastheadRightLinks #followLinks a#gplusLink {background:url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png") no-repeat scroll -155px 0px transparent; display:block; height:25px; padding:0; position:relative; top:0; width:25px;}
+#mastheadRightLinks #followLinks #followHeader {margin-bottom:-4px;margin-top: 1px;}
+#mastheadLinks #mastheadRightLinks #loggedIn {padding-left:10px;padding-top:4px;color:#b8e4df;}
+
+/* promotional */
+.secondary-module #whats-new .btmLink{margin: 5px 0 0 -9px;}
+.secondary-module #follow-us .btmLink{margin: 10px 0 0 10px;float:left;}
+#follow-us .facebook-icon {background-image: url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png");background-position: 0px -115px;background-repeat: no-repeat;float: left;height: 44px;width: 44px;}
+#follow-us .twitter-icon {background-image: url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png");background-position: 0px -159px;background-repeat: no-repeat;float: left;height: 44px;width: 44px;}
+#follow-us .mobile-icon {background-image: url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png");background-position: 0px -203px;background-repeat: no-repeat;float: left;height: 44px;width: 44px;}
+#follow-us .newsletter-icon {background-image: url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png");background-position: 0px -247px;background-repeat: no-repeat;float: left;height: 44px;width: 44px;}
+
+#top-stories-thumb .smallPlayButton {background-image: url("http://media.nbcbayarea.com/designimages/nbc-sprite-icons.png");background-position: -52px -364px;height: 31px;left: 175px !important;position: absolute;top: 90px !important;width: 52px;z-index: 5 !important;}
+
+#ad_lr_2 {height: 315px;}
+
+#most-read-module ul.topFive li.l1{background-image:url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png") !important;background-repeat:no-repeat;height:10px;width:16px;}
+#most-read-module ul.topFive li.l2{background-image:url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png") !important;background-repeat:no-repeat;height:10px;width:16px;}
+#most-read-module ul.topFive li.l3{background-image:url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png") !important;background-repeat:no-repeat;height:10px;width:16px;}
+#most-read-module ul.topFive li.l4{background-image:url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png") !important;background-repeat:no-repeat;height:10px;width:16px;}
+#most-read-module ul.topFive li.l5{background-image:url("http://media.nbcbayarea.com/designimages/nbc-ots-sprite-021413.png") !important;background-repeat:no-repeat;height:10px;width:16px;}
+#most-read-module ul.topFive li.l1 {background-position: -87px 0 !important;}
+#most-read-module ul.topFive li.l2 {background-position: -87px -15px !important;}
+#most-read-module ul.topFive li.l3 {background-position: -87px -30px !important;}
+#most-read-module ul.topFive li.l4 {background-position: -87px -45px !important;}
+#most-read-module ul.topFive li.l5 {background-position: -87px -60px !important;}
+
+/* ^^^^ partner bar ^^^^ */
+#partnerBar {background: #E1E1E1 url(http://media.nbcwashington.com/designimages/hdr_ourPartners.gif) no-repeat 28px 47px;height: 90px;padding: 10px 0px;width: 980px;margin-left: auto;margin-right: auto;}
+#partnerBar .partner {display: inline;float: left;clear: none;padding-right: 15px;}
+#partnerBar .first {padding-left: 175px;}
+#partnerBar .partner a {display: block;border: 1px solid #aeaeae;}
+.print-button {color:#006699;font-size:12px;font-weight:bold;}
+.twitter-share {float: left;padding-left: 2px;padding-top: 1px;width: 90px;}
+#primary-main .feature .left-image li {width: 260px;}
+#primary-main .feature .right-image {margin-left:0;width: 300px;} 
+#header {position: relative;text-align: center;}
+.newsletters #ad_hdr_2 {border:0px !important;}
+#subsection #ad_hdr_2 {border:0px !important;}
+#header #ad_hdr_2 { float: none !important; margin:0px auto !important; padding: 15px 0 !important; text-align: center; width: 1008px !important; background: none repeat scroll 0 0 #FFFFFF !important; border-left: 1px solid #E0E7EE; border-right: 1px solid #E0E7EE;}
+#canvas #ad_hdr_2 { float: none !important; margin:0px auto !important; padding: 15px 0 !important; text-align: center; width: 1008px !important; background: none repeat scroll 0 0 #FFFFFF !important; border-left: 1px solid #E0E7EE; border-right: 1px solid #E0E7EE; z-index:0;} 
+#canvas #ad_hdr_2 div, #canvas #ad_hdr_2 iframe, #canvas #ad_hdr_2 object {margin:0 auto!important;}
+
+/* PROMOTIONAL BOX */
+#secondary {width:990px;}
+#secondary-main {position:relative; width:990px; height:475px; background-color:#efefef;}
+#secondary-secondary {width:990px; height:237px; margin-top:70px; background-color:#fff; float:left;}
+#secondary-secondary-p1, #secondary-secondary-p3 {width:300px; height:237px; float:left;}
+#secondary-secondary-p1,#secondary-secondary-p3, #secondary-secondary-p2  { margin-left:0px !important; vertical-align:bottom;}
+#secondary-secondary-p2 {width:338px; height:219px; background-color:#fff; margin:0 15px; float:left;border-left: 1px solid #CDCDCD; border-right: 1px solid #CDCDCD;}
+#secondary-secondary-p2 #follow-us {float:left; margin-top: 0px;}
+
+.secondary-module {position:relative;border-top:1px solid #cdcdcd;}
+.secondary-module a.goToBlog {clear:none;margin-left: 0px; }
+.secondary-module a.arrow {clear:none;margin-left:0px !important; }
+.secondary-module .module-title { background-color:#fafafa !important; left:66px; }
+#secondary-secondary-p3 .module-title {left: 72px;}
+#secondary-secondary-p3 {text-align:center;padding-top:5px;}
+#secondary-secondary-p2 #follow-us{ margin-left: 14px; width: 308px;}
+#secondary-secondary-p2 #follow-us .module-title {left: 72px;}
+#secondary-secondary-p2{}
+#secondary-secondary-p2 .summary{color: #8F8F8F;float: left;font-family: arial;font-size: 12px;line-height: 16px;margin: 30px 0 20px 50px;text-align: center;width: 200px;}
+#secondary-secondary-p2 .links{float: left;margin: 10px 0 0 10px;padding: 0 0 20px;width: 300px;}
+* html #secondary-secondary-p2 .links{margin: 70px 0 0 13px;}
+#secondary-secondary-p2 .links a{margin: 0 0 0 23px;}
+#secondary-secondary-p2 #follow-us-story-tips{ border-top: 1px dotted #B2B2B2; float: left; margin-top: 10px; padding-top: 10px; width: 100%;}
+#secondary-secondary-p2 p.goToBlog{margin-left: 20px;}
+#secondary-secondary-p1 .iphoneAd {float: left;margin:30px 15px 10px 0px;width:auto;max-width:133px;overflow:hidden;}
+#secondary-secondary-p1 .iphoneAdText {color: #8F8F8F;float: left;font-family: arial;font-size: 11px;line-height: 15px;margin: 30px 0 0 20px;width: 150px;}
+#secondary-secondary-p1 .iphoneAdText .header {color: #000000;font-size: 16px;font-weight: bold;line-height: 18px;margin: 0 0 5px;}
+#secondary-secondary-p1 .iphoneAdText p {margin: 0px;}
+#secondary-secondary-p1 .iphoneAdText .body {font-size:12px;}
+#secondary-secondary-p1 a.topStoryHeadline {font-size:18px;text-decoration:none;color:#555555;position:relative;top:0;padding:5px 5px 5px 0;line-height:20px;}
+#secondary-secondary-p1 a.topStoryHeadline:hover {text-decoration:underline;}
+#secondary-secondary-p1 .header {font-size: 18px;text-decoration: none;color:#555;font-weight: bold;padding: 28px 0px 6px 0px;}
+#secondary-secondary-p1 #whats-new {margin-left: 20px;margin-right: 20px;}
+#secondary-secondary-p1 .body {font-size:12px;color: #8F8F8F;line-height: 17px;}
+#secondary-secondary-p1 .goToBlog {float: none;}
+#secondary-secondary-p1 #whats-new .goToArrow {position: absolute;margin-top: 3px;}
+
+.module-title {position: absolute; top: -16px; left: 270px; background-color:#fff !important; margin-top: 0px; padding: 0 8px; font-family:Helvetica, arial, sans-serif; font-size:22px; text-transform:uppercase; color: #26518e;font-size:24px;line-height:26px;}
+.module-title a {color:#26518e; text-decoration:none;}
+
+a.goToBlog {clear: both;color: #26518E;float: left;font-family: arial;font-size: 12px;font-weight: bold;height: 11px;margin-left: 8px;text-decoration: none;}
+a:hover.goToBlog{text-decoration:underline;}
+img.goToBlog {width:14px; height:14px; margin-left:5px; padding-top:9px; float:left;}
+.goToArrow {background-image: url("http://media.nbcnewyork.com/designimages/nbc-ots-sprite-021413.png") !important;background-position:0px -70px !important;background-repeat: no-repeat !important;float: left !important;height: 11px !important;margin-left: 5px !important;width: 11px !important;}
+
+#promotional {float: left;margin:0;width: 100%;}
+#promotional-boxes {width:990px;padding:40px 0 20px 17px;overflow:hidden;background-color:#FFF;border-left:1px solid #E0E7EE;border-right:1px solid #E0E7EE;margin:0 auto;}
+
+/* temporary !!!! */
+#share_box { display:none; } 
+
+/* masthead ugc header */
+.ugh-header { color: #FFFFFF; left: 440px; position: absolute; text-align: center; top:30px;}
+.ugh-header a { color: #FFFFFF; text-align: center; text-transform:uppercase; text-decoration:underline; font-family: Helvetica, arial, sans-serif;}
+
+/* ugc form */
+#ugc_form_wrp {background:#D9D9D9 url(http://media.nbcbayarea.com/designimages/ugc_form_bc.gif) repeat-x scroll 0 0;border:1px solid #B8B8B8;padding:15px;width:625px;}
+#main {width:100%;}
+#rightRail {float:left;width:300px;}
+#containerAD { background-color:#EEE; border:1px solid #DFDFDF; float:left; margin-bottom:15px; padding:15px; }
+#containerMM { border:1px solid #DFDFDF; float:left; height:280px; margin-bottom:15px; padding:0px 15px; background-color:white; }
+
+/*ugc form*/
+.ugc {font-family:tahoma;}
+.ugc h2{color:#3b7987;font-size:24px;font-weight:normal;padding:8px 0px 8px 55px;margin:0 0 5px;margin-top:20px;}
+.ugc_teaser {background:#7cccde url(http://media.nbcbayarea.com/designimages/ugc_teaser_bc.gif) repeat-x;padding:25px 15px;border:1px solid #63abbc;margin-bottom:5px;}
+.ugc_teaser p {color:#fff;font-size:14px;line-height:23px;}
+.ugc_teaser p a{color:#3b7987}
+#ugc_thumbs_wrp{margin-bottom:10px;text-align:center;}
+* html .ugc_thumbs_wrp {background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (src='http://media.nbcbayarea.com/designimages/ugc_thumbs.png',sizingMethod='scale');}
+#ugc_thumbs_wrp .ugc_thmb{height:50px;width:73px;float:left;/* border-bottom:1px solid #fff;*/}
+#ugc_form_wrp input:focus, #ugc_form_wrp textarea:focus{background-color:#d7f0f5;}
+#ugc_form_wrp{padding:15px;border:1px solid #b8b8b8;background:#d9d9d9 url(http://media.nbcbayarea.com/designimages/ugc_form_bc.gif) repeat-x;}
+#ugc_form_wrp .required{color:#f00;font-weight:bold;}
+#ugc_form_wrp p{font-size:9px;margin-bottom:15px;}
+#ugc_form_wrp a{color:#277ab2;font-size:11px;}
+#ugc_form_wrp a.howtolink{display:block;margin-bottom:10px;}
+#ugc_form_wrp a.howtolink:hover{text-decoration:underline;}
+#ugc_form_wrp label{display:block;color:#000;font-size:11px;margin-bottom:5px;}
+#ugc_form_wrp input, #ugc_form_wrp textarea {margin-bottom:10px;width:190px;}
+#ugc_form_wrp textarea {width:610px;padding:5px;}
+#ugc_form_wrp input.ugc_submt{width:121px;height:27px;display:block;border:none;float:left;background:url(http://media.nbcbayarea.com/designimages/ugc_form_btn.gif) no-repeat 0px 0%;cursor:pointer;}
+#ugc_form_wrp #imageUpload a {background:#eeeeee;border:1px solid #000000;padding:2px;}
+#ugc_upload_field_wrp input{float:left;}
+#ugc_form_wrp .ugc_max_size, #ugc_your_phone_wrp span.phone_contact {position:relative;top:5px;left:10px;font-size:9px;}
+#ugc_form_wrp .ugc_max_size{left:40px;}
+#ugc_your_phone_wrp input{float:left;}
+#ugc_form_wrp #ugc_terms_wrp {margin-bottom:25px;}
+#ugc_form_wrp #ugc_terms_wrp label {position:relative;top:6px;left:5px;}
+#ugc_form_wrp #ugc_terms_wrp input{float:left;width:15px;margin-top:7px;}
+#ugc_submit_wrp span{position:relative;top:3px;left:5px;}
+#ugc_form_wrp #momentBottomButtons a{background:#eeeeee;border:1px solid #000000;padding:2px;}
+#consoleBody {margin-top:10px;color:#b92f2f;}
+/*ugc lead*/
+#ugc_lead_wrap {color:#fff;padding:2px 5px;background:url(http://media.nbcbayarea.com/designimages/bg_ugc_lead_gradient.gif) repeat-x;cursor:pointer;border:1px solid #3b7a88;width:290px;}
+.nbcArticleRgtBox #ugc_lead_wrap {margin-top:5px;}
+#ugc_lead_wrap h3 {background:transparent url(http://media.nbcbayarea.com/designimages/ico_ugc_guy.png) no-repeat scroll 0 5px;color:#444444;font-size:14px;line-height:39px;margin-top:0;padding:0 0 0 34px;}
+#ugc_lead_wrap p {color:#444;}
+#ugc_lead_wrap a:link,#ugc_lead_wrap a:visited {display:block;font-size:11px;font-weight:bold;margin-top:3px;text-decoration:none;color:#3b7a88;}
+#ugc_lead_wrap a:hover,#ugc_lead_wrap a:active {display:block;font-size:11px;font-weight:bold;margin-top:3px;text-decoration:underline;color:#3b7a88;}
+#nbcArticleContainer {float:left;width:669px;}
+#ugc_form_wrp {background:#D9D9D9 url(http://media.nbcbayarea.com/designimages/ugc_form_bc.gif) repeat-x scroll 0 0;border:1px solid #B8B8B8;padding:15px;width:625px;}
+/*ugc form*/
+.ugc h2{color:#3b7987;font-size:24px;font-weight:normal;padding:8px 0px 8px 55px;margin:0 0 5px;margin-top:20px;}
+.ugc_teaser {background:#7cccde url(http://media.nbcbayarea.com/designimages/ugc_teaser_bc.gif) repeat-x;padding:25px 15px;border:1px solid #63abbc;margin-bottom:5px;}
+.ugc_teaser p {color:#fff;font-size:14px;line-height:23px;}
+.ugc_teaser p a{color:#3b7987}
+#ugc_thumbs_wrp{margin-bottom:10px;text-align:center;}
+* html .ugc_thumbs_wrp {background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (src='http://media.nbcbayarea.com/designimages/ugc_thumbs.png',sizingMethod='scale');}
+#ugc_thumbs_wrp .ugc_thmb{height:50px;width:73px;float:left;/* border-bottom:1px solid #fff;*/}
+#ugc_form_wrp input:focus, #ugc_form_wrp textarea:focus{background-color:#d7f0f5;}
+#ugc_form_wrp{padding:15px;border:1px solid #b8b8b8;background:#d9d9d9 url(http://media.nbcbayarea.com/designimages/ugc_form_bc.gif) repeat-x;}
+#ugc_form_wrp .required{color:#f00;font-weight:bold;}
+#ugc_form_wrp p{font-size:9px;margin-bottom:15px;}
+#ugc_form_wrp a{color:#277ab2}
+#ugc_form_wrp label{display:block;color:#000;font-size:11px;margin-bottom:5px;}
+#ugc_form_wrp input, #ugc_form_wrp textarea {margin-bottom:10px;width:190px;}
+#ugc_form_wrp textarea {width:620px;padding:5px;}
+#ugc_form_wrp input.ugc_submt{width:121px;height:27px;display:block;border:none;float:left;background:url(http://media.nbcbayarea.com/designimages/ugc_form_btn.gif) no-repeat 0px 0%;cursor:pointer;}
+#ugc_upload_field_wrp input{float:left;}
+#ugc_form_wrp .ugc_max_size{left:40px;}
+#ugc_your_phone_wrp input{float:left;}
+#ugc_form_wrp #ugc_terms_wrp {margin-bottom:25px;}
+#ugc_form_wrp #ugc_terms_wrp label {float:left;position:relative;top:6px;left:5px;}
+#ugc_form_wrp #ugc_terms_wrp input{float:left;width:15px;margin-bottom:0px;}
+#ugc_submit_wrp span{position:relative;top:3px;left:5px;}
+#consoleBody {margin-top:10px;color:#b92f2f;}
+
+/*ugc lead*/
+#ugc_lead_wrap {color:#fff;padding:2px 5px;background:url(http://media.nbcbayarea.com/designimages/bg_ugc_lead_gradient.gif) repeat-x;cursor:pointer;border:1px solid #3b7a88;width:290px;}
+.nbcArticleRgtBox #ugc_lead_wrap {margin-top:5px;}
+#ugc_lead_wrap h3 {background:transparent url(http://media.nbcbayarea.com/designimages/ico_ugc_guy.png) no-repeat scroll 0 5px;color:#444444;font-size:14px;line-height:39px;margin-top:0;padding:0 0 0 34px;}
+#ugc_lead_wrap p {color:#444;}
+#ugc_lead_wrap a:link,#ugc_lead_wrap a:visited {display:block;font-size:11px;font-weight:bold;margin-top:3px;text-decoration:none;color:#3b7a88;}
+#ugc_lead_wrap a:hover,#ugc_lead_wrap a:active {display:block;font-size:11px;font-weight:bold;margin-top:3px;text-decoration:underline;color:#3b7a88;}
+
+#rightRail {float:left;padding:10px 0 0 25px;width:300px;}
+
+.weather #rightRail {padding:10px 0 0 19px;}
+#containerAD {background-color:#EEE;border:1px solid #DFDFDF;float:left;margin-bottom:15px;padding:15px;}
+#containerMM {border:1px solid #DFDFDF;float:left;height:280px;margin-bottom:15px;padding:0px 15px;background-color:white;}
+
+/*inline slideshow*/
+#slideShowAllElements {width:700px;height:394px;position:absolute;top:0px;left:0px;overflow:hidden;z-index:1;}
+#slideShowPictureElements {position:absolute;top:0px;left:0px;}
+#photoSummary {position:relative;}
+#slideshowModule {position:relative;width:700px;height:394px;overflow:hidden;}
+#slideShowAllElements #caption { position:absolute !important; z-index:4 !important; top:350px !important; left:0px !important; width:710px !important; height:50px !important;}
+.hpslides { position:relative; display:inline; width:700px; height:399px; float:left; z-index:3 !important; background-color:#000; text-align:center;}
+.hpslides p {color:#fff; position:relative; z-index:2; margin-top:-3px;}
+.summaryItem {position:absolute; top:0px; left:0px; display:none;}
+#slideshowModule a {position:relative !important; z-index:1001 !important;}
+.hideShowCaptionBtn {cursor: pointer;top: -6px;}
+.hideShowCaptionBtn {background: url("http://media.nbcchicago.com/designimages/slideshow_h-caption.png") no-repeat scroll 0 0 transparent;cursor:pointer;top:-6px;float: right;height: 11px;margin-right: 0px;position: relative;width: 40px;z-index: 10;}
+
+/* NEW CSS */
+#summaryBG {height: 90px;background-color: #000;opacity: 0.6;z-index: 1;position: absolute;top: 0px;left:-10px;width: 710px;}
+#slideshowModule div.summary {position:absolute !important; top:310px; left:0px; width:680px; height:70px; color:#eee; z-index:5; text-align:left; font-family:arial; font-size:12px; line-height:11px; padding:10px; background:#000; opacity:0.7; filter: alpha(opacity = 70); }
+.hpslides { position:relative; display:inline; width:700px; height:399px; float:left; z-index:3 !important; background-color:#000; text-align:center;}
+.summaryItem {position:absolute; top:0px; left:0px; display:none;}
+.hideShowCaptionBtn {cursor:pointer; top:-6px;}
+.captionControlMin {background: url("http://media.nbcbayarea.com/designimages/slideshow_s-caption.png") no-repeat scroll 0 0 transparent !important; margin-right: -12px !important; width: 80px !important;}
+.captionControlMin:hover {background: url("http://media.nbcbayarea.com/designimages/slideshow_s-caption.png") no-repeat scroll 0 -11px transparent !important; margin-right: -12px; width: 80px !important;}
+#slideshowModule a {position:relative !important; z-index:1001 !important;}
+p.showTitle { position:relative; z-index:2; font-weight:bold; margin-top:-3px;    font-size:13px;    line-height:17px;}
+#slideCounter { font-weight:normal !important; }
+p.photoCaption { margin-top:1px; position:relative; z-index:2; line-height:17px;    font-size:13px;   font-weight:normal;}
+.hideShowCaptionBtn {cursor: pointer;top: -6px;}
+.hideShowCaptionBtn {background: url("http://media.nbcbayarea.com/designimages/slideshow_h-caption.png") no-repeat scroll 0 0 transparent;cursor:pointer;top:-6px;float: right;height: 11px;margin-right: 0;position: relative;width: 40px;z-index: 10;}
+.hideShowCaptionBtn:hover { background: url("http://media.nbcbayarea.com/designimages/slideshow_h-caption.png") no-repeat scroll 0 -11px transparent; }
+
+#ssplay {margin: 10px 500px 0 10px;background-position:-386px -184px;}
+#ssplay:hover {background-position:-386px -207px;}
+div#ssplay.paused {background-position:-323px -184px;}
+div#ssplay.paused:hover {background-position:-323px -207px;}
+#ssleft {background-position:-516px -184px;}
+#ssleft:hover {/*background-position:-516px -207px;*/background-position:-517px -208px;}
+#ssright {margin-left:5px;background-position:-451px -184px;}
+#ssright:hover {background-position:-451px -207px;}
+
+
+#replayButton {display:none; position: absolute; width:100px; height:37px; top:160px; left:310px; z-index:12; cursor:pointer; background-repeat:no-repeat; background-image:url('http://media.nbcbayarea.com/designimages/slideshow_replay.png');}
+
+/* blog masthead css */
+#weatherDivider { background:url("http://media.nbcbayarea.com/designimages/nbc_v3_weather_divider.jpg") no-repeat scroll 0 0; float:left; height:42px; padding-right:7px; width:3px;}
+#weather-module1 {display:none;}
+#currentIconTopHeader { float:left; margin-left:21px;}
+#currentTempTopHeader { color:#FFFFFF; float:left; font-family:Helvetica,arial,sans-serif; font-size:15px; font-weight:normal; padding-top:5px;}
+#currentTempRange { color:#7DA9DC; font-family:arial; font-size:10px; font-weight:normal; float:left; clear:left; padding-top:7px; width:40px;}
+#currentTempRange span { color: #ffffff;}
+#currTempBlock { float:left; padding-left:10px;}
+
+/* BLOG HEADER RIBBON */
+#headerBannerContainer {float:left;position:relative;}
+#body #headerBanner {height:25px;color:#FFFFFF;position:absolute;width:1038px;left:-15px;z-index:1;text-align:left;margin:0;padding:1px 0;line-height:1em;-webkit-box-shadow: 0px 4px 5px #666;-moz-box-shadow: 0px 4px 5px #666;box-shadow: 0px 4px 5px #666;background-color:${bannerBackground};background-image: linear-gradient(bottom, ${bannerGradientBottom} 25%, ${bannerGradientTop} 75%);background-image: -o-linear-gradient(bottom, ${bannerGradientBottom} 25%, ${bannerGradientTop} 75%);background-image: -moz-linear-gradient(bottom, ${bannerGradientBottom} 25%, ${bannerGradientTop} 75%);background-image: -webkit-linear-gradient(bottom, ${bannerGradientBottom} 25%, ${bannerGradientTop} 75%);background-image: -ms-linear-gradient(bottom, ${bannerGradientBottom} 25%, ${bannerGradientTop} 75%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.25, ${bannerGradientBottom}),color-stop(0.75, ${bannerGradientTop}));}
+#body #headerBanner:after, #body #headerBanner:before {content:'';position:absolute;width:0;height:0;left:0;border-width:4px 7px;border-style:solid;border-color:${bannerShadow} ${bannerShadow} transparent transparent;}
+#body #headerBanner:after {margin-top:0px;}
+#body #headerBanner:before {margin-top:26px;left:1024px;border-color:${bannerShadow} transparent transparent ${bannerShadow};}
+#body #headerBanner span, #body #headerBanner h2 {padding:4px 30px 5px;height:16px;display:block;margin:0;line-height:1em;position:relative;text-transform:uppercase;font-family:Helvetica, Arial, San-Serif;font-size:16px;font-weight:normal;border-bottom:1px solid ${bannerBottomStroke};border-top:1px solid ${bannerTopStroke};}
+#blog .latin-beat #headerBanner span, #blog .latin-beat #headerBanner h2{text-transform:none;}

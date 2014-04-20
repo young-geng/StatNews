@@ -27,12 +27,15 @@ def get_links(html):
     all_stories(links, soup)
     return links
 
-if __name__ == "__main__":
-    test = open("test.html").read()
-    result = get_links(test)
-    for a, b in result.items():
-        print a + "\n"
-        print b
+#Test Code for Debugging
+# if __name__ == "__main__":
+#     test = open("test.html").read()
+#     result = get_links(test)
+#     for a, b in result.items():
+#         print a + "\n"
+#         print b
      
-    
+if __name__ == "__main__":
+    from Scraper.Scraper import scraper
+    scraper.scrape("http://www.nbcbayarea.com/news/local", "NBC Bay Area Local", "nbc_bay_area_local", get_links)
  

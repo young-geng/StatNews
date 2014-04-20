@@ -45,12 +45,17 @@ def get_links(html):
     home_main_arts(links, soup)
     return links
 
+# Test Code for Debugging
+# if __name__ == "__main__":
+#     test = open("test.html").read()
+#     result = get_links(test)
+#     for a, b in result.items():
+#         print a + "\n"
+#         print b
+
 if __name__ == "__main__":
-    test = open("test.html").read()
-    result = get_links(test)
-    for a, b in result.items():
-        print a + "\n"
-        print b
+    from Scraper.Scraper import scraper
+    scraper.scrape("http://www.eastbayexpress.com/", "East Bay Express", "east_bay_express", get_links)
      
     
  

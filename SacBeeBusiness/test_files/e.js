@@ -1,0 +1,1 @@
+gomez.b3(0,0.01);if(gomez.n0)gomez.n0(1);

@@ -38,3 +38,6 @@ def get_links(html):
     getRealEstate(links, soup)
     return links
 
+if __name__ == "__main__":
+    from Scraper.Scraper import scraper
+    scraper.scrape("http://www.sfgate.com/", "SF Gate", "sf_gate", get_links)
